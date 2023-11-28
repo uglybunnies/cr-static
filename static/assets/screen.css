@@ -54,6 +54,16 @@
   --subtitle-color: var(--light-color);
   --journal-bullets: var(--light-color);
 }
+@media screen and (max-width: 900px) {
+  :root {
+    --h1-font-size:2rem;
+    --h2-font-size:1.75rem;
+    --h3-font-size:1.5rem;
+    --h4-font-size:1.25rem;
+    --h5-font-size:1.125rem;
+    --base-font-size: 100%;
+  }
+}
 html,body,div,p,h1,h2,h3,h4,h5,h6,
 ul,ol,li,dl,dt,dd,form,fieldset,caption,
 table,tr,td,th,address,blockquote,img {
@@ -95,6 +105,9 @@ a {
   color: hsl(var(--link-color));
   text-decoration: none;
   word-break: break-all;
+}
+a p {
+  word-break: normal;
 }
 a.dark {
   color: hsl(var(--link-color-dark));
@@ -546,7 +559,7 @@ main.center > section {
   padding: 1em 2em 2em;
   margin: auto;
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   main.center > section {
     padding: 1em;
   }
@@ -583,7 +596,7 @@ main h3 {
   overflow: hidden;
   background: var(--index-bg);
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .element-index {
     background-position: var(--mob-index-bg-pos);
     background-size: auto 100vh;
@@ -598,7 +611,7 @@ main h3 {
 }
 
 
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   main > section, main > .poem, main.center .banner {
     max-width: none;
     width: 100vw;
@@ -712,7 +725,7 @@ h2 small {
   top: var(--top);
   z-index: 5;
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .journal-prompt {
     top: var(--mobTop);
     right: 1%;
@@ -778,7 +791,7 @@ figure.quotes {
   left: initial;
   right: -3rem;
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   figure.quotes {
     max-width: none;
   }
@@ -810,7 +823,7 @@ figure.quotes {
   grid-template-columns: 2fr 1fr;
   margin: auto;
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .transcript-group {
     grid-template-columns: 1fr;
   }
@@ -831,7 +844,7 @@ figure.quotes {
 .goto-links {
   padding: .5em 1em;
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .goto-links {
     padding: 0;
   }
@@ -858,7 +871,7 @@ figure.quotes {
   grid-template-columns: 1fr 1fr;
   max-width: 30em;
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .group:not(.umbrella) {
     grid-template-columns: 1fr !important; /* override inline styles for desktop */
   }
@@ -888,7 +901,7 @@ figure.quotes {
   margin-right: 1em;
   margin-top: 1.5em
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .flex-group {
     flex-direction: column;
   }
@@ -926,7 +939,7 @@ figure.quotes {
   font-weight: 500;
   color: hsl(225, 30%, 95%);
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .umbrella {
     font-size: .5em;
     background-position: .8em 0 !important;
@@ -1415,7 +1428,7 @@ a.space .circle, div.space .circle {
   background: var(--element-bg);
   color: hsl(var(--copy-color));
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .content-page {
     background: var(--element-mob-bg);
   }
@@ -1433,7 +1446,7 @@ a.space .circle, div.space .circle {
   color: hsl(var(--element-color));
   font-size: 1.25em;
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .figure-text {
     flex-direction: column;
   }
@@ -1537,7 +1550,7 @@ a.space .circle, div.space .circle {
   color: hsl(var(--journal-bullets));
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .modal, .center .modal {
     padding: 0;
   }
@@ -1752,7 +1765,7 @@ a.space .circle, div.space .circle {
   transition-timing-function: ease-in;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 800px) {
   .media-carousel {
     height: auto;
     width: 100%;
