@@ -1,0 +1,31 @@
+<script>
+  import { base } from '$app/paths';
+  import Journal from '$lib/components/Journal.svelte';
+  import JournalButton from '$lib/components/JournalButton.svelte';
+  export let journalData = {
+    questions: [
+    ],
+    title: '',
+    bgColor: 'hsl(180, 100%, 0%)',
+    bgImg: `${base}/assets/`,
+    bgPosition: '50% 100%',
+    bgSize: '100% auto'
+  };
+  export let jourButtonPos = {
+    right: '5%',
+    top: '10%',
+    glow: '60,100%,100%'
+  };
+</script>
+<svelte:head>
+  <title></title>
+</svelte:head>
+<main class="content-page" style="--grad-color:; --element-bg:; --element-color:; --subtitle-color:;">
+  <section class="banner">
+    <h2></h2>
+    <p class="subtitle"></p>
+    <JournalButton {...jourButtonPos} />
+  </section>
+  <section class="exercise"></section>
+</main>
+<Journal {...journalData} />
