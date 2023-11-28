@@ -1417,6 +1417,7 @@ a.space .circle, div.space .circle {
   margin-top: 2em;
   text-align: center;
   max-width: none;
+  color: hsla(var(--light-color), .5);
 }
 .site-footer .subtitle {
   font-size: 1em;
