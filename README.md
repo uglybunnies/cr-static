@@ -1,5 +1,5 @@
 # cr-static
-This is website is built using the static site generation option of SvelteKit. Here are some basic instructions for developing and building the files on you local environment.
+This website is built using the static site generation option of SvelteKit. Here are some basic instructions for developing and building the files on your local environment.
 
 ## create-svelte
 
@@ -49,4 +49,4 @@ Alternatively, you can go with one of the following more manual options:
 This is the current method for deploying to the Ugly Bunnies preview. Simply run the build script as stated above and then FTP the files to the production server using the FTP client of your choice.
 
 #### Build On the Server
-This method would require that the live server has Node and the SveltKit dependencies installed. Then you can build the project as previously described. You will also have to either edit the svelte.config.js file to build directly to the server's public html directory, or move the files from the build directory to the public directory.
+This method would require that the live server has the Node and SveltKit dependencies installed. Then you can build the project as previously described. You will also have to either edit the svelte.config.js file to build directly to the server's public html directory, or move the files from the build directory to the public directory.
