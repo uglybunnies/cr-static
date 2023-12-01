@@ -8,7 +8,7 @@
       'When have you experienced the greatest flow in your life?',
       'When feeling ‘“in flow”, stop and ask yourself, “What feels different about this state?” Then note it down and reflect on it now and then.'
     ],
-    title: 'Flow',
+    title: 'Flow Podcast',
     bgColor: 'hsl(180, 100%, 0%)',
     bgImg: `${base}/assets/water/journal-podcast-flow.jpg`,
     bgPosition: '0 0',
@@ -31,7 +31,7 @@
 <main class="content-page"  style="--element-bg: linear-gradient(90deg, hsla(180,25%,85%,0), hsla(180,25%,85%,0.85) 15%, hsla(180,25%,85%,0.85) 75%, hsla(180,25%,85%,0)) 0 0/41em auto no-repeat, linear-gradient(hsla(180, 100%, 50%, .4), hsla(180, 100%, 33%, .4)) , url({base}/assets/water/water_dakini_bg7.webp) 75% 100%/220% auto fixed no-repeat; --element-mob-bg: linear-gradient(180deg, hsla(180,25%,85%,0.3) 33%, hsla(180,25%,85%,.8)), url({base}/assets/water/water_dakini_bg7.webp) 50% 50%/auto 200vh scroll repeat; --element-color: 211, 90%, 26%; --subtitle-color: 176, 100%, 33%; background-blend-mode: normal, hue, normal; --cs1: 193, 100%, 55%; --cs2: 300, 100%, 60%;">
   <!-- use the banner for the excercise title and description -->
   <section class="banner">
-    <h2>Flow</h2>
+    <h2>Flow Podcast</h2>
     <p class="subtitle shiftgrad">
       <span>
         What Is Flow?<br>

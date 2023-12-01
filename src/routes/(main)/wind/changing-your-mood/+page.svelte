@@ -107,8 +107,8 @@ Share your personal mood-shifting story here.
 
       {
         type: 'slide',
-        title: '<h2>Becoming a Sumo Warrior</h2>',
-        desc: '<p>Once when I was stuck in a bubble of self pity and resentment and just feeling mean spirited, I did the following:</p><p>I went to the middle of the living room and squatted down like a sumo wrestler, hands behind my back, and then I lept up, throwing both hands to the sky, imagining going through the roof and into the air above. In my mind\'s eye, I could see the neighbor mowing his lawn, kids on bikes, a swirl of pigeons, and looking outward see the activity all around. I could see traffic and hear the car horns, the rumble of the approaching rain and thunder, someone laughing, someone crying, a wedding party, a funeral and a futbol game. All around as far as I could see and hear, there was happiness and suffering going on, and it was not always easy to tell the difference.  Remembering this, I came down into my own place, and then could step out into the world like a sumo warrior, unmoved by self-pity and doubt, embodying strength and compassion wherever I go.</p><p><small>—Stefan</small></p>',
+        title: '<h2>Power of a Smile</h2>',
+        desc: '<p>This is something I have done to break out of my inward darkness: I go out walking and allow myself to make contact, eye contact - and smile. Just that. No one counting 123, no need for conversation, and not just an upward arc of a few muscles at the corner of the mouth, but a full face smile. By just raising my eyebrows a weight is lifted and that transforms a smile belied by unhappy eyes to a genuine expression and an avenue to humane connection. Not always offered a smile in return but when I happens it is truly a gift, the circle is complete and there is a little light to show the way.</p><p><small>—Stefan</small></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',

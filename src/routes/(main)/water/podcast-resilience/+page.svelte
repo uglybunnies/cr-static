@@ -8,7 +8,7 @@
       'What are the different aspects of your resilience and how do they help you? Write them on a quick list.',
       'Be daring! Be resilient! Dance as if no one is watching -- even if they are.Then write down your experience.'
     ],
-    title: 'Resilience',
+    title: 'Resilience Podcast',
     bgColor: 'hsl(180, 100%, 0%)',
     bgImg: `${base}/assets/water/journal-podcast-resilience3.webp`,
     bgPosition: '45% 0',
@@ -31,7 +31,7 @@
 <main class="content-page"  style="--grad-color: 180,25%,85%;--element-bg: linear-gradient(90deg, hsla(var(--grad-color),0), hsla(var(--grad-color),0.85) 15%, hsla(var(--grad-color),0.85) 75%, hsla(var(--grad-color),0)) 0 0/41em auto no-repeat, url({base}/assets/water/water_dakini_bg7.webp) 50% 100%/200% auto fixed no-repeat; --element-mob-bg: linear-gradient(180deg, hsla(var(--grad-color), .3) 33%, hsla(var(--grad-color), .8)), url({base}/assets/water/water_dakini_bg7.webp) 50% 100%/auto 200vh scroll repeat; --element-color: 211, 90%, 26%; --subtitle-color: 176, 100%, 33%; background-blend-mode: normal, saturation, normal; --cs1: 220, 80%, 50%; --cs2: 30, 100%, 75%;">
   <!-- use the banner for the excercise title and description -->
   <section class="banner">
-    <h2>Resilience</h2>
+    <h2>Resilience Podcast</h2>
     <p class="subtitle shiftgrad"><span>Are You an Eagle or a Mouse?</span></p>
     <br>
       <JournalButton {...jourButtonPos} />

@@ -10,7 +10,7 @@
     <p>Introductory statement</p>
   </section>
   <section class="element right-side" style="--bgImage: linear-gradient(270deg, hsla(0,0%, 0%, 1), hsla(0, 0%, 0%, 0) 40%), url({base}/assets/space/space_dakini_home_bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/space-mandala.webp) 50% -7%/ 75% auto no-repeat; --copy-color: var(--light-color);">
-    <p><i>Space</i> is infinitely vast yet welcoming,
+    <p>The guardian of <i>Space</i> is Dhatishvari. <i>Space</i> is infinitely vast yet welcoming,
       a boundless skyscape where all is possible.
       Our inner qualities of space are an expanse
       in which our openness and generosity find expression.
@@ -20,7 +20,7 @@
     </p>
   </section>
   <section class="element" style="--bgImage: linear-gradient(to right, hsla(0,0%, 100%, .6) 40%, hsla(0, 0%, 100%, 0)),url({base}/assets/wind/wind_dakini_bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/wind-mandala.webp) 5% 1%/ 75% auto no-repeat;">
-    <p><i>Wind</i> in its natural state is the essence of movement,
+    <p>The guardian of <i>Wind</i> is Samayatara. <i>Wind</i> in its natural state is the essence of movement,
       sometimes gentle, sometimes fierce, weightless yet forceful,
       invisible yet ever present.
       Our inner qualities of wind provide our agility,
@@ -34,7 +34,7 @@
   </section>
   <section class="element right-side" style="--bgImage:linear-gradient(90deg, hsla(0,0%, 100%, 0), hsla(0, 0%, 100%, .5) 60%), url({base}/assets/water/water-element-home-bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/water-mandala.webp) 50% -6%/ 75% auto no-repeat;">
     
-    <p><i>Water</i> in its balanced state, is flowing,
+    <p>The guardian of <i>Water</i> is Mamaki.<i>Water</i> in its balanced state, is flowing,
       sweet, soothing and free of all impurities.
       Our own inner qualities of water are the same
       and allow us to be adaptable and fluid.
@@ -42,11 +42,10 @@
     <p class="element-links">
       <a href="{base}/water/voice-of-water" class="dark">The Voice of Water</a> <br>
       <a href="{base}/water" class="dark">Explore Water</a>
-
     </p>
   </section>
   <section class="element" style="--bgImage: linear-gradient(to right, hsla(0,0%, 100%, .7) 40%, hsla(0, 0%, 100%, 0)),url({base}/assets/earth/earth-dakini-bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/earth-mandala.webp) 50% -7%/ 75% auto no-repeat;">
-<p><i>Earth</i> is our natural support, an endless source
+<p>The guardian of <i>Earth</i> is Lochana. <i>Earth</i> is our natural support, an endless source
   of nourishment, our place of repose.
   Our own inner qualities of earth give us stability
   and structure and are the ground on which the mind
@@ -58,7 +57,7 @@
     </p>
   </section>
   <section class="element right-side" style="--bgImage: linear-gradient(90deg, hsla(0,0%, 100%, 0) 40%, hsla(0, 0%, 100%, .7)), url({base}/assets/fire/fire-home-bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/fire-mandala.webp) 50% -7%/ 75% auto no-repeat;">
-    <p><i>Fire</i> in its balanced state is always glowing and clear,
+    <p>The guardian of <i>Fire</i> is Pandaravasini.<i>Fire</i> in its balanced state is always glowing and clear,
       mysteriously magnetizing, our source of warmth.
       The inner qualities of fire surprise us with passion,
       transform in just moments and give birth to the new.

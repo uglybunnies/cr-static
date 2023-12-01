@@ -105,7 +105,7 @@
 <!-- header markup here-->
 <!-- nav markup here -->
 <header class="masthead">
-  <div class="site-name"><p><a href="{base}/home">Home</a></p></div>
+  <div class="site-name"><p><a href="{base}/">Home</a></p></div>
   <NavBar />
 </header>
   <slot></slot>
@@ -118,7 +118,7 @@
       <h3 class="subtitle">About Creative Resilience</h3>
       <ul>
         <li><a href="#">Learn more about this project</a></li>
-        <li><a href="#">The team</a></li>
+        <li><a href="{base}/meet-the-guardians">Meet the Element Guardians</a></li>
         <li><a href="">About the Artists</a></li>
         <li><a href="">Thank you's</a></li>
       </ul>

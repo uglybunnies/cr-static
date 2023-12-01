@@ -12,31 +12,12 @@
     },
     {
       questions: [
-      'What were some worries in your past that have disappeared? What are some worries you have now that will most likely disappear in your future?',
-      'When you take a bird\'s eye view of your self and the many things you hold onto, which one might you easily let go of and simply drop?',
-      'If you open your palms to the sky and imagine releasing all your burdens into space, how does that affect you?'
-    ],
-    title: 'Letting Go',
-    url: 'space/letting-go'
-    },
-    {
-
-    questions: [
-      'What does mental space mean to you?',
-      'When you clean and order your house, how does that affect your inner space?',
-      'When you complete this exercise and your concerns are addressed, what is left?'
-    ],
-    title: 'Making More Mental Space',
-    url: 'space/making-more-mental-space'
-    },
-    {
-      questions: [
-        'When you escape mentally from the challenges of the present moment where does your mind take you?',
-        'When you are with others do they notice if your mind is somewhere else?',
-        'What is it like for you to “Be here now” and be truly present?'
+        'What does mental space mean to you?',
+        'When you clean and order your house, how does that affect your inner space?',
+        'When you complete this exercise and your concerns are addressed, what is left?'
       ],
-      title: 'Present Moment Meditation',
-      url: 'space/present-moment-meditation'
+      title: 'Making More Mental Space',
+      url: 'space/making-more-mental-space'
     },
     {
       questions: [
@@ -58,6 +39,24 @@
     },
     {
       questions: [
+      'What were some worries in your past that have disappeared? What are some worries you have now that will most likely disappear in your future?',
+      'When you take a bird\'s eye view of your self and the many things you hold onto, which one might you easily let go of and simply drop?',
+      'If you open your palms to the sky and imagine releasing all your burdens into space, how does that affect you?'
+    ],
+    title: 'Letting Go',
+    url: 'space/letting-go'
+    },
+    {
+      questions: [
+        'When you escape mentally from the challenges of the present moment where does your mind take you?',
+        'When you are with others do they notice if your mind is somewhere else?',
+        'What is it like for you to “Be here now” and be truly present?'
+      ],
+      title: 'Present Moment Meditation',
+      url: 'space/present-moment-meditation'
+    },
+    {
+      questions: [
         'If you would like to calm your emotional state by using your breath, try the following ancient yoga technique taught by the Buddha in the sutra, Anapanasmriti. Simply focus on the air going in and out of your nostrils. After some time, note how you feel.',
         'If you would like to experiment with your inner winds, try this Tibetan healing meditation: Imagine a loved one who is sad up in the space in front of you. Then breathe in their sadness and breathe out healing love. Continue until the sorrow is transformed to love in you both.',
         'Think of times when you have felt free like the wind. What can you do to create more freedom in your life now?'
@@ -67,12 +66,11 @@
     },
     {
       questions: [
-        'What instantly puts you in a good mood?',
-        'What are your worst moods?',
-        'What concrete steps can you take to change an unwanted mood?'
-      ],
-      title: 'Changing Your Mood',
-      url: 'wind/changing-your-mood'
+        'Have you ever found chaos to be a fertile ground for establishing a new way forward?',
+        'What unmet personal needs of your own might chaos be covering up?',
+        'How does order help you do your best--or does it?'    ],
+      title: 'Changing Inaction to Action',
+      url: 'wind/inaction-to-action'
     },
     {
 
@@ -86,6 +84,15 @@
     },
     {
       questions: [
+        'What instantly puts you in a good mood?',
+        'What are your worst moods?',
+        'What concrete steps can you take to change an unwanted mood?'
+      ],
+      title: 'Changing Your Mood',
+      url: 'wind/changing-your-mood'
+    },
+    {
+      questions: [
         'Try committing some random acts of kindness such as: pay for someone else\'s coffee in line at Starbuck learn the names of the people you see every day (your door man, your fellow dog walkers, your waitress) and speak to them by name. clean up someone else\'s mess without shaming them. hide dollar bills in the supermarket shelves. After a day of these random acts, how do you feel?',
         'As a child, what did your family experience teach you about giving?',
         'How can you be more giving to those close to you?'
@@ -95,11 +102,11 @@
     },
     {
       questions: [
-        'Have you ever found chaos to be a fertile ground for establishing a new way forward?',
-        'What unmet personal needs of your own might chaos be covering up?',
-        'How does order help you do your best--or does it?'    ],
-      title: 'Changing Inaction to Action',
-      url: 'wind/inaction-to-action'
+        'How do you find freedom in the midst of your day-to-day responsibilities?',      'In relationships when you allow others to be who they are, without judging them, what happens?',
+        'When you\'re feeling trapped what part of you is still free?'
+      ],
+      title: 'Freedom Podcast',
+      url: 'wind/podcast-freedom'
     },
     {
       questions: [
@@ -109,14 +116,6 @@
       ],
       title: 'Music Chamber',
       url: 'wind/music-chamber'
-    },
-    {
-      questions: [
-        'How do you find freedom in the midst of your day-to-day responsibilities?',      'In relationships when you allow others to be who they are, without judging them, what happens?',
-        'When you\'re feeling trapped what part of you is still free?'
-      ],
-      title: 'Freedom Podcast',
-      url: 'wind/podcast-freedom'
     },
     {
       questions: [
@@ -147,12 +146,12 @@
     },
     {
       questions: [
-        'When you get stuck, what helps you find your flow?',
-        'When have you experienced the greatest flow in your life?',
-        'When feeling ‘“in flow”, stop and ask yourself, “What feels different about this state?” Then note it down and reflect on it now and then.'
+        'How can you use water to soothe and heal yourself?',
+        'When you are feeling the rise and fall of emotions like waves on the ocean, what then is that ocean that they fall back into?',
+        'What unique part of you would you like to ripple out into the world a bit more?'
       ],
-      title: 'Flow',
-      url: 'water/podcast-flow'
+      title: 'Water Meditation',
+      url: 'water/water-meditation'
     },
     {
       questions: [
@@ -160,17 +159,17 @@
         'What are the different aspects of your resilience and how do they help you? Write them on a quick list.',
         'Be daring! Be resilient! Dance as if no one is watching -- even if they are.Then write down your experience.'
       ],
-      title: 'Resilience',
+      title: 'Resilience Podcast',
       url: 'water/podcast-resilience'
     },
     {
       questions: [
-        'How can you use water to soothe and heal yourself?',
-        'When you are feeling the rise and fall of emotions like waves on the ocean, what then is that ocean that they fall back into?',
-        'What unique part of you would you like to ripple out into the world a bit more?'
+        'When you get stuck, what helps you find your flow?',
+        'When have you experienced the greatest flow in your life?',
+        'When feeling ‘“in flow”, stop and ask yourself, “What feels different about this state?” Then note it down and reflect on it now and then.'
       ],
-      title: 'Water Meditation',
-      url: 'water/water-meditation'
+      title: 'Flow Podcast',
+      url: 'water/podcast-flow'
     },
     {
 
@@ -181,24 +180,6 @@
       ],
       title: 'The Voice of Earth',
       url: 'earth/voice-of-earth'
-    },
-    {
-      questions: [
-        'How does the way you feel as you cook affect the food you\'re cooking?',
-        'When you finish cooking and serve your food to loved ones, how do you feel?',
-        'What foods are uplifting for you to eat?'
-      ],
-      title: 'Fresh Mind Cooking',
-      url: 'earth/fresh-mind-cooking'
-    },
-    {
-      questions: [
-        'What does being grounded mean to you?',
-        'What hidden emotions came to light and dissipated as you did this healing meditation?',
-        'If, in the midst of a busy and stressful day, you pause for a moment, relax your body and breathe deeply, how does that affect your immediate experience?'
-      ],
-      title: 'Grounding Meditation',
-      url: 'earth/grounding-meditation'
     },
     {
       questions: [
@@ -229,6 +210,15 @@
     },
     {
       questions: [
+        'Who\'s your boss, you or your inner critic?',
+        'What makes you miserable?',
+        'What\'s your favorite way to put yourself down?'
+      ],
+      title: 'The Inner Critic',
+      url: 'earth/the-inner-critic'
+    },
+    {
+      questions: [
         'After having used self-hypnosis with one goal in mind for 7 consecutive days, what results do you find?',
         'What makes you feel safe?',
         'When you imagine in detail one of your goals being fully accomplished, how do you feel?'
@@ -238,12 +228,21 @@
     },
     {
       questions: [
-        'Who\'s your boss, you or your inner critic?',
-        'What makes you miserable?',
-        'What\'s your favorite way to put yourself down?'
+        'What does being grounded mean to you?',
+        'What hidden emotions came to light and dissipated as you did this healing meditation?',
+        'If, in the midst of a busy and stressful day, you pause for a moment, relax your body and breathe deeply, how does that affect your immediate experience?'
       ],
-      title: 'The Inner Critic',
-      url: 'earth/the-inner-critic'
+      title: 'Grounding Meditation',
+      url: 'earth/grounding-meditation'
+    },
+    {
+      questions: [
+        'How does the way you feel as you cook affect the food you\'re cooking?',
+        'When you finish cooking and serve your food to loved ones, how do you feel?',
+        'What foods are uplifting for you to eat?'
+      ],
+      title: 'Fresh Mind Cooking',
+      url: 'earth/fresh-mind-cooking'
     },
     {
       questions: [
@@ -265,6 +264,15 @@
     },
     {
       questions: [
+        'What do you enjoy obsessing about? video games, politics, diets, neighbors?',
+        'List 5 things you worry about, and note whether any of them are no longer relevant and merely lingering from the past?',
+        'What worries or obsessions are getting in the way of your productivity?'
+      ],
+      title: 'Stop Obsessive Thinking',
+      url: 'fire/stop-obsessive-thinking'
+    },
+    {
+      questions: [
         'When you gaze into the fire, what does it evoke in you?',
         'When you are fearless, how does that serve you?',
         'What makes you feel alive and abundant with life energy?'
@@ -280,15 +288,6 @@
       ],
       title: 'Creativity Podcast',
       url: 'fire/podcast-creativity'
-    },
-    {
-      questions: [
-        'What do you enjoy obsessing about? video games, politics, diets, neighbors?',
-        'List 5 things you worry about, and note whether any of them are no longer relevant and merely lingering from the past?',
-        'What worries or obsessions are getting in the way of your productivity?'
-      ],
-      title: 'Stop Obsessive Thinking',
-      url: 'fire/stop-obsessive-thinking'
     }
   ];
 </script>
@@ -301,11 +300,13 @@
     <p>If any of these questions speak to you… ponder them, write in your journal or share with a friend, as you like.</p>
   </section>
   {#each journalSections as section}
-    <section>
+    <section class="all-journal-questions">
       <h3><a href="{base}/{section.url}">{section.title}</a></h3>
+      <ul class="journal-questions" style="--journal-bullets: var(--link-color);">
       {#each  section.questions as question}
-        <p>{question}</p>
+        <li>{question}</li>
       {/each}
+    </ul>
     </section>
   {/each}
   <br><br>
