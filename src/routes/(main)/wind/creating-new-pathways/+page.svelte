@@ -34,18 +34,18 @@
     <JournalButton {...jourButtonPos} />
   </section>
   <section class="exercise">
-    <p>Here are five science-based exercises for increasing happiness, well-being, and mental health. This model originated at Harvard University and has been used around the globe with highly positive results. These are best done in five minutes or less each day.</p>
+    <p>Here are five science-based exercises for increasing happiness, well-being and mental health. This model originated at Harvard University and has been used around the globe with highly positive results. These are best done in five minutes or less each day.</p>
 
 <h3 class="subtitle">Here is a Way to Create Happiness Habits in Just Minutes a Day</h3>
 <br>
 <ol>
-  <li>Take two minutes and write three new things you are grateful for. Commit yourself to do this consecutively for 21 days. This repetition trains the brain to scan for positive pathways instead of for threats, and is an expedient way to train the brain.</li>
+  <li>Take two minutes and write three new things you are grateful for. Commit yourself to do this consecutively for 21 days. This repetition trains the brain to scan for positive pathways instead of for threats and is an expedient way to train the brain.</li>
 
   <li>Enjoy 15 minutes a day of cardio activity. This activity allows your brain to relive positive experiences and trains the brain to know “My behavior makes a difference.” This is optimism.</li>
 
   <li>For two minutes a day journal one positive experience that you have had in the last 24 hours. This experience can be very small, such as sharing laughter with your friends. This journaling allows your brain to relive positive experiences, teaching you that your behavior matters.</li>
 
-  <li>Take a break and take a breath. To pause and take a deep breath helps the mind to focus on one thing at a time, lowers stress, and increases happiness.</li>
+  <li>Take a break and take a breath. To pause and take a deep breath helps the mind to focus on one thing at a time, lowers stress and increases happiness.</li>
 
   <li>For two minutes each day, express kindness to a new person. Do this via text or email. This interaction creates a social connection and correlates to long-term happiness.</li>
 </ol>

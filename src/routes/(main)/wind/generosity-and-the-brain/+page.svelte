@@ -49,7 +49,7 @@ And blessings descend upon you.
       </figure>
 
 <br>
-    <p>The best way to activate positive-emotion circuits in the brain is through generosity, Davidson, who founded the Center for Investigating Healthy Minds at University of Wisconsin, Madison, said in a talk at the Aspen Ideas Festival. This is really a kind of exciting neuroscientific finding because there are pearls of wisdom in the contemplative tradition - the Dalai Lama frequently talks about this - that the best way for us to be happy is to be generous to others. And in fact the scientific evidence is in many ways bearing this out, and showing that there are systematic changes in the brain that are associated with acts of generosity.</p>
+    <p>The best way to activate positive-emotion circuits in the brain is through generosity, Davidson, who founded the Center for Investigating Healthy Minds at University of Wisconsin, Madison, said in a talk at the Aspen Ideas Festival. This is really a kind of exciting neuroscientific finding because there are pearls of wisdom in the contemplative tradition - the Dalai Lama frequently talks about this - that the best way for us to be happy is to be generous to others. And in fact the scientific evidence is in many ways bearing this out and showing that there are systematic changes in the brain that are associated with acts of generosity.</p>
 
     <p>Read more in the Atlantic article <a class="dark" href="https://www.theatlantic.com/health/archive/2015/07/dalai-lama-neuroscience-compassion/397706/">The Brains of the Buddhists</a>.</p>
 <br>

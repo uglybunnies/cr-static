@@ -29,7 +29,7 @@
   --border-radius:max(1em, min(3em, calc(var(--base-scale) * 3)));
   --dark-color: 255, 88.9%, 10.6%;
   --dark-neutral: 255, 0%, 15%;
-  --light-color: 55, 0%, 100%;
+  --light-color: 55, 0%, 95%;
   --link-color: 180, 100%, 75%;
   --link-color-dark: 180, 75%, 40%;
   --quote-color: var(--dark-color);
@@ -104,7 +104,6 @@ body.dark {
 a {
   color: hsl(var(--link-color));
   text-decoration: none;
-  word-break: break-all;
 }
 a p {
   word-break: normal;
@@ -513,33 +512,44 @@ main {
 main:not(.no-pad) {
   padding-top: 5rem;
 }
-main.home-page {
+main.info-page {
   background-color: hsl(var(--dark-color));
   padding: 2em 0 5em;
   min-height: 100vh;
+  scroll-behavior: smooth;
 }
-.home-page > .element {
+main.info-page .introduction {
+  max-width: none;
+  padding-bottom: 0;
+}
+main.info-page .introduction p {
+  max-width: 40em;
+  font-size: .75em;
+  line-height: 1.5;
+
+}
+.info-page > .element {
   --deg: 0deg;
   min-height: 30em;
   max-width: none;
-  margin-bottom: 4em;
-  padding: 6em 60% 6em 6em;
+  margin-bottom: 0;
+  padding: 6em 60% 2em 6em;
   background: var(--bgImage);
   box-shadow: inset 1em 1em 2em 2em hsl(255, 89%, 10%), inset -1em -1em 2em 2em hsl(255, 89%, 10%);
 }
-.home-page > .element.right-side {
+.info-page > .element.right-side {
   padding-left: 60%;
   padding-right: 6em;
 }
-.home-page h2, .home-page p {
+.info-page h2, .info-page p {
   color: hsl(var(--copy-color));
 }
-.home-page .element-links {
+.info-page .element-links {
   margin-top: 3em;
   text-align: right;
 }
 @media screen and (max-width: 768px) {
-  .home-page > .element {
+  .info-page > .element {
     --deg: 0deg;
     min-height: auto;
     max-width: none;
@@ -548,20 +558,49 @@ main.home-page {
     background: radial-gradient(circle at 50% 16%, hsla(var(--dark-color), 0), hsla(var(--dark-color), 0) 15%, hsla(var(--dark-color), 1) 17%), var(--mobBg), linear-gradient(180deg, hsla(var(--dark-color), 0) 55%, hsla(var(--dark-color), 1));
     box-shadow: inset 0 .0625em .0625em .0625em hsl(255, 89%, 10%);
   }
-  .home-page h2, .home-page p {
+  .info-page h2, .info-page p {
     color: hsl(var(--light-color));
   }
-  .home-page > .element.right-side {
+  .info-page > .element.right-side {
     padding-left: 1em;
     padding-right: 1em;
   }
-  .home-page .element-links {
+  .info-page .element-links {
     margin-top: 2em;
   }
-  .home-page .element-links a.dark {
+  .info-page .element-links a.dark {
     color: hsl(var(--link-color));  
   }
 }
+main.about-page h2, main.faqs h2 {
+  font-size: var(--h4-font-size);
+  font-family: 'Mulish', sans-serif;
+}
+main.about-page h3.about-title {
+  font-size: var(--h5-font-size);
+  font-family: 'Mulish', sans-serif;
+}
+main.about-page h4 {
+  font-size: var(--base-font-size);
+  font-weight: 300;
+}
+main.about-page p {
+  font-size: .8em;
+}
+main.about-page .creator-bio p {
+  font-size: 1em;
+}
+
+main.faqs h3 {
+  font-family: 'Mulish', sans-serif;
+  font-size: calc(var(--base-font-size) * .9);
+  max-width: none;
+  margin-top: 2em;
+}
+main.faqs p, main.faqs li {
+  font-size: .9em;
+}
+
 main > section {
   padding: 2em 2em 2em 10%;
   max-width: 36em;
@@ -697,9 +736,10 @@ h2 small {
 
 .icon {
   display: inline-block;
-  width: auto;
+  width: 1.5em;
   height: 1em;
   vertical-align: middle;
+  text-align: center;
 }
 .social .icon {
   padding-right: .25em;
@@ -708,8 +748,14 @@ h2 small {
   height: 1em;
   vertical-align: top;
 }
-.icon.j-water-ic {
+.social .icon.fb  {
   margin-top: -.125em;
+}
+.social .icon.twx  {
+  margin-top: -.125em;
+}
+.icon.j-water-ic {
+  margin-top: .0625em;
 }
 .audio {
   display: flex;
@@ -881,6 +927,34 @@ figure.quotes {
   font-size: .8em;
   padding-top: 0;
 }
+.info-page .creator-bio {
+  margin-bottom: 2em;
+}
+.legal h3.about-title {
+  margin-top: 1em;
+}
+.legal strong {
+  font-weight: 600;
+}
+.pii-info {
+  list-style-position: inside;
+  display: inline-block;
+  margin-left: 0;
+  padding-left: 0;
+  max-width: 30em;
+}
+.pii-info li {
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 1.5em;
+}
+.pii-info li::marker {
+  font-size: var(--base-font-size);
+}
+.pii-info h4 {
+  display: inline-block;
+  font-size: var(--base-font-size);
+}
 .group {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -904,7 +978,9 @@ figure.quotes {
 .flex-group p:last-child {
   max-width: 20em;
 }
-
+.info-page .flex-group p:last-child {
+  max-width: 30em;
+}
 .stagger p {
   width: 33%;
   text-align: center;
@@ -1010,9 +1086,10 @@ figure.quotes {
 }
 
 @media screen and (max-width: 960px) {
-  .element-item {
+  .element-item, .element-item.wide {
     flex: 1 1 15em;
     aspect-ratio: 43 / 44;
+    max-width: 15em;
   }
   .element-item:not(.wide):not(:last-child){
     margin-right: 0;
@@ -1022,13 +1099,14 @@ figure.quotes {
     flex-basis: 15em;
   }
   
-  .element-item.wide, .element-item.wide .media {
+  .element-item.wide .media {
     aspect-ratio: 43 / 44;
   }
 }
 @media screen and (max-width: 640px) {
   .element-item, .element-item.wide {
     flex-basis: 10em;
+    max-width: 10em;
   }
 }
 .media .asset {
@@ -1071,7 +1149,7 @@ figure.quotes {
   width: 100%;
   border-radius: 1.66em;
   background-color: hsla(var(--desc-bg-color));
-  padding: .5em;
+  padding: 0 .5em 1em;
   opacity: 0;
   transition: opacity .3s ease-out;
   text-align: center;
@@ -1079,6 +1157,7 @@ figure.quotes {
   color: hsl(var(--desc-copy-color));
   text-shadow: none;
   font-weight: 300;
+  margin-bottom: 0;
 }
 .element-item:hover .desc {
   opacity: 1;
@@ -1183,9 +1262,25 @@ figure.quotes {
   opacity: 0;
   animation: 1s linear .5s forwards fadeIn;
   max-width: none;
-  position: relative;
   z-index: 3;
   pointer-events: none;
+  position: fixed;
+  top: 0;
+}
+@media screen and (orientation: portrait) and (max-width: 960px) {
+  .home {
+    height: 100vh;
+  }
+  .intro {
+    padding: 2em;
+    justify-content: flex-start;
+  }
+  .bg-image {
+    width: 200%;
+    height: 100vh;
+    left: -50%;
+    transform-origin: 50% 40%;
+  }
 }
 .intro.hide {
   animation: .5s ease-out forwards intro;
@@ -1196,15 +1291,15 @@ figure.quotes {
 .intro h2.intro-title {
   font-family: 'Mulish', sans-serif;
   color: hsla(var(--light-color), .75);
-  font-size: 5em;
+  font-size: 4.5em;
   text-transform: uppercase;
-  margin-bottom: .7em;
+  margin-bottom: .75em;
   line-height: 0;
 }
 
 .intro h2.intro-title .regular {
   font-weight: 100;
-  font-size: .85em;
+  font-size: .75em;
   line-height: .85;
 }
 .intro h2.intro-title .ital {
@@ -1220,15 +1315,19 @@ figure.quotes {
   top: .25em;
 }
 .intro p {
-  max-width: 50vw;
-  color: hsla(var(--light-color), .8);
-  font-size: .75em;
+  max-width: 24em;
+  color: hsla(var(--light-color), 1);
+  margin-bottom: .75em
 }
 .intro p.welcome {
   font-family: 'Cormorant Gramond', serif;
   text-transform: uppercase;
-  margin-bottom: .25em;
-  font-size: 1.25em;
+  margin-bottom: 0;
+  line-height: 1;
+  color: hsla(var(--light-color), .75);
+}
+.intro p:not(.welcome) {
+  line-height: 1.3;
 }
 .intro p > span.wipe-in {
   background: linear-gradient(hsla(var(--light-color), .8), hsla(var(--light-color), .8)) 0 -300%/100% 1em no-repeat;
@@ -1236,6 +1335,8 @@ figure.quotes {
 	-webkit-background-clip: text;
 	background-clip: text;
   animation: 1s linear 1.5s 1 forwards wipeIn;
+
+  font-size: .75em;
 }
 .cta-enter {
   opacity: 0;
@@ -1247,7 +1348,7 @@ figure.quotes {
   padding: .4em 1.5em;
   border: solid .0625em;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: .7em;
 }
 .cta-enter:hover, .cta-enter:active {
   background-color: hsla(var(--light-color), .9);
@@ -1271,6 +1372,13 @@ figure.quotes {
   position: relative;
   opacity: 0;
   pointer-events: none;
+}
+@media screen and (orientation: portrait) and (max-width: 960px) {
+  .mandala-wrap:not(.small) {
+    transform-origin: center;
+    top: 5vh;
+    transform: scale(1.75);
+  }
 }
 .mandala-wrap.play:not(.small) {
   animation: .5s ease-in forwards 1s fadeIn, .5s linear forwards activeMandala 5s;
@@ -1548,9 +1656,10 @@ a.space .circle, div.space .circle {
   background-color: hsla(0, 0%, 33%, .2);
 }
 .journal-content p  {
-  margin: 2em auto 2em;
-  font-weight: 400;
+  margin: .75em auto 3em;
   max-width: none;
+  font-size: .8em;
+  text-align: center;
 }
 .journal-questions li {
   margin: 0 0 2em .75em;

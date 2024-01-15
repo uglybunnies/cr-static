@@ -40,7 +40,7 @@
   </section>
   <section class="exercise">
       <JournalButton {...jourButtonPos} />
-      <p>During trying times, it is common to experience overwhelm, and even become frozen and unable to act. All we do is think about what we should do, but we can't do it. The mind's connection to action seems to be lost.</p>
+      <p>During trying times, it is common to experience overwhelm and even become frozen and unable to act. All we do is think about what we should do, but we can't do it. The mind's connection to action seems to be lost.</p>
 
       <p>The following is a method which can be useful. Though a list is something we all have made hundreds of times before, this list has two other components that help create action. You may want to experiment with this.</p>
       
@@ -65,7 +65,7 @@
 </ol>
 <p>The trick to this list is that you pause after you've checked off a list item and allow yourself to feel good about your accomplishment, even though it may have been a small thing. Don't make any task trite or demean yourself ever. Demeaning freezes one emotionally and causes inaction and procrastination.</p>
 
-<p>You do not need to feel like doing what is on the list. As long as you begin, do one task, complete it, and feel satisfied, you are changing an unconscious pattern. As you continue you will notice that when you change your focus and follow with action your emotional state begins to change as well. Here, with a very simple technique, you are recreating the cycle of thought connecting to action.</p>
+<p>You do not need to feel like doing what is on the list. As long as you begin, do one task, complete it and feel satisfied, you are changing an unconscious pattern. As you continue you will notice that when you change your focus and follow with action your emotional state begins to change as well. Here, with a very simple technique, you are recreating the cycle of thought connecting to action.</p>
   </section>
 </main>
 <Journal {...journalData} />

@@ -115,12 +115,13 @@
   <section class="group">
 
     <div class="item category">
-      <h3 class="subtitle">About Creative Resilience</h3>
+      <h3 class="subtitle">About Us</h3>
       <ul>
-        <li><a href="#">Learn more about this project</a></li>
-        <li><a href="{base}/meet-the-guardians">Meet the Element Guardians</a></li>
-        <li><a href="">About the Artists</a></li>
-        <li><a href="">Thank you's</a></li>
+        <li><a href="{base}/about">The Project</a></li>
+        <li><a href="{base}/journals">Explore Your Experience</a></li>
+        <!-- <li><a href="#">The Instructors</a></li>
+        <li><a href="">About the Artists</a></li> -->
+        <li><a href="{base}/meet-the-guardians">Meet the Guardians</a></li>
       </ul>
 
     </div>
@@ -129,8 +130,9 @@
         Help
       </h3>
   <ul>
-    <li><a href="">How to Use the Site</a></li>
-    <li><a href="">FAQs</a></li>
+    <li><a href="{base}/faqs">FAQs</a></li>
+    <li><a href="{base}/privacy-policy">Privacy</a></li>
+    <li><a href="{base}/legal-disclaimers">Disclaimers</a></li>
   </ul>
 
     </div>
@@ -149,9 +151,8 @@
       <p><a href="">Contact Us</a></p>
       <ul class="social-media">
         <li><a href="" class="social"><span class="icon"><img src="{base}/assets/icons/instagram.svg" alt="Follow on Instagram"></span>Instagram</a></li>
-        <!-- <li><a href="" class="social"><span class="icon"></span></a></li>
-        <li><a href="" class="social"><span class="icon"></span></a></li>
-        <li><a href="" class="social"><span class="icon"></span></a></li> -->
+        <li><a href="" class="social"><span class="icon fb"><img src="{base}/assets/icons/facebook.svg" alt=""></span>Facebook</a></li>
+        <li><a href="" class="social"><span class="icon twx"><img src="{base}/assets/icons/twitter-x.svg" alt=""></span>Twitter</a></li>
       </ul>
 
     </div>
@@ -185,7 +186,7 @@
       <p class="menu-header" data-menu="waterPod">Podcasts</p>
       <div id="waterPod">
         <ul>
-          <li><a class="menuClose" href="{base}/water/podcast-resilience">Reslience Podcast</a></li>
+          <li><a class="menuClose" href="{base}/water/podcast-resilience">Resilience Podcast</a></li>
           <li><a class="menuClose" href="{base}/water/podcast-flow">Flow Podcast</a></li>
         </ul>
       </div>
@@ -362,7 +363,7 @@
       <div id="spacePsych">
         <ul>
           <li><a class="menuClose" href="{base}/space/making-more-mental-space">Making More Mental Space</a></li>
-          <li><a class="menuClose" href="{base}/space/sky-eating">Sky Eating</a></li>
+          <li><a class="menuClose" href="{base}/space/letting-go">Letting Go</a></li>
         </ul>
       </div>
     </div>
@@ -371,7 +372,7 @@
       <div id="spaceMed">
         <ul>
           <li><a class="menuClose" href="{base}/space/space-meditation">Space Meditation</a></li>
-          <li><a class="menuClose" href="{base}/space/letting-go">Letting Go</a></li>
+          <li><a class="menuClose" href="{base}/space/sky-eating">Sky Eating</a></li>
           <li><a class="menuClose" href="{base}/space/present-moment-meditation">Present Moment Meditation</a></li>
         </ul>
       </div>
@@ -409,7 +410,7 @@
       <div id="allPsych">
         <ul>
           <li><a class="menuClose" href="{base}/space/making-more-mental-space">Making More Mental Space</a></li>
-          <li><a class="menuClose" href="{base}/space/sky-eating">Sky Eating</a></li>
+          <li><a class="menuClose" href="{base}/space/letting-go">Letting Go</a></li>
           <li><a class="menuClose" href="{base}/water/art-of-listening">Art of Listening</a></li>
           <li><a class="menuClose" href="{base}/water/finding-flexibility">Finding Flexibility</a></li>
           <li><a class="menuClose" href="{base}/earth/kindness-to-self">Kindness to Self</a></li>
@@ -431,7 +432,7 @@
       <div id="allMed">
         <ul>
           <li><a class="menuClose" href="{base}/space/space-meditation">Space Meditation</a></li>
-          <li><a class="menuClose" href="{base}/space/letting-go">Letting Go</a></li>
+          <li><a class="menuClose" href="{base}/space/sky-eating">Sky Eating</a></li>
           <li><a class="menuClose" href="{base}/space/present-moment-meditation">Present Moment Meditation</a></li>
           <li><a class="menuClose" href="{base}/water/water-meditation">Water Meditation</a></li>
           <li><a class="menuClose" href="{base}/earth/grounding-meditation">Grounding Meditation</a></li>
@@ -460,10 +461,17 @@
       <p class="menu-header" data-menu="allPod">Podcasts</p>
       <div id="allPod">
         <ul>
-          <li><a class="menuClose" href="{base}/water/podcast-resilience">Reslience Podcast</a></li>
+          <li><a class="menuClose" href="{base}/water/podcast-resilience">Resilience Podcast</a></li>
           <li><a class="menuClose" href="{base}/water/podcast-flow">Flow Podcast</a></li>
           <li><a class="menuClose" href="{base}/fire/podcast-creativity">Creativity Podcast</a></li>
           <li><a class="menuClose" href="{base}/wind/podcast-freedom">Freedom Podcast</a></li>
+        </ul>
+      </div>
+      <p class="menu-header" data-menu="allJournals">About</p>
+      <div id="allAbout">
+        <ul>
+          <li><a href="{base}/about" class="menuClose">The Project</a></li>
+          <li><a class="menuClose" href="{base}/meet-the-guardians">Meet the Guardians</a></li>
         </ul>
       </div>
     </div>

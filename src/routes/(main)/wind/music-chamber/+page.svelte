@@ -42,7 +42,7 @@
         <p class="subtitle">Becoming Free Like the Wind</p>
         <JournalButton {...jourButtonPos} /><br>
 
-        <p>The goal of this chamber is to share songs that uplift the spirit and stir up joy in our hearts. So please let loose, sing along, and allow the music to move you! You can share your videos below.</p>
+        <p>The goal of this chamber is to share songs that uplift the spirit and stir up joy in our hearts. So please let loose, sing along and allow the music to move you! You can share your videos below.</p>
         <p>As long as there has been air to breathe, there has been music dancing on the breeze. The deep and incessant rumbling of drums has ushered armies into battle. The distant sounding of a bell has told time for those who care to count its chimes. A mother’s lilting voice has sung a weary infant back to sleep.</p>
 
         <p>Even the animal kingdom has contributed to this vast realm of music. The forests would be astonishingly quiet if no songbirds sang. Whales, the largest mammals on the planet, are known for their beautiful vocalisations, though they are rarely heard by human ears.</p>
@@ -69,7 +69,10 @@
       <div class="transcript-item goto-links">
         <h3 class="side-title subtitle">Explore Wind</h3>
         <ul class="goto-content-links">
-          <li><a href="../" class="dark">&#8230;and more</a></li>
+          <li><a class="dark" href="{base}/wind/inaction-to-action">Inaction to Action</a></li>
+          <li><a class="dark" href="{base}/wind/generosity-and-the-brain">Generosity and the Brain</a></li>
+          <li><a class="dark" href="{base}/wind/sharing-wind">Sharing the Freedom of Wind</a></li>
+          <li><a class="dark" href="../">&#8230;and more</a></li>
         </ul>
       </div>
   </section>

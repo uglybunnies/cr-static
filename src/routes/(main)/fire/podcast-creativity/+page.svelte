@@ -46,16 +46,6 @@
     </div>
     <br>
     <p>In a podcast Lily and Gray explore the topic of creativity. They discuss the pressure that comes with creating something supposedly good and the vulnerabilities of sharing their creations with others. They further discuss how they temper their mind’s critic through the practice of self-love, relaxed discipline and playfulness. They also talk about the challenges they face while learning to live in this creative state as they endeavor to stay open to the wave of inspiration.<br></p>
-    <figure class="quotes" style="--max-width: 15em;">
-      <blockquote>
-
-        Let the natural rhythm of the day<br>
-        remind you to pace yourself.<br>
-        Rise up with with the sun<br>
-        and settle down with the moon.
-      </blockquote>
-      <figcaption>&mdash;M. H. Nichols</figcaption>
-    </figure>
   </section>
   <section class="creator-bio">
     <h3>About the Hosts</h3>

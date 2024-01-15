@@ -4,7 +4,7 @@
   import JournalButton from '$lib/components/JournalButton.svelte';
   export let journalData = {
     questions: [
-      'Does someone or something in your life make you annoyed or angry? If so, as you follow this exercise, what happens when you take your focus off that person or situation, and instead, focus on the anger you are experiencing?',
+      'Does someone or something in your life make you annoyed or angry? If so, as you follow this exercise, what happens when you take your focus off that person or situation and instead, focus on the anger you are experiencing?',
       'If you allow the embers of ancient anger to rise and come into your awareness, how does this exercise help to clear the anger from the past?',
       'Often a clarity can be experienced riding with the power and thrust of anger. What experience have you had where anger brought a vivid clarity to your situation?'
     ],
@@ -39,9 +39,9 @@
     <p>Here Is A Method Of Dealing With Anger Given To A 9 Year Old Boy By A Renowned Buddhist Master, Thinley Norbu Rinpoche.</p>
     <p>This young boy was living in Kathmandu with his family. When he would come home from school, he would try to open the entry gate again and again and it would not open. Everyday he would face the same problem. He would become angry and kick at the gate repeatedly. One day, Rinpoche was coming to visit the boy’s parents and saw the boy struggling. He helped him open the gate and gave the following advice, “Just take your mind off the problem (that gate) and watch your own anger, then you will feel better. This will help you with your anger.”</p>
 
-    <p>After entering the house, Rinpoche continued speaking with the adults on this subject, and said that the true nature of anger is clear-light wisdom. He also said that anger is contrived and conceals its uncontrived true essence, which is profound clarity. He further explained that as the anger dissipates and fades, then this clarity will prevail.</p>
+    <p>After entering the house, Rinpoche continued speaking with the adults on this subject and said that the true nature of anger is clear-light wisdom. He also said that anger is contrived and conceals its uncontrived true essence, which is profound clarity. He further explained that as the anger dissipates and fades, then this clarity will prevail.</p>
 
-    <p>The boy followed the advice and came in later that week after school and told his mother, “Mom, this really works. I am not angry anymore, and I can open the gate by myself!”</p><br>
+    <p>The boy followed the advice and came in later that week after school and told his mother, “Mom, this really works. I am not angry anymore and I can open the gate by myself!”</p><br>
     <h3>
       Three Steps to Dissolve Anger as Taught by Thinley Norbu Rinpoche <small>1:00</small>
     </h3>
@@ -51,7 +51,7 @@
   <li>Watch on your anger. Let it rise. If you wish, you can imagine your anger like red smoke, moving upward and dissolving. Though it is invisible, there is a strong sense of this energy. Watch that.</li>
   <li>Whoever or whatever you are angry with is like a magnet. It will pull you back again and again. Resist this as much as possible. Come back to watching, again and again. As you do this practice you will begin to feel emotionally and mentally lighter and lighter.</li>
 </ol>
-<p>You can use this meditation technique with any passion, such as sorrow, irritation, fear, jealousy, and so on.</p>
+<p>You can use this meditation technique with any passion, such as sorrow, irritation, fear, jealousy and so on.</p>
   </section>
 </main>
 <Journal {...journalData} />

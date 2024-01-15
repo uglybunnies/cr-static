@@ -54,7 +54,7 @@
             <iframe class="asset" src="https://player.vimeo.com/video/845688461?background=1&autoplay=1&badge=0&autopause=0&player_id=0&app_id=58479&muted=1&Dnt=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Making Mental Space"></iframe>
           </div>
           <div class="content">
-            <p class="desc">In this class learn the ancient and sacred healing dance of Charya from the Himalayas.</p>
+            <p class="desc">In this class learn the ancient and sacred healing dance of Charya from the Himalayas</p>
             <p class="title">Charya Dance Workshop</p>
           </div>
         </div>
@@ -103,7 +103,7 @@
             <iframe class="asset" src="https://player.vimeo.com/video/845688491?background=1&autoplay=1&badge=0&autopause=0&player_id=0&app_id=58479&muted=1&Dnt=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Present Moment"></iframe>
           </div>
           <div class="content">
-            <p class="desc">Abandon worries and fears about the past and future. Let the calming voice of Anupama Dahal guide you to find rest in the present</p>
+            <p class="desc">Abandon worries and fears about the past and future. Let the calming voice of Punya Sagara guide you to find rest in the present</p>
             <p class="title">Present Moment</p>
           </div>
         </div>

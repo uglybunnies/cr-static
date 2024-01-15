@@ -54,7 +54,7 @@
         </blockquote>
       </figure>
       <p>As children, many of us were taught to be kind to others. But, how
-        often did we hear, "Be kind to yourself"? Unfortunately, the inclination for self-kindness does not necessarily come naturally. It comes from childhood experience. The benefits of self-kindness are multi-faceted. Self-kindness is well-worth including in a daily routine. It proves to have many benefits for you and those you love, and is somewhat like securing your own oxygen mask before you help others on the plane.</p>
+        often did we hear, "Be kind to yourself"? Unfortunately, the inclination for self-kindness does not necessarily come naturally. It comes from childhood experience. The benefits of self-kindness are multi-faceted. Self-kindness is well-worth including in a daily routine. It proves to have many benefits for you and those you love and is somewhat like securing your own oxygen mask before you help others on the plane.</p>
 
       <h3>Three Steps to Self-Kindness</h3>
       <ol>

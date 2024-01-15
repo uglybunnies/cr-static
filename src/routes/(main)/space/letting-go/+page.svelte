@@ -39,7 +39,7 @@
     </div>
     <p><small>Audio presentation by Deepa Thakur.</small></p>
 
-    <p>When thoughts and situations entangle us, we can become anxious, irritated, and tense. Listen to this meditation and feel the ease of letting go. This audio meditation shows us how to let go as soon as we recognize and feel the need. The art of letting go is always possible.</p>
+    <p>When thoughts and situations entangle us, we can become anxious, irritated and tense. Listen to this meditation and feel the ease of letting go. This audio meditation shows us how to let go as soon as we recognize and feel the need. The art of letting go is always possible.</p>
 
   </section>
   <section class="creator-bio">

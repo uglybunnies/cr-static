@@ -1066,9 +1066,10 @@ function hashCode (s) {
   <section class="intro" id="scene1">
     <p class="welcome">Welcome to</p>
     <h2 class="intro-title"><span class="regular">Creative</span><br><span class="ital"><span class="initial">R</span>esilience</span></h2>
-    <p><span class="wipe-in">You are invited on a journey to enhance creative awareness and emotional resilience guided by the five natural elements. May the meditations, psychological exercises, and artistry offered within enhance your inner world and bring wisdom and joy.</span></p> <br>
+    <p><span class="wipe-in">This website is a toolkit to support happiness, mental wellbeing and resilience during stressful and emotionally challenging times. </span></p>
+    <p><span class="wipe-in">Here you will meet the five elements, earth, water, wind, fire and space. Through the lens of these elements, you will find uplifting meditations, psychological exercises, interactive sharing and other mindful ways to enhance your daily life. This is a habitat for joyful experiences and learning.</span></p><br>
 
-    <p class="enter-site"><a href="#" class="cta-enter" id="enterButton" on:click={enterClick}>Enter experience</a></p>
+    <p class="enter-site"><a href="#" class="cta-enter" id="enterButton" on:click={enterClick}>Enter the experience</a></p>
    </section>
   <section class="mandala-wrap" id="scene2">
     <div class="mandala">

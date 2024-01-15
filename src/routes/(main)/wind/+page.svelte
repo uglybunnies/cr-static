@@ -133,7 +133,7 @@
             <iframe class="asset" src="https://player.vimeo.com/video/845485308?background=1&autoplay=1&badge=0&autopause=0&player_id=0&app_id=58479&muted=1&Dnt=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Freedom Podcast"></iframe>
           </div>
           <div class="content">
-            <p class="desc">The twins discuss how we loose our freedom to self-scrutiny and insecurity and also how we can reclaim it.</p>
+            <p class="desc">The twins discuss how we loose our freedom to self-scrutiny and insecurity and also how we can reclaim it</p>
             <p class="title">Freedom Podcast</p>
           </div>
         </div>

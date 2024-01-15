@@ -80,7 +80,7 @@ Share your personal mood-shifting story here.
       {
         type: 'slide',
         title: '<h2>Blowing Bubbles</h2>',
-        desc: '<p>When I lived in Australia, though I felt quite connected to the land, I personally felt isolated and alone. One day I was completely depressed, I forced myself to go out, and for some unknown odd reason, I bought bubbles. I walked out to the beach, and as I sent the bubbles across the water, I noticed the rainbows in them and thought how magical they were. As I watched them float away and out into space, when some bubbles popped my mind seemed to pop with them and open, as I watched the rest dance away into the sky. I just let everything in my mind float away with them and remembered how every thing changes.</p><p><small>—Yvonne</small></p>',
+        desc: '<p>When I lived in Australia, though I felt quite connected to the land, I personally felt isolated and alone. One day I was completely depressed, I forced myself to go out and for some unknown odd reason, I bought bubbles. I walked out to the beach and as I sent the bubbles across the water, I noticed the rainbows in them and thought how magical they were. As I watched them float away and out into space, when some bubbles popped my mind seemed to pop with them and open. As I watched the rest dance away into the sky, I just let everything in my mind float away with them and remembered how every thing changes.</p><p><small>—Yvonne</small></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -108,7 +108,7 @@ Share your personal mood-shifting story here.
       {
         type: 'slide',
         title: '<h2>Power of a Smile</h2>',
-        desc: '<p>This is something I have done to break out of my inward darkness: I go out walking and allow myself to make contact, eye contact - and smile. Just that. No one counting 123, no need for conversation, and not just an upward arc of a few muscles at the corner of the mouth, but a full face smile. By just raising my eyebrows a weight is lifted and that transforms a smile belied by unhappy eyes to a genuine expression and an avenue to humane connection. Not always offered a smile in return but when I happens it is truly a gift, the circle is complete and there is a little light to show the way.</p><p><small>—Stefan</small></p>',
+        desc: '<p>This is something I have done to break out of my inward darkness: I go out walking and allow myself to make contact, eye contact - and smile. Just that. No one counting 123, no need for conversation and not just an upward arc of a few muscles at the corner of the mouth, but a full face smile. By just raising my eyebrows a weight is lifted and that transforms a smile belied by unhappy eyes to a genuine expression and an avenue to humane connection. Not always offered a smile in return but when I happens it is truly a gift, the circle is complete and there is a little light to show the way.</p><p><small>—Stefan</small></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -187,7 +187,7 @@ Share your personal mood-shifting story here.
         Try Something New
     </span></p>
       <p>Share your personal mood-shifting story here.</p>
-      <p>Please edit, spellcheck and keep under 150 words. Send to <a href="mailto:creativeresilience@khyentsefoundation.org" class="dark">creativeresilience@khyentsefoundation.org</a>. <br>We will post as many of the stories as possible</p>
+      <p>Please edit, spellcheck and keep under 150 words. Send to <a href="mailto:creativeresilience@khyentsefoundation.org" class="dark">creativeresilience@khyentsefoundation.org</a>. <br>We will post as many of the stories as possible.</p>
       <JournalButton {...jourButtonPos} />
       <br><br>
   </section>

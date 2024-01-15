@@ -96,6 +96,6 @@
   <section class="creator-bio">
     <h3>About Sharon</h3>
     <p>Sharon Crayton is a Chef and the author of the cookbook, One Taste, Vegetarian Home-Cooking From Around the World. She is a co-founder of the Sparrow Cafe in Aptos, California. Sharon says,</p>
-    <p>“My passion in the kitchen is to use fresh seasonal ingredients, herbs, and whatever is available in my fridge and cupboard. I don't like to make a big deal about cooking. However, I do love others to feel good and be nourished with delicious food. I try to have a fresh mind attitude as I look in my fridge everyday to see what I can make. Also I try to keep a mindful awareness and appreciate whatever is happening in the moment. I find this makes my cooking fun and magical. It's my wish that everyone can find their own creative magic in the kitchen as they cook for themselves and their loved ones.”</p>
+    <p>“My passion in the kitchen is to use fresh seasonal ingredients, herbs and whatever is available in my fridge and cupboard. I don't like to make a big deal about cooking. However, I do love others to feel good and be nourished with delicious food. I try to have a fresh mind attitude as I look in my fridge everyday to see what I can make. Also I try to keep a mindful awareness and appreciate whatever is happening in the moment. I find this makes my cooking fun and magical. It's my wish that everyone can find their own creative magic in the kitchen as they cook for themselves and their loved ones.”</p>
   </section>
 </main>

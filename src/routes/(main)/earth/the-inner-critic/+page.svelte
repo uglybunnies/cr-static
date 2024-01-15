@@ -49,7 +49,7 @@
       </figure>
     <p>What’s the biggest barrier you’ve built against love, happiness or well-being? If you pay attention you might notice there is an incessant critical voice in your head. Does it give you any slack? You’re saying things to yourself you wouldn’t say to your worst enemy!</p>
 
-      <p>You can listen and learn how to relate with this critical part of you in new, life-enhancing ways. Christine invites you to have some fun dismantling barriers that block your capacity for love, ease, and joy.</p>
+      <p>You can listen and learn how to relate with this critical part of you in new, life-enhancing ways. Christine invites you to have some fun dismantling barriers that block your capacity for love, ease and joy.</p>
       <div class="audio">
         <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/967273027%3Fsecret_token%3Ds-F5zsjcXsxld&amp;color=%23ffff00&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>
         <span class="runtime">11:36</span>

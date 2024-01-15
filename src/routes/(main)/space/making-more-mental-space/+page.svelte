@@ -45,9 +45,9 @@
     <p>When your mind is crowded and overwhelmed, here is a simple technique developed at Chicago University that will clear some mental space so you can begin to take step-by-step action. Thousands of therapists have used this method over the years with great success. Before you start, have a small stack of paper and a pen ready.</p>
     
     <ol>
-      <li>Close your eyes, and ask yourself, What is the main thing bothering me now? Write this on a piece of paper and move it to one side.</li>
+      <li>Close your eyes and ask yourself, What is the main thing bothering me now? Write this on a piece of paper and move it to one side.</li>
       <li>What else comes to mind that is bothering you? Write that out on a separate piece of paper and move that to one side.</li>
-      <li>Ask again, What is bothering me now? Write that down as well, on a separate piece of paper, and put it aside.</li>
+      <li>Ask again, What is bothering me now? Write that down as well, on a separate piece of paper and put it aside.</li>
       <li>Anything else? If so, write it down and put it aside. Keep doing this until nothing else comes to mind when you ask the question.</li>
       <li>Then when your concerns are all written and put aside, how do you feel? Pause and take some time in the space you've created (keep the papers on the side).</li>
       <li>When you are ready, read one of your concerns. Let that concern come back into your mind and take action on it.</li>

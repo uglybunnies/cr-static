@@ -50,9 +50,9 @@
       <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/965350666%3Fsecret_token%3Ds-ioYJpHG5i34&color=%23ffff00&inverse=true&auto_play=false&show_user=true"></iframe>
       <span class="runtime">9:04</span>
     </div>
-    <p><small>Audio presentation by Anupama Dahal.</small></p>
+    <p><small>Audio presentation by Punya Sagara.</small></p>
 
-    <p>Often anxiety and discomfort come from concerns about the past and worries about the future. In the above meditation, Anupama guides us into the beauty of the present moment. Anupama Dahal is a meditation instructor from one of the great Himalayan wisdom traditions in Nepal.</p>
+    <p>Often anxiety and discomfort come from concerns about the past and worries about the future. In the above meditation, Anupama guides us into the beauty of the present moment. Punya Sagara is a meditation instructor from one of the great Himalayan wisdom traditions in Nepal.</p>
 
   </section>
 </main>

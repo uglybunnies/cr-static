@@ -45,7 +45,7 @@
     <p><small>Audio presentation by Sandra Scales, Ph. D.</small></p>
       <h3>Have You Ever Tried to Hypnotize Yourself?</h3>
       <p>
-        Here is a brief method for self-hypnosis which can help you relax, accomplish new goals, change habits, and increase performance. Learn with audio and read below.
+        Here is a brief method for self-hypnosis which can help you relax, accomplish new goals, change habits and increase performance. Learn with audio and read below.
       </p>
       <h4>To Begin</h4>
       <p>Find one goal that is important and is not in the category of major life change. It is best to start small and get used to the process and then increase your goals.</p>
@@ -74,7 +74,7 @@
       <p>Use all your senses:</p>
 
       <ul>
-        <li>Auditory: Repeat out loud: I am dancing every day and enjoying myself, and I feel good deep inside.</li>
+        <li>Auditory: Repeat out loud: I am dancing every day and enjoying myself and I feel good deep inside.</li>
         <li>Visual: See and imagine what you are saying to yourself (i.e. a picture in front of you dancing. Remember, we’re using dancing as an example here.).</li>
         <li>Kinesthetic: When you say “I feel good” feel that you’re accomplishing your goal and you feel good deep inside.</li>
       </ul>

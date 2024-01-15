@@ -66,7 +66,7 @@
         <p><i>Listening</i> to the person, not the problem, with spacious awareness and calm compassionate attention.</p>
         <p><i>Inviting</i> the other to speak with only one thought in mind, to give space for the other to express themselves freely.</p>
         <p><i>Showing</i> acceptance of what is being said, with relaxed body language, expression and eye contact.</p>
-        <p><i>To understand</i> that the other suffers as long as they have no one to listen, and you, you are the person who can relieve that suffering.</p>
+        <p><i>To understand</i> that the other suffers as long as they have no one to listen and you, you are the person who can relieve that suffering.</p>
         <p><i>Empathy</i> not sympathy. Sympathy is looking at someone with understanding, but empathy is looking <em>with them</em>, seeing the view from where they are. Empathy comes from the heart.</p>
         <p><i>No need</i> to provide answers or rush to solutions. Compassionate listeners can affirm and accept whatever thoughts and feelings arise without the urge to fix the problem.</p>
         <p><i>Allowing</i> silence patiently. Knowing the difference between a thoughtful silence and a silence where someone doesn’t quite know how to begin.</p>

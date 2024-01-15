@@ -48,18 +48,7 @@
       <span class="runtime">19:06</span>
     </div>
     <br>
-    <p>In this episode, Grey and Lily discuss resilience and how they find their natural rhythms. They invite us to ponder M. H. Nichols poem "For The Overwhelmed". <br></p>
-    <figure class="quotes" style="--max-width: 15em;">
-      <blockquote>
-
-        Let the natural rhythm of the day<br>
-        remind you to pace yourself.<br>
-        Rise up with with the sun<br>
-        and settle down with the moon.
-      </blockquote>
-      <figcaption>&mdash;M. H. Nichols</figcaption>
-    </figure>
-
+    <p>These vivacious and creative twins share their discoveries about being in flow and out of flow. Gray offers a simple practice to develop some inner flow and flexibility.<br></p>
   </section>
   <section class="creator-bio">
     <h3>About the Hosts</h3>

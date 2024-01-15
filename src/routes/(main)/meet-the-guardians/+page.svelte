@@ -2,24 +2,31 @@
     import { base } from '$app/paths';
 </script>
 <svelte:head>
-  <title>Welcome to Creative Resilience</title>
+  <title>Meet the Guardians and Elements</title>
 </svelte:head>
-<main class="home-page">
-  <section class="intoduction" style="--copy-color: var(--light-color);">
-    <h2>Welcome to Creative Resilience</h2>
-    <p>Introductory statement</p>
+<main class="info-page">
+  <section class="introduction" style="--copy-color: var(--light-color);">
+    <h2>Meet the Guardians and Elements</h2>
+    <p>
+      From butterflies to human beings and computers to spinach--everything in our world is made of the five elements: earth, water, wind, fire and space. For centuries different cultures have recognized their importance and have used the elements as a key to unlocking self-mastery, healing and balancing disruptive circumstances. When the body’s elements are in balance, we experience physical and emotional well-being. When the elements on earth are balanced peace and harmony can reign. The five elements are ever giving and always there to connect with and serve us.
+    </p>
+
+    <p>Many traditions represent these wondrous elements with form, color and symbolism. Here we are using the five dakinis from the tibetan buddhist tradition. This tradition originated  high in the majestic snow-clad himalayan mountains and still lives on today. These five dakinis embody the wisdom qualities of each element and are revered and called upon to guide and assist with their action and dynamic energies. On this web site we refer to the five elemental dakinis as the Guardians and use their images painted by Tara di Gesu throughout the site.Their sanskrit names are as follows.</p>
+
   </section>
-  <section class="element right-side" style="--bgImage: linear-gradient(270deg, hsla(0,0%, 0%, 1), hsla(0, 0%, 0%, 0) 40%), url({base}/assets/space/space_dakini_home_bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/space-mandala.webp) 50% -7%/ 75% auto no-repeat; --copy-color: var(--light-color);">
+<div class="down-ctl"><a href="#spaceGuardian" class="scroll-ctl"><span>Scroll down</span></a></div>
+  <section id="spaceGuardian" class="element right-side" style="--bgImage: linear-gradient(270deg, hsla(0,0%, 0%, 1), hsla(0, 0%, 0%, 0) 40%), url({base}/assets/space/space_dakini_home_bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/space-mandala.webp) 50% -7%/ 75% auto no-repeat; --copy-color: var(--light-color);">
     <p>The guardian of <i>Space</i> is Dhatishvari. <i>Space</i> is infinitely vast yet welcoming,
       a boundless skyscape where all is possible.
       Our inner qualities of space are an expanse
       in which our openness and generosity find expression.
-      Space is the moment in between breaths where innate freedom is ours. </p>
+      Space is the sky within where our thoughts dance and play. </p>
     <p class="element-links"><a href="{base}/space/voice-of-space">The Voice of Space</a> <br>
       <a href="{base}/space">Explore Space</a>
     </p>
   </section>
-  <section class="element" style="--bgImage: linear-gradient(to right, hsla(0,0%, 100%, .6) 40%, hsla(0, 0%, 100%, 0)),url({base}/assets/wind/wind_dakini_bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/wind-mandala.webp) 5% 1%/ 75% auto no-repeat;">
+<div class="down-ctl"><a href="#windGuardian" class="scroll-ctl"><span>Scroll down</span></a></div>
+<section id="windGuardian" class="element" style="--bgImage: linear-gradient(to right, hsla(0,0%, 100%, .6) 40%, hsla(0, 0%, 100%, 0)),url({base}/assets/wind/wind_dakini_bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/wind-mandala.webp) 5% 1%/ 75% auto no-repeat;">
     <p>The guardian of <i>Wind</i> is Samayatara. <i>Wind</i> in its natural state is the essence of movement,
       sometimes gentle, sometimes fierce, weightless yet forceful,
       invisible yet ever present.
@@ -32,7 +39,8 @@
       <a href="{base}/wind" class="dark">Explore Wind</a>
     </p>
   </section>
-  <section class="element right-side" style="--bgImage:linear-gradient(90deg, hsla(0,0%, 100%, 0), hsla(0, 0%, 100%, .5) 60%), url({base}/assets/water/water-element-home-bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/water-mandala.webp) 50% -6%/ 75% auto no-repeat;">
+<div class="down-ctl"><a href="#waterGuardian" class="scroll-ctl"><span>Scroll down</span></a></div>
+<section id="waterGuardian" class="element right-side" style="--bgImage:linear-gradient(90deg, hsla(0,0%, 100%, 0), hsla(0, 0%, 100%, .5) 60%), url({base}/assets/water/water-element-home-bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/water-mandala.webp) 50% -6%/ 75% auto no-repeat;">
     
     <p>The guardian of <i>Water</i> is Mamaki.<i>Water</i> in its balanced state, is flowing,
       sweet, soothing and free of all impurities.
@@ -44,7 +52,8 @@
       <a href="{base}/water" class="dark">Explore Water</a>
     </p>
   </section>
-  <section class="element" style="--bgImage: linear-gradient(to right, hsla(0,0%, 100%, .7) 40%, hsla(0, 0%, 100%, 0)),url({base}/assets/earth/earth-dakini-bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/earth-mandala.webp) 50% -7%/ 75% auto no-repeat;">
+  <div class="down-ctl"><a href="#earthGuardian" class="scroll-ctl"><span>Scroll down</span></a></div>
+  <section id="earthGuardian" class="element" style="--bgImage: linear-gradient(to right, hsla(0,0%, 100%, .7) 40%, hsla(0, 0%, 100%, 0)),url({base}/assets/earth/earth-dakini-bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/earth-mandala.webp) 50% -7%/ 75% auto no-repeat;">
 <p>The guardian of <i>Earth</i> is Lochana. <i>Earth</i> is our natural support, an endless source
   of nourishment, our place of repose.
   Our own inner qualities of earth give us stability
@@ -56,7 +65,8 @@
       <a href="{base}/earth" class="dark">Explore Earth</a>
     </p>
   </section>
-  <section class="element right-side" style="--bgImage: linear-gradient(90deg, hsla(0,0%, 100%, 0) 40%, hsla(0, 0%, 100%, .7)), url({base}/assets/fire/fire-home-bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/fire-mandala.webp) 50% -7%/ 75% auto no-repeat;">
+  <div class="down-ctl"><a href="#fireGuardian" class="scroll-ctl"><span>Scroll down</span></a></div>
+  <section id="fireGuardian" class="element right-side" style="--bgImage: linear-gradient(90deg, hsla(0,0%, 100%, 0) 40%, hsla(0, 0%, 100%, .7)), url({base}/assets/fire/fire-home-bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/fire-mandala.webp) 50% -7%/ 75% auto no-repeat;">
     <p>The guardian of <i>Fire</i> is Pandaravasini.<i>Fire</i> in its balanced state is always glowing and clear,
       mysteriously magnetizing, our source of warmth.
       The inner qualities of fire surprise us with passion,
@@ -68,3 +78,28 @@
     </p>
   </section>
 </main>
+<style>
+.down-ctl {
+  text-align: center;
+}
+.scroll-ctl {
+    color: hsl(var(--light-color));
+    text-decoration: none;
+    text-shadow: .2em -.125em .15em hsl(var(--dark-neutral)), 0 0 .125em hsl(var(--dark-neutral));
+    animation: none;
+    overflow: hidden;
+  }
+  .scroll-ctl::after {
+    display: inline-block;
+    position: relative;
+    content: '\203A';
+    font-size: 4em;
+    transform: rotate(90deg);
+    transform-origin: center;
+  }
+  .scroll-ctl > span {
+    display: block;
+    position: absolute;
+    text-indent: -999em;
+  }
+</style>

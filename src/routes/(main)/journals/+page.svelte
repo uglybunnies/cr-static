@@ -32,7 +32,7 @@
       questions: [
         'How far can you let your sense of inner space expand and what happens when you do that?',
         'How many stars are in the sky? How many thoughts in your mind? Try setting a timer for one minute and count your thoughts, what is your count?',
-        'This simple Zen meditation technique is said to offer surprising results. To explore, do as follows: Contract yourself into the tiniest particle imaginable, and stay there some moments. Now what do you find?'
+        'This simple Zen meditation technique is said to offer surprising results. To explore, do as follows: Contract yourself into the tiniest particle imaginable and stay there some moments. Now what do you find?'
       ],
       title: 'Space Meditation',
       url: 'space/space-meditation'
@@ -255,7 +255,7 @@
     },
     {
       questions: [
-        'Does someone or something in your life make you annoyed or angry? If so, as you follow this exercise, what happens when you take your focus off that person or situation, and instead, focus on the anger you are experiencing?',
+        'Does someone or something in your life make you annoyed or angry? If so, as you follow this exercise, what happens when you take your focus off that person or situation and instead, focus on the anger you are experiencing?',
         'If you allow the embers of ancient anger to rise and come into your awareness, how does this exercise help to clear the anger from the past?',
         'Often a clarity can be experienced riding with the power and thrust of anger. What experience have you had where anger brought a vivid clarity to your situation?'
       ],
@@ -265,7 +265,7 @@
     {
       questions: [
         'What do you enjoy obsessing about? video games, politics, diets, neighbors?',
-        'List 5 things you worry about, and note whether any of them are no longer relevant and merely lingering from the past?',
+        'List 5 things you worry about and note whether any of them are no longer relevant and merely lingering from the past?',
         'What worries or obsessions are getting in the way of your productivity?'
       ],
       title: 'Stop Obsessive Thinking',

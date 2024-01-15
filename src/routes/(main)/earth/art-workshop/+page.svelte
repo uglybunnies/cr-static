@@ -16,10 +16,10 @@
   </p>
 </section>
 <section class="exercise">
-  <p>This Tree Of Life art class offers a technique, process, and a place to align yourself with your deepest dreams as you rediscover the direction you want for your life. Here, we will be using colors and paints as a form of expression, and will create a space that is gentle and safe.</p>
+  <p>This Tree Of Life art class offers a technique, process and a place to align yourself with your deepest dreams as you rediscover the direction you want for your life. Here, we will be using colors and paints as a form of expression and will create a space that is gentle and safe.</p>
   <p>The Tree of Life is a technique signifying the journey of a life. Different parts of the tree represent different elements of life within the structure of past, present and future. They weave together earth, water and air in a creative way to support you in telling your story. During these times, The Tree of Life highlights resources available in your dreams and aspirations. The nature of this activity is such that it can be used in all cultures, making it accessible and culturally malleable. The process guides you to discover aspects of your life essential to the formation of your identity, as well as opening up a space for you to be curious in acknowledging your abilities and strengths. This in turn helps to instill confidence and architects a firmer foundation for your dreams and wishes.</p>
   
-  <div class="cta"><a href="" class="cta-button">Register now</a></div>
+  <div class="cta"><a href="https://forms.gle/ngmtjaZNyE8fpm2B9" class="cta-button" target="_blank">Register now</a></div>
 
   <p>Zoom classes are available now. This class will be offered every 15 days. Each class is two hours in length.</p>
 </section>
@@ -27,7 +27,7 @@
   <h3>About the Instructor</h3>
   <div class="flex-group">
     <img src="{base}/assets/akshita_dutta.webp" alt="Podcasting twins, Gary and Lily Pinto">
-    <p>Ms. Akshita Dutta is a counseling psychologist and an arts-based therapy practitioner. She is the co-founder of I Am Wellbeing, an organization dedicated to psychological trauma prevention and healing. She believes in tapping into the natural curiosity of young people to help them explore unique and effective coping strategies to overcome social, emotional, and behavioral challenges.</p>
+    <p>Ms. Akshita Dutta is a counseling psychologist and an arts-based therapy practitioner. She is the co-founder of I Am Wellbeing, an organization dedicated to psychological trauma prevention and healing. She believes in tapping into the natural curiosity of young people to help them explore unique and effective coping strategies to overcome social, emotional and behavioral challenges.</p>
   </div>
 </section>
 

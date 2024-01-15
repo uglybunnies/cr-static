@@ -149,7 +149,7 @@
             <iframe class="asset" src="https://player.vimeo.com/video/845478722?background=1&badge=0&autopause=0&player_id=0&app_id=58479&muted=1&Dnt=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Art Workshop"></iframe>
           </div>
           <div class="content">
-            <p class="desc">This art workshop offers an exciting  therapeutic journey of self discovery using colors and paints.</p>
+            <p class="desc">This art workshop offers an exciting  therapeutic journey of self discovery using colors and paints</p>
             <p class="title">Art Workshop</p>
           </div>
         </div>

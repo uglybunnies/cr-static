@@ -21,7 +21,7 @@
 
         <p>We invite you to join us in this online workshop via zoom once every week for 3 months.</p>
 
-        <div class="cta"><a href="" class="cta-button">Register now</a></div>
+        <div class="cta"><a href="https://forms.gle/ngmtjaZNyE8fpm2B9" class="cta-button" target="_blank">Register now</a></div>
         <div class="cta"><a href="" class="cta-button">Schedule</a></div>
         <h3>Awakening Charya Beginner's Course</h3>
 

@@ -38,7 +38,7 @@
   </section>
   <section class="exercise">
     <div class="audio">
-      <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/982577275%3Fsecret_token%3Ds-s1t15TT3BPC&color=%23ffff00&inverse=true&auto_play=false&show_user=true"></iframe>
+      <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/967275418%3Fsecret_token%3Ds-VsbGz3F9Kqj&color=%23ffff00&inverse=true&auto_play=false&show_user=true"></iframe>
       <span class="runtime">15:34</span>
     </div>
     <br>

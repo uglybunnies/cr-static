@@ -37,7 +37,7 @@
     <p>For centuries, Tibetan Meditation Masters have used this profound morning meditation. A renowned Buddhist master Thinley Norbu Rinpoche gave this meditation to his students in Nepal. It brings a clarity and openness to the mind and body.</p>
 
 <ol>
-  <li>Secretly go outside in the fresh clean air, and while standing, look at the blue sky. Of course, the sky doesn’t necessarily have to be blue, but it is nice if it is. Do this first thing in the morning.</li>
+  <li>Secretly go outside in the fresh clean air and while standing, look at the blue sky. Of course, the sky doesn’t necessarily have to be blue, but it is nice if it is. Do this first thing in the morning.</li>
 
   <li>Then, exhale vigorously, imagining that all negativity and concepts are expelled with your breath.</li>
   
@@ -46,7 +46,7 @@
     After you do this, rest and relax your mind.
   </li>
   
-  <li>Then in the sky before you, if you like, visualize countless buddhas with their wisdom bodies, wisdom speech, and wisdom minds. Or you can imagine saints or other spiritual beings filling the sky. If you prefer, you can just imagine luminous blue light in the sky before you.</li>
+  <li>Then in the sky before you, if you like, visualize countless buddhas with their wisdom bodies, wisdom speech and wisdom minds. Or you can imagine saints or other spiritual beings filling the sky. If you prefer, you can just imagine luminous blue light in the sky before you.</li>
   
   <li>Now all becomes like sky, very empty, vast and light.</li>
   

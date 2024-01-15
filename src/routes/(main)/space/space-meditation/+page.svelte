@@ -5,7 +5,7 @@
     questions: [
       'How far can you let your sense of inner space expand and what happens when you do that?',
       'How many stars are in the sky? How many thoughts in your mind? Try setting a timer for one minute and count your thoughts, what is your count?',
-      'This simple Zen meditation technique is said to offer surprising results. To explore, do as follows: Contract yourself into the tiniest particle imaginable, and stay there some moments. Now what do you find?'
+      'This simple Zen meditation technique is said to offer surprising results. To explore, do as follows: Contract yourself into the tiniest particle imaginable and stay there some moments. Now what do you find?'
     ],
     title: 'Space Meditation',
     bgColor: 'hsl(70, 100%, 0%)',

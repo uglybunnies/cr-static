@@ -41,16 +41,16 @@
       <JournalButton {...jourButtonPos} />
         <div class="transcript" style="--transcript-bg: 195, 60%, 55%; --scrollbar-thumb-color: var(--light-color); --text-shadow: none;">
           <p>
-          Hello, I am water, and I am the shapeshifter of all the elements. Every form I take is exquisite. I have so many useful and gorgeous forms, it's hard for me not to be somewhat arrogant. Furthermore, if you don't mind me saying, I am beautiful. Sometimes my sisters tell me I'm a bit full of myself, but that's absurd, so I just ignore them and go splash in the surf.
+          Hello, I am water and I am the shapeshifter of all the elements. Every form I take is exquisite. I have so many useful and gorgeous forms, it's hard for me not to be somewhat arrogant. Furthermore, if you don't mind me saying, I am beautiful. Sometimes my sisters tell me I'm a bit full of myself, but that's absurd, so I just ignore them and go splash in the surf.
           </p>
           <p>
-          You can easily find me right now. Just turn on the tap and feel my cool, elusive energy that cleanses your hands and refreshes everything in your world. I'm the raindrop disguised as a snowflake, and I am the mirror in the quiet lake reflecting the moon and the stars. Even with disguises, I always remember who I am. Do you wear disguises? Do you always remember who you are?
+          You can easily find me right now. Just turn on the tap and feel my cool, elusive energy that cleanses your hands and refreshes everything in your world. I'm the raindrop disguised as a snowflake and I am the mirror in the quiet lake reflecting the moon and the stars. Even with disguises, I always remember who I am. Do you wear disguises? Do you always remember who you are?
           </p>
           <p>
-          I can fall from the greatest heights, freely, without fear, and never be hurt. I simply flow over rocks and boulders, following the path of least resistance. The rivers of your world, moving toward the sea, have for centuries carried your cargo, from port to port. My many colored clouds are the art in the sky, and I am the artist. Have you noticed how my clouds appear, change, and disappear? I have heard that your thoughts are like my clouds, is that true?
+          I can fall from the greatest heights, freely, without fear and never be hurt. I simply flow over rocks and boulders, following the path of least resistance. The rivers of your world, moving toward the sea, have for centuries carried your cargo, from port to port. My many colored clouds are the art in the sky and I am the artist. Have you noticed how my clouds appear, change and disappear? I have heard that your thoughts are like my clouds, is that true?
           </p>
           <p>
-          My raindrops can flood and crush seaports and villages, and landslides caused by me can cover your homes in a moment's notice. This is too intense for me to speak about. Imagine being me, dependent on the balance of all nature, and powerless to stop these horrible events.
+          My raindrops can flood and crush seaports and villages and landslides caused by me can cover your homes in a moment's notice. This is too intense for me to speak about. Imagine being me, dependent on the balance of all nature and powerless to stop these horrible events.
           </p>
           <p>
           My beloved turquoise, blue and deep green oceans are a secret world of wondrous creatures. Hundreds of different fish are a display of divine color and form, darting and swirling like a never-ending ballet production. Have you ever breathed in the fragrance of the ocean or tasted the salt on your lips? When you gaze over the ocean do you remember the mysterious world beneath?
@@ -59,7 +59,7 @@
           Even with all this glory, so much danger threatens. Cans and plastic are filling my oceans. Fish get entangled and die. Poison and trash are in my rivers and can enter your drinking water. Schools of lovely small fish perish by the thousands. Please, for the sake of all we hold dear, remember to keep our waters pure and safe.
           </p>
           <p>
-          Your inner water is your life blood, and when your elements are in balance, your inner water helps your mind relax and be fluid so it can adapt to rocky circumstances. Haven't you ever been with someone who has no boundaries, and who seeps into your life with invasive questions flowing like water, no banks on the river?   What about a person with a crackling dry voice and rigid body language? Too much, too little, it's all a matter of balance.
+          Your inner water is your life blood and when your elements are in balance, your inner water helps your mind relax and be fluid so it can adapt to rocky circumstances. Haven't you ever been with someone who has no boundaries and who seeps into your life with invasive questions flowing like water, no banks on the river?   What about a person with a crackling dry voice and rigid body language? Too much, too little, it's all a matter of balance.
           </p>
           <p>
           Do you know that in some places when a person is crying or upset, everyone runs to give them a glass of water to soothe them? You see, I am a healer. My water can be your medicine. Do think about all this. Remember to keep your river banks healthy and balance the waves of your emotions.

@@ -5,7 +5,7 @@
   export let journalData = {
     questions: [
       'What do you enjoy obsessing about? video games, politics, diets, neighbors?',
-      'List 5 things you worry about, and note whether any of them are no longer relevant and merely lingering from the past?',
+      'List 5 things you worry about and note whether any of them are no longer relevant and merely lingering from the past?',
       'What worries or obsessions are getting in the way of your productivity?'
     ],
     title: 'Stop Obsessive Thinking',

@@ -39,15 +39,15 @@
       <blockquote>
         Over the years knowingly or unknowingly, we have accumulated many negative emotions that remain hidden in our bodies. The following meditation helps remove those hidden emotions.
       </blockquote>
-      <figcaption>&mdash;Anupama Dahal</figcaption>
+      <figcaption>&mdash;Punya Sagara</figcaption>
     </figure>
     <br>
     <div class="audio">
       <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/967274194&color=%23ffff00&inverse=true&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       <span class="runtime">5:25</span>
     </div>
-    <p><small>Audio presentation by Anupama Dahal</small></p>
-    <p>You can listen as meditation instructor Anupama Dahal introduces Grounding and Healing Meditation.</p>
+    <p><small>Audio presentation by Punya Sagara</small></p>
+    <p>You can listen as meditation instructor Punya Sagara introduces Grounding and Healing Meditation.</p>
   </section>
 </main>
 <Journal {...journalData} />
