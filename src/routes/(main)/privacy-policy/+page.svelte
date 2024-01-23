@@ -4,7 +4,7 @@
 <svelte:head>
 <title>Privacy Policy</title>
 </svelte:head>
-<main class="info-page content-page center about-page legal" style="--copy-color: var(--light-color);">
+<main class="info-page content-page center legal" style="--copy-color: var(--light-color);">
   <section>
     <h2>Privacy Policy</h2>
     <p>Thank you for using creativeresilience.co. This Privacy Policy is designed to help you understand how we collect, use and safeguard your personal information in connection with your use of our website.</p>
@@ -45,7 +45,7 @@
   </li>
 </ol>
 
-<h3 class="about-title">Additional Elements Specific to Our Website:</h3>
+<h3>Additional Elements Specific to Our Website:</h3>
 
 <p>creativeresilience.co provides psychological exercises, meditations, podcasts and mindfulness techniques. These forms of user participation are private. They do not result in any data being uploaded to the website. However, there is also a sharing aspect to the site. It encourages the uploading of videos, music, art and stories, which then can become public. In addition, the site offers Zoom classes in the creative arts and meditation, which are public. </p>
 
@@ -61,13 +61,13 @@
 
 <p>Please note that our website may contain links to third-party websites. We are not responsible for the privacy practices of these websites and you should review their privacy policies before providing any personal information.</p>
 
-<h3 class="about-title">Updates to Privacy Policy</h3>
+<h3>Updates to Privacy Policy</h3>
 
 <p>We may update this Privacy Policy from time to time to reflect changes in our practices. Any significant changes will be updated by posting the updated Privacy Policy on our website.</p>
 
  
 
-<h3 class="about-title">Contact Us </h3>
+<h3>Contact Us </h3>
 
 <p>Email:  creativeresilience@khyentsefoundation.org</p>
 

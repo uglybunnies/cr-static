@@ -4,7 +4,7 @@
 <svelte:head>
 <title>FAQ's</title>
 </svelte:head>
-<main class="info-page content-page center faqs" style="--copy-color: var(--light-color);">
+<main class="info-page content-page center faqs legal" style="--copy-color: var(--light-color);">
   <section>
     <h2>Frequently Asked Qestions</h2>
     <h3>1. Who is this site for?</h3>

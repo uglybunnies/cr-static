@@ -42,7 +42,7 @@
       <span class="runtime">15:34</span>
     </div>
     <br>
-    <p>In this episode, Grey and Lily discuss resilience and how they find their natural rhythms. They invite us to ponder M. H. Nichols poem "For The Overwhelmed". <br></p>
+    <p>In this episode, Gray and Lily discuss resilience and how they find their natural rhythms. They invite us to ponder M. H. Nichols poem "For The Overwhelmed". <br></p>
     <figure class="quotes" style="--max-width: 15em;">
       <blockquote>
 

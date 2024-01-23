@@ -10,7 +10,7 @@
     <p class="subtitle shiftgrad"><span>Everything Doesn't Have to Make Sense</span></p>
   </section>
   <section class="exercise">
-    <p>You are invited to participate in this brief foray into a beautiful text and a friendly atmosphere. Here our aim will be to saturate ourselves with openness, overcome fear with what is most mysterious.</p>
+    <p>You are invited to participate in this brief foray into a beautiful text and a friendly atmosphere. Here our aim will be to saturate ourselves with openness and overcome fear with what is most mysterious.</p>
 
     <p>In this class we will explore the acts of reading, writing and looking at the sky. We will collectively and individually recite and think from a set of chosen texts, write together and alone, share what we’ve written, read aloud and practice pausing. Through our visual and visceral engagement, we will unearth our wonder, compose a tone, learn to slow and soften our relationships to speech and space. We will not do anything in particular, but through this more relaxed relation, what might seem commonplace, can be mysterious; what appears immediate, might be limitless.</p>
 

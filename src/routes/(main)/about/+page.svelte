@@ -4,7 +4,7 @@
 <svelte:head>
 <title>About this Project</title>
 </svelte:head>
-<main class="info-page content-page center about-page" style="--copy-color: var(--light-color);">
+<main class="info-page content-page center about-page legal" style="--copy-color: var(--light-color);">
   <section>
     <h2>About Creative Resilience</h2>
     <p>Learn more about <a href="#aboutProject">this project</a>. Meet <a href="#aboutInstructors">the instructors</a> and <a href="#aboutArtists">the artists</a> whose contributions have made this site possible.</p>

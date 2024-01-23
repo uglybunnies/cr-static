@@ -52,7 +52,7 @@
     </div>
     <p><small>Audio presentation by Punya Sagara.</small></p>
 
-    <p>Often anxiety and discomfort come from concerns about the past and worries about the future. In the above meditation, Anupama guides us into the beauty of the present moment. Punya Sagara is a meditation instructor from one of the great Himalayan wisdom traditions in Nepal.</p>
+    <p>Often anxiety and discomfort come from concerns about the past and worries about the future. In the above meditation, Punya Sagara guides us into the beauty of the present moment. Punya Sagara is a meditation instructor from one of the great Himalayan wisdom traditions in Nepal.</p>
 
   </section>
 </main>

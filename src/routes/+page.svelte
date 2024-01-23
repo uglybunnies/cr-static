@@ -1,5 +1,7 @@
 <script>
 import { onMount } from 'svelte';
+import { base } from '$app/paths';
+let playing;
 function enterClick(event) {
   event.preventDefault();
   let space = document.getElementById('bgImage');
@@ -9,8 +11,29 @@ function enterClick(event) {
   space?.classList.add('play');
   scene2?.classList.add('play');
 }
+function controlMusic(event) {
+  let music = document.getElementById('ambient');
+  if (playing) {
+    music.pause();
+    playing = !playing;
+    event.target.classList.add('stopped');
+  }
+  else {
+    music.play()
+    playing = !playing;
+    event.target.classList.remove('stopped');
+  }
+
+}
 onMount(() => {
   const canvas = document.getElementById('smokeCursor');
+
+
+  const music = document.getElementById('ambient');
+  music.volume = .6;
+  music.play();
+  playing = true;
+
   resizeCanvas();
 
   let config = {
@@ -1054,7 +1077,7 @@ function hashCode (s) {
         hash |= 0; // Convert to 32bit integer
     }
     return hash;
-};
+}
 });
 </script>
 <svelte:head>
@@ -1097,4 +1120,8 @@ function hashCode (s) {
       </div>
     </div>
   </section>
+  <a href="#ambient" id="audioCtl" class="sound-ctl" on:click={controlMusic}></a>
+  <audio loop id="ambient" autoplay>
+    <source src="{base}/assets/might-amp-magic-138999.mp3" type="audio/mpeg">
+  </audio>
 </main>

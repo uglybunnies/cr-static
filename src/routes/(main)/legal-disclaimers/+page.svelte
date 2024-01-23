@@ -4,7 +4,7 @@
 <svelte:head>
 <title>About this Project</title>
 </svelte:head>
-<main class="info-page content-page center about-page legal" style="--copy-color: var(--light-color);">
+<main class="info-page content-page center legal" style="--copy-color: var(--light-color);">
 <section>
   <h2>Legal Disclaimer</h2>
   
