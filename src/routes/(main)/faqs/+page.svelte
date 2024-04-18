@@ -4,9 +4,9 @@
 <svelte:head>
 <title>FAQ's</title>
 </svelte:head>
-<main class="info-page content-page center faqs legal" style="--copy-color: var(--light-color);">
+<main class="info-page content-page center legal" style="--copy-color: var(--light-color); --element-color: var(--copy-color);">
   <section>
-    <h2>Frequently Asked Qestions</h2>
+    <h2>Frequently Asked Questions</h2>
     <h3>1. Who is this site for?</h3>
 
  
@@ -44,7 +44,7 @@
   
   
   
-  <li><strong>If you are in a relationship that is troublesome at the moment</strong>, you might check "the art of listening," grounding meditation or "Generosity and the Brain"</li>
+  <li><strong>If you are in a relationship that is troublesome at the moment</strong>, you might check "The Art of Listening," "Grounding Meditation" or "Generosity and the Brain"</li>
   
   
   
@@ -56,7 +56,7 @@
   
   
   
-  <li><strong>If you are too critical of yourself</strong>, this site offers many tools that can make a difference, such as "Kindness to Self," Quieting the Inner Critic, "Self Hypnosis," and Present Moment Meditation.</li>
+  <li><strong>If you are too critical of yourself</strong>, this site offers many tools that can make a difference, such as "Kindness to Self", "Quieting the Inner Critic", "Self Hypnosis", and "Present Moment Meditation".</li>
 </ul>
 
  
@@ -91,10 +91,5 @@
 
  
 
-<h3>8. Is the web address the only way to contact Creative Resilience?</h3>
-
- 
-
-            <p>Yes. Please see Contact Us. </p>
   </section>
 </main>

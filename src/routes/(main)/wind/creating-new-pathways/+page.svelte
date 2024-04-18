@@ -4,7 +4,7 @@
   import JournalButton from '$lib/components/JournalButton.svelte';
   export let journalData = {
     questions: [
-      'Consider what actions bring you the most joy throughout your day and write them down to remember?',
+      'Consider what actions bring you the most joy throughout your day and write them down to remember.',
       'When was a time you decided to make major changes that enhanced your life greatly?',
       'If you were to design a new path going forward for yourself, what would it look like? If you have time, draw it or write about it.'
     ],
@@ -36,7 +36,7 @@
   <section class="exercise">
     <p>Here are five science-based exercises for increasing happiness, well-being and mental health. This model originated at Harvard University and has been used around the globe with highly positive results. These are best done in five minutes or less each day.</p>
 
-<h3 class="subtitle">Here is a Way to Create Happiness Habits in Just Minutes a Day</h3>
+<h3 class="subtitle-2">Here is a Way to Create Happiness Habits in Just Minutes a Day</h3>
 <br>
 <ol>
   <li>Take two minutes and write three new things you are grateful for. Commit yourself to do this consecutively for 21 days. This repetition trains the brain to scan for positive pathways instead of for threats and is an expedient way to train the brain.</li>
@@ -49,6 +49,9 @@
 
   <li>For two minutes each day, express kindness to a new person. Do this via text or email. This interaction creates a social connection and correlates to long-term happiness.</li>
 </ol>
+<hr>
+<p>
+  Learn about <a href="{base}/wind/generosity-and-the-brain">Generosity and The Brain</a>, listen to the sounds of the <a href="{base}/wind/music-chamber">Music Chamber</a>, try <a href="{base}/wind/changing-your-mood">Changing Your Mood</a> or explore more of the <a href="{base}/wind">Wind Element</p>
   </section>
 </main>
 <Journal {...journalData} />

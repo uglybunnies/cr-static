@@ -16,8 +16,8 @@
     bullets: '60, 100%, 50%'
   };
   export let jourButtonPos = {
-    right: '33%',
-    top: '33%',
+    right: '10%',
+    top: '20%',
     posType: 'fixed',
     alpha: '.5',
     glow: '85,75%,15%',
@@ -31,7 +31,7 @@
 <main class="content-page"  style="--grad-color: 200,20%,10%; --element-bg:  linear-gradient(90deg, hsla(var(--grad-color),0), hsla(var(--grad-color),0.3) 5%, hsla(var(--grad-color), 0.5) 25%, hsla(var(--grad-color),.5) 55%, hsla(var(--grad-color),.3) 60%, hsla(var(--grad-color),0) 75%), url({base}/assets/earth/quieting-the-inner-critic-bg.webp) 0 33%/cover no-repeat; --element-mob-bg: linear-gradient(hsla(var(--grad-color), .6), hsla(var(--grad-color), .6)),url({base}/assets/earth/quieting-the-inner-critic-bg.webp) 0 0/auto 100vh repeat; --desc-bg-color: hsla(45, 50%, 75%, .9); --element-color: 85, 90%, 33%; --subtitle-color: 80, 90%, 33%; --copy-color: var(--light-color);--cs1:320, 100%, 80%; --cs2: 320, 100%, 66%;">
   <!-- use the banner for the excercise title and description -->
   <section class="banner">
-    <h2>Quieting the Inner Critic </h2>
+    <h2>Quieting the Inner Critic <small>2:30</small></h2>
     <p class="subtitle shiftgrad"><span>“Shame On You!”</span></p>
   </section>
   <section class="exercise">
@@ -51,11 +51,13 @@
         Imagine the sound of the critic changing to a cartoonish voice. Make it very squeaky and silly or&#8230;
       </li>
       <li>
-        Imagine the critic's voice and how it makes you feel, zooming out into space, with the moon and stars, so that you can barely hear it. The point is, move that voice out of your head.
+        Imagine the critic's voice and how it makes you feel. Zoom out into space, with the moon and stars, so that you can barely hear it. The point is, move that voice out of your head.
       </li>
     </ol><br>
 
     <p>Be creative. Make your own routine and practice this anytime the inner critic arises. Please remember that establishing a new habit requires repetition. Repeat these techniques as often as possible.</p><br>
+    <hr>
+    <p class="continue-links">Learn about your <a href="{base}/earth/the-inner-critic">Inner Critic</a>, practice some  <a href="{base}/earth/kindness-to-self">Kindness to Self</a>, find your <a href="{base}/earth/path-to-the-heart">Path to the Heart</a> or explore more of the <a href="{base}/earth">Earth Element</a>.</p>
   </section>
 </main>
 <Journal {...journalData} />

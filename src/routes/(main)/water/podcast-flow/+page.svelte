@@ -49,6 +49,8 @@
     </div>
     <br>
     <p>These vivacious and creative twins share their discoveries about being in flow and out of flow. Gray offers a simple practice to develop some inner flow and flexibility.<br></p>
+    <hr>
+    <p class="continue-links light">Try <a href="{base}/water/water-meditation">Water Meditation</a>, practice the <a href="{base}/water/art-of-listening">Art of Listening</a>, enjoy the <a href="{base}/water/sharing-water">Visions of Water</a> or explore more of the <a href="{base}/water">Water Element</a>.</p>
   </section>
   <section class="creator-bio">
     <h3>About the Hosts</h3>

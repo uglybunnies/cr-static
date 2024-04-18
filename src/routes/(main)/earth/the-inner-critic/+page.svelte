@@ -28,7 +28,7 @@
 <svelte:head>
   <title>Earth: The Inner Critic</title>
 </svelte:head>
-<main class="content-page"  style="--element-bg: linear-gradient(90deg, hsla(45,75%,80%,0), hsla(45,75%,80%,0.85) 15%, hsla(45,75%,80%,0.85) 45%, hsla(45,75%,80%,0) 85%) 0 0/48em auto no-repeat, url({base}/assets/earth/earth_10.jpg) 0 0/100% auto fixed no-repeat; --element-mob-bg: linear-gradient(hsla(45,75%,80%, .5),hsla(45,75%,80%, .5)), url({base}/assets/earth/earth_10.jpg) 0 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--dark-neutral); --element-color: 85, 90%, 26%; --subtitle-color: 85, 136%, 40%; --cs1: 265, 100%, 50%; --cs2: 175, 100%, 50%; --cs3: 360, 100%, 50%; --cs4: 25, 100%, 50%;">
+<main class="content-page"  style="--element-bg: linear-gradient(90deg, hsla(45,75%,80%,0), hsla(45,75%,80%,0.85) 15%, hsla(45,75%,80%,0.85) 45%, hsla(45,75%,80%,0) 85%) 0 0/48em auto no-repeat, url({base}/assets/earth/earth_10.jpg) 0 0/100% auto fixed repeat; --element-mob-bg: linear-gradient(hsla(45,75%,80%, .5),hsla(45,75%,80%, .5)), url({base}/assets/earth/earth_10.jpg) 0 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--dark-neutral); --element-color: 85, 90%, 26%; --subtitle-color: 85, 136%, 40%; --cs1: 265, 100%, 50%; --cs2: 175, 100%, 50%; --cs3: 360, 100%, 50%; --cs4: 25, 100%, 50%;">
   <!-- use the banner for the excercise title and description -->
   <section class="banner">
     <h2>The Inner Critic</h2>
@@ -55,9 +55,12 @@
         <span class="runtime">11:36</span>
       </div>
       <p><small>Audio presentation by Christine Longaker</small></p>
+
+      <hr>
+      <p class="continue-links light">Learn about <a href="{base}/earth/quieting-inner-critic">Quieting the Inner Critic</a>, try <a href="{base}/earth/self-hypnosis">Self Hypnosis</a>, practice some  <a href="{base}/earth/kindness-to-self">Kindness to Self</a> or explore more of the <a href="{base}/earth">Earth Element</a>.</p>
   </section>
   <section class="creator-bio">
-    <p>Christine Longaker is the author of Facing Death and Finding Hope which is translated into nine languages. She offers international training about resilience and self-compassion.</p>
+    <p>Christine Longaker is the author of <em>Facing Death and Finding Hope</em> which is translated into nine languages. She offers international training about resilience and self-compassion.</p>
   </section>
 </main>
 <Journal {...journalData} />

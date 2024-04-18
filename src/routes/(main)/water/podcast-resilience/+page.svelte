@@ -48,11 +48,14 @@
 
         Let the natural rhythm of the day<br>
         remind you to pace yourself.<br>
-        Rise up with with the sun<br>
+        Rise up with the sun<br>
         and settle down with the moon.
       </blockquote>
       <figcaption>&mdash;M. H. Nichols</figcaption>
     </figure>
+    <hr>
+    <p class="continue-links light">Meet the <a href="{base}/water/voice-of-water">Voice of Water</a>,
+      try <a href="{base}/water/water-meditation">Water Meditation</a>, learn about <a href="{base}/water/finding-flexibility">Finding Flexibility</a> or explore more of the <a href="{base}/water">Water Element</a>.</p>
   </section>
   <section class="creator-bio">
     <h3>About the Hosts</h3>

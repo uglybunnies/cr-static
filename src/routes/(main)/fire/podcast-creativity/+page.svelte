@@ -46,6 +46,8 @@
     </div>
     <br>
     <p>In a podcast Lily and Gray explore the topic of creativity. They discuss the pressure that comes with creating something supposedly good and the vulnerabilities of sharing their creations with others. They further discuss how they temper their mind’s critic through the practice of self-love, relaxed discipline and playfulness. They also talk about the challenges they face while learning to live in this creative state as they endeavor to stay open to the wave of inspiration.<br></p>
+    <hr>
+    <p class="continue-links light">Try the <a href="{base}/fire/fire-meditation">Fire Meditation</a>, enjoy the <a href="{base}/fire/sharing-fire">Passion of Fire</a>, try to <a href="{base}/fire/stop-obsessive-thinking">Stop  Obsessive Thinking</a> or explore more of the <a href="{base}/fire">Fire Element</a>.</p>
   </section>
   <section class="creator-bio">
     <h3>About the Hosts</h3>

@@ -5,16 +5,16 @@
   <title>Meet the Guardians and Elements</title>
 </svelte:head>
 <main class="info-page">
-  <section class="introduction" style="--copy-color: var(--light-color);">
-    <h2>Meet the Guardians and Elements</h2>
+  <section class="introduction"  style="--copy-color: var(--light-color); --element-color: var(--copy-color);">
+    <h2 style="--h2-font-size: var(--h4-font-size);">Meet the Guardians and Elements</h2>
     <p>
-      From butterflies to human beings and computers to spinach--everything in our world is made of the five elements: earth, water, wind, fire and space. For centuries different cultures have recognized their importance and have used the elements as a key to unlocking self-mastery, healing and balancing disruptive circumstances. When the body’s elements are in balance, we experience physical and emotional well-being. When the elements on earth are balanced peace and harmony can reign. The five elements are ever giving and always there to connect with and serve us.
+      From butterflies to human beings and computers to spinach--everything in our world is made of the five elements: earth, water, wind, fire and space. For centuries different cultures have recognized their importance and have used the elements as a key to unlocking self-mastery, healing and balancing disruptive circumstances. When the body’s elements are in balance, we experience physical and emotional well-being. When the elements on earth are balanced, peace and harmony can reign. The five elements are ever giving and always there to connect with and serve us.
     </p>
 
-    <p>Many traditions represent these wondrous elements with form, color and symbolism. Here we are using the five dakinis from the tibetan buddhist tradition. This tradition originated  high in the majestic snow-clad himalayan mountains and still lives on today. These five dakinis embody the wisdom qualities of each element and are revered and called upon to guide and assist with their action and dynamic energies. On this web site we refer to the five elemental dakinis as the Guardians and use their images painted by Tara di Gesu throughout the site.Their sanskrit names are as follows.</p>
+    <p>Many traditions represent these wondrous elements with form, color and symbolism. Here we are using the five dakinis from the Tibetan Buddhist tradition. This tradition originated  high in the majestic snow-clad Himalayan mountains and still lives on today. These five dakinis embody the wisdom qualities of each element and are revered and called upon to guide and assist with their action and dynamic energies. On this web site we refer to the five elemental dakinis as the Guardians and use their images painted by Tara di Gesu throughout the site.Their sanskrit names are as follows.</p>
 
+    <div class="down-ctl static"><a href="#spaceGuardian" class="scroll-ctl"><span>Scroll down</span></a></div>
   </section>
-<div class="down-ctl"><a href="#spaceGuardian" class="scroll-ctl"><span>Scroll down</span></a></div>
   <section id="spaceGuardian" class="element right-side" style="--bgImage: linear-gradient(270deg, hsla(0,0%, 0%, 1), hsla(0, 0%, 0%, 0) 40%), url({base}/assets/space/space_dakini_home_bg.webp) 0 0/100% auto no-repeat; --mobBg: url({base}/assets/space-mandala.webp) 50% -7%/ 75% auto no-repeat; --copy-color: var(--light-color);">
     <p>The guardian of <i>Space</i> is Dhatishvari. <i>Space</i> is infinitely vast yet welcoming,
       a boundless skyscape where all is possible.
@@ -79,6 +79,17 @@
   </section>
 </main>
 <style>
+.down-ctl.static {
+  height: 1em;
+  position: relative;
+}
+.down-ctl.static .scroll-ctl  {
+  position: relative;
+  margin-top: 0;
+}
+.down-ctl.static .scroll-ctl::after  {
+  line-height: .5em;
+}
 .down-ctl {
   text-align: center;
 }
@@ -88,14 +99,19 @@
     text-shadow: .2em -.125em .15em hsl(var(--dark-neutral)), 0 0 .125em hsl(var(--dark-neutral));
     animation: none;
     overflow: hidden;
+    display: block;
+    height: 2em;
+    margin-top: -2em;
   }
   .scroll-ctl::after {
     display: inline-block;
     position: relative;
     content: '\203A';
     font-size: 4em;
+    line-height: .5em;
     transform: rotate(90deg);
     transform-origin: center;
+    margin-bottom: -1em;
   }
   .scroll-ctl > span {
     display: block;

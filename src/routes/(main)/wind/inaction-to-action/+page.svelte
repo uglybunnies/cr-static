@@ -27,7 +27,7 @@
 <svelte:head>
   <title>Wind: Changing Inaction to Action</title>
 </svelte:head>
-<main class="content-page center"  style="--grad-color: 170, 50%, 95%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),0),hsla(var(--grad-color),0.2) 10%, hsla(var(--grad-color),0.3) 20%,hsla(var(--grad-color),0.5) 50%, hsla(var(--grad-color),0.3) 90%, hsla(var(--grad-color),0) 100%) 0 0/100% auto no-repeat, url({base}/assets/wind/wind-landscape.webp) 0 0/100% auto fixed no-repeat; --element-mob-bg: linear-gradient(180deg, hsla(var(--grad-color),0.2), hsla(var(--grad-color),0.5) 25%, hsla(var(--grad-color),0.9)), url({base}/assets/wind/wind-landscape.webp) 72% 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--light-color); --element-color: 319, 80%,33%; --subtitle-color: 319, 80%, 40%; background-blend-mode: lighten; --cs2: 310, 100%, 50%; --cs1: 360, 75%, 60%;">
+<main class="content-page center"  style="--grad-color: 170, 50%, 95%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),0),hsla(var(--grad-color),0.2) 10%, hsla(var(--grad-color),0.3) 20%,hsla(var(--grad-color),0.5) 50%, hsla(var(--grad-color),0.3) 90%, hsla(var(--grad-color),0) 100%) 0 0/100% auto no-repeat, url({base}/assets/wind/wind-landscape.webp) 0 0/100% auto fixed repeat; --element-mob-bg: linear-gradient(180deg, hsla(var(--grad-color),0.2), hsla(var(--grad-color),0.5) 25%, hsla(var(--grad-color),0.9)), url({base}/assets/wind/wind-landscape.webp) 72% 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--light-color); --element-color: 319, 80%,33%; --subtitle-color: 319, 80%, 40%; background-blend-mode: lighten; --cs2: 310, 100%, 50%; --cs1: 360, 75%, 60%;">
   <!-- use the banner for the excercise title and description -->
   <section class="banner">
     <h2>Changing Inaction to Action</h2>
@@ -66,6 +66,12 @@
 <p>The trick to this list is that you pause after you've checked off a list item and allow yourself to feel good about your accomplishment, even though it may have been a small thing. Don't make any task trite or demean yourself ever. Demeaning freezes one emotionally and causes inaction and procrastination.</p>
 
 <p>You do not need to feel like doing what is on the list. As long as you begin, do one task, complete it and feel satisfied, you are changing an unconscious pattern. As you continue you will notice that when you change your focus and follow with action your emotional state begins to change as well. Here, with a very simple technique, you are recreating the cycle of thought connecting to action.</p>
+
+<hr>
+<p class="continue-links light">
+  Continue with <a href="{base}/wind/creating-new-pathways">Creating New Pathways</a>, 
+listen to the <a href="{base}/wind/podcast-freedom">Freedom Podcast</a>, learn about <a href="{base}/wind/changing-your-mood">Changing Your Mood</a> or explore more of the <a href="{base}/wind">Wind Element</a>.
+</p>
   </section>
 </main>
 <Journal {...journalData} />

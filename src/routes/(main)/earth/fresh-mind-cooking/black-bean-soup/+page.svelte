@@ -82,7 +82,7 @@
 
 <h3>Jam Milk</h3>
 <ul class="clean-list">
-  <li>1 cup milk or dairy free</li>
+  <li>1 cup milk or dairy-free drink</li>
   <li>1 tablespoon jam</li>
 </ul>
 <br>

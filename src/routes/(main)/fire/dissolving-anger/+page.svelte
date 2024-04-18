@@ -27,9 +27,9 @@
 <svelte:head>
   <title>Fire: Dissolving Anger</title>
 </svelte:head>
-<main class="content-page center"  style="--grad-color: 25, 100%, 90%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),0),hsla(var(--grad-color),0.2) 10%, hsla(var(--grad-color),0.6) 20%,hsla(var(--grad-color),0.8) 50%, hsla(var(--grad-color),0.6) 90%, hsla(var(--grad-color),0) 100%) 0 /100% auto no-repeat, url({base}/assets/fire/dissolving-anger-bg.webp) 0 35%/100% auto fixed no-repeat; --element-mob-bg: linear-gradient(hsla(var(--grad-color), .6), hsla(var(--grad-color), .6)), url({base}/assets/fire/dissolving-anger-bg.webp) 50% 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--light-color); --element-color: 25, 100%, 45%; --subtitle-color: 25, 100%, 50%; --cs1: 218, 45%, 33%; --cs2: 218, 45%, 75%">
+<main class="content-page center"  style="--grad-color: 25, 100%, 90%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),0),hsla(var(--grad-color),0.2) 10%, hsla(var(--grad-color),0.6) 20%,hsla(var(--grad-color),0.8) 50%, hsla(var(--grad-color),0.6) 90%, hsla(var(--grad-color),0) 100%) 0 /100% auto no-repeat, url({base}/assets/fire/dissolving-anger-bg.webp) 0 35%/100% auto fixed repeat; --element-mob-bg: linear-gradient(hsla(var(--grad-color), .6), hsla(var(--grad-color), .6)), url({base}/assets/fire/dissolving-anger-bg.webp) 50% 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--light-color); --element-color: 25, 100%, 45%; --subtitle-color: 25, 100%, 50%; --cs1: 218, 45%, 33%; --cs2: 218, 45%, 75%">
   <section class="banner">
-    <h2>Dissolving Anger</h2>
+    <h2>Dissolving Anger <small>1:00</small></h2>
     <p class="subtitle shiftgrad">
       <span>How To Deal With Anger—A True Story</span>
     </p>
@@ -43,7 +43,7 @@
 
     <p>The boy followed the advice and came in later that week after school and told his mother, “Mom, this really works. I am not angry anymore and I can open the gate by myself!”</p><br>
     <h3>
-      Three Steps to Dissolve Anger as Taught by Thinley Norbu Rinpoche <small>1:00</small>
+      Three Steps to Dissolve Anger as Taught by Thinley Norbu Rinpoche
     </h3>
 <ol>
   <li>Take your mind off the object of your anger, whoever or whatever it may be.</li>
@@ -52,6 +52,12 @@
   <li>Whoever or whatever you are angry with is like a magnet. It will pull you back again and again. Resist this as much as possible. Come back to watching, again and again. As you do this practice you will begin to feel emotionally and mentally lighter and lighter.</li>
 </ol>
 <p>You can use this meditation technique with any passion, such as sorrow, irritation, fear, jealousy and so on.</p>
+
+<hr>
+<p class="continue-links light">
+  Try the <a href="{base}/fire/fire-meditation">Fire Meditation</a>, meet to the <a href="{base}/fire/voice-of-fire">Voice of Fire</a>, try to <a href="{base}/fire/stop-obsessive-thinking">Stop  Obsessive Thinking</a>
+or explore more of the <a href="{base}/fire">Fire Element</a>.
+</p>
   </section>
 </main>
 <Journal {...journalData} />

@@ -4,7 +4,7 @@
   import JournalButton from '$lib/components/JournalButton.svelte';
   export let journalData = {
     questions: [
-      'What do you enjoy obsessing about? video games, politics, diets, neighbors?',
+      'What do you obsess about? Video games, politics, diets, neighbors?',
       'List 5 things you worry about and note whether any of them are no longer relevant and merely lingering from the past?',
       'What worries or obsessions are getting in the way of your productivity?'
     ],
@@ -27,7 +27,7 @@
 <svelte:head>
   <title>Fire: Stop Obsessive Thinking</title>
 </svelte:head>
-<main class="content-page center"  style="--grad-color: 221, 97%, 33%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),.66), hsla(var(--grad-color),.8),hsla(var(--grad-color),.66)), url({base}/assets/fire/stop-obsessive-thinking-bg.webp) 0 85%/100% auto fixed no-repeat; --element-mob-bg: linear-gradient(hsla(var(--grad-color), .5), hsla(var(--grad-color), .5)),url({base}/assets/fire/stop-obsessive-thinking-bg.webp) 43% 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--light-color); --element-color: 200, 100%, 80%; --subtitle-color: 200, 100%, 90%; --copy-color: var(--light-color); background-blend-mode: saturation, normal;">
+<main class="content-page center set-to-aspect4-3"  style="--grad-color: 221, 97%, 33%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),.66), hsla(var(--grad-color),.8),hsla(var(--grad-color),.66)), url({base}/assets/fire/stop-obsessive-thinking-bg.webp) 0 85%/100% auto fixed no-repeat; --element-mob-bg: linear-gradient(hsla(var(--grad-color), .5), hsla(var(--grad-color), .5)),url({base}/assets/fire/stop-obsessive-thinking-bg.webp) 43% 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--light-color); --element-color: 200, 100%, 80%; --subtitle-color: 200, 100%, 90%; --copy-color: var(--light-color); background-blend-mode: saturation, normal; --bg-size-4-3:100% auto; --bg-pos-4-3: 0 0;">
   <section class="banner">
     <h2>Stop Obsessive Thinking</h2>
     <p class="subtitle">
@@ -61,6 +61,12 @@
 
   </div>
       <p>If you experiment with shrinking and moving images into space that are bothering you, you will feel a great relief and breathe easier. You can use this exercise anytime no matter where you are or what you are doing.</p>
-  </section>
+<hr>
+<p class="continue-links">
+  Enjoy the <a href="{base}/fire/sharing-fire">Passion of Fire</a>, 
+try the <a href="{base}/fire/fire-meditation">Fire Meditation</a>,
+learn about <a href="{base}/fire/dissolving-anger">Dissolving Anger</a> or explore more of the <a href="{base}/fire">Fire Element</a>.
+</p>
+    </section>
 </main>
 <Journal {...journalData} />

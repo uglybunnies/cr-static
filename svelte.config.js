@@ -15,7 +15,7 @@ const config = {
     }),
     paths: {
       relative: false,
-      base: dev ? '' : '/prototype',
+      base: dev ? '' : '',
     }
   }
 }

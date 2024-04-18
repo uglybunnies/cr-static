@@ -4,8 +4,8 @@
   import JournalButton from '$lib/components/JournalButton.svelte';  export let journalData = {
     questions: [
       'How far can you let your sense of inner space expand and what happens when you do that?',
-      'How many stars are in the sky? How many thoughts in your mind? Try setting a timer for one minute and count your thoughts, what is your count?',
-      'This simple Zen meditation technique is said to offer surprising results. To explore, do as follows: Contract yourself into the tiniest particle imaginable and stay there some moments. Now what do you find?'
+      'How many stars are in the sky? How many thoughts in your mind? Try setting a timer for one minute and count your thoughts. What is your count?',
+      'This simple Zen meditation technique is said to offer surprising results. To explore this, do as follows: Contract yourself into the tiniest particle imaginable and stay there some moments. Now what do you find?'
     ],
     title: 'Space Meditation',
     bgColor: 'hsl(70, 100%, 0%)',
@@ -59,8 +59,12 @@
       </figcaption> -->
     </figure>
     <br><br>
-    <p>As you move on remember the sky within and let it become the playground for your thoughts — the stars in your inner sky.</p>
+    <p>As you move on, remember the sky within and let it become the playground for your thoughts -- the stars in your inner sky.</p>
     <br><br>
+    <hr>
+    <p class="continue-links">
+      Meet the <a href="{base}/space/voice-of-space">Voice of Space</a>, try <a href="{base}/space/letting-go">Letting Go</a>, enjoy the <a href="{base}/space/sharing-space">Beauty of Space</a> or explore more of the <a href="{base}/space">Space Element</a>.
+    </p>
   </section>
 </main>
 <Journal {...journalData} />

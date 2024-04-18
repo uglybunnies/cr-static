@@ -31,7 +31,7 @@
 <main class="content-page center"  style="--grad-color: 240, 10%, 80%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),0),hsla(var(--grad-color),0.2) 10%, hsla(var(--grad-color),0.4) 20%,hsla(var(--grad-color),0.6) 50%, hsla(var(--grad-color),0.4) 90%, hsla(var(--grad-color),0) 100%) 0 0/100% auto no-repeat, url({base}/assets/earth/earth_dakini_section_overlay.png) 0 33%/cover fixed no-repeat; --element-mob-bg: linear-gradient(90deg, hsla(var(--grad-color), .1),hsla(var(--grad-color), .5) 25%,hsla(var(--grad-color), .5) 75%,hsla(var(--grad-color), .1) ), url({base}/assets/earth/earth_dakini_section_overlay.png) 0 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9); --desc-copy-color: var(--light-color); --element-color: 50, 50%, 75%; --subtitle-color: 50, 60%, 90%; --cs1: 210, 100%, 75%; --cs2: 250, 100%, 80%;">
   <!-- use the banner for the excercise title and description -->
   <section class="banner">
-    <h2>Self Hypnosis</h2>
+    <h2>Self Hypnosis <small>4:00</small></h2>
     <p class="subtitle shiftgrad">
       <span>Accomplish New Goals</span>
     </p>
@@ -45,7 +45,7 @@
     <p><small>Audio presentation by Sandra Scales, Ph. D.</small></p>
       <h3>Have You Ever Tried to Hypnotize Yourself?</h3>
       <p>
-        Here is a brief method for self-hypnosis which can help you relax, accomplish new goals, change habits and increase performance. Learn with audio and read below.
+        Here is a brief method for self-hypnosis which can help you relax, accomplish new goals, change habits and increase performance. Learn with the audio or read below.
       </p>
       <h4>To Begin</h4>
       <p>Find one goal that is important and is not in the category of major life change. It is best to start small and get used to the process and then increase your goals.</p>
@@ -80,6 +80,10 @@
       </ul>
       <p>
         As you get used to the process it will become quite natural and you can continue with more significant goals.
+      </p>
+      <hr>
+      <p class="continue-links">
+        Try the <a href="{base}/earth/grounding-meditation">Grounding Meditation</a>, find your <a href="{base}/earth/path-to-the-heart">Path to the Heart</a>, learn about the <a href="{base}/earth/art-workshop">Art Workshop</a> or explore more of the <a href="{base}/earth">Earth Element</a>.
       </p>
   </section>
 </main>

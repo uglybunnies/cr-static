@@ -108,7 +108,7 @@ Share your personal mood-shifting story here.
       {
         type: 'slide',
         title: '<h2>Power of a Smile</h2>',
-        desc: '<p>This is something I have done to break out of my inward darkness: I go out walking and allow myself to make contact, eye contact - and smile. Just that. No one counting 123, no need for conversation and not just an upward arc of a few muscles at the corner of the mouth, but a full face smile. By just raising my eyebrows a weight is lifted and that transforms a smile belied by unhappy eyes to a genuine expression and an avenue to humane connection. Not always offered a smile in return but when I happens it is truly a gift, the circle is complete and there is a little light to show the way.</p><p><small>—Stefan</small></p>',
+        desc: '<p>When I’m deep in my inner darkness, here is a method I use as an antidote. I go out walking and allow myself to make eye contact with someone—and  smile, not just an upward arc of a few muscles of the corner of my mouth, but a full face smile. There is no need to converse. I keep my eyes wide open and by raising my eyebrows,  my unhappy eyes are transformed as I  smile with a genuine expressions of openness. A weight is lifted by this simple avenue of human connection. Though I may not be offered a smile in return, sometimes when someone smiles back, it is truly a gift, a circle completed. Then there is a little light to show the way.</p><p><small>—Stefan</small></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -123,6 +123,20 @@ Share your personal mood-shifting story here.
         type: 'slide',
         title: '<h2>The Power of Words</h2>',
         desc: '<p>When I\'m feeling alone, I read the words of my favorite poets. Their words resonate with my soul, creating a connection with me. Connection means everything to me and takes away my aloneness. For me, words have immense power. And beautiful words have the power to change the way I see and the way I feel.</p><p><small>—Julie</small></p>',
+        slideMedia: '',
+        slideMediaFallback: '',
+        thumb: '',
+        thumbFallback: '',
+        alt:'',
+        bgSettings: 'radial-gradient(hsla(300, 100%, 7%, 7), hsla(300, 100%, 2%, .2)), hsl(255, 0%, 0%)',
+        copyColor: 'var(--light-color)',
+        fontWeight: '300',
+      },
+
+      {
+        type: 'slide',
+        title: '<h2>Other Wind Pages</h2>',
+        desc: '<p><a href="../inaction-to-action">Inaction to Action</a><br><a href="../generosity-and-the-brain">Generosity and the Brain</a><br><a href="../creating-new-pathways">Creating New Pathways</a><br><a href="../">Return to Wind</a></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -178,7 +192,7 @@ Share your personal mood-shifting story here.
 <svelte:head>
   <title>Wind: Changing Your Mood</title>
 </svelte:head>
-<main on:click={updateSlides} class="content-page bleed shorten"  style="--grad-color:240, 100%, 95%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color), 0), hsla(var(--grad-color), 0) 5%, hsla(var(--grad-color), 0) 50%, hsla(var(--grad-color), 0) 75%), url({base}/assets/wind/changing-mood-bg2.webp) 0% 50%/100% auto no-repeat fixed;--element-mob-bg: linear-gradient(180deg, hsla(var(--grad-color), 0) 33%, hsla(var(--grad-color), .9)), url({base}/assets/wind/changing-mood-bg2.webp) 0 0/auto 120vh repeat scroll;  --element-color:240, 50%, 50%; --subtitle-color:240, 50%, 60%; --cs1: 80, 100%, 60%; --cs2: 40, 100%, 60%;">
+<main on:click={updateSlides} class="content-page bleed shorten"  style="--grad-color:240, 100%, 95%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color), 0), hsla(var(--grad-color), 0) 5%, hsla(var(--grad-color), 0) 50%, hsla(var(--grad-color), 0) 75%), url({base}/assets/wind/changing-mood-bg2.webp) 0% 0%/100% auto repeat fixed;--element-mob-bg: linear-gradient(180deg, hsla(var(--grad-color), 0) 33%, hsla(var(--grad-color), .9)), url({base}/assets/wind/changing-mood-bg2.webp) 0 0/auto 120vh repeat scroll;  --element-color:240, 50%, 50%; --subtitle-color:240, 50%, 60%; --cs1: 80, 100%, 60%; --cs2: 40, 100%, 60%;">
 
   <section class="exercise top-layer">
     <h2>Easy Ways to Change Your Mood</h2>

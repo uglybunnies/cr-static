@@ -24,7 +24,7 @@
       {
         type: 'slide',
         title: '<h2>Sharing the Passion of Fire</h2>',
-        desc: '<p>In this space we share creations and practices related to the fire element which evoke passion to continue doing what you love to do. You are welcome to send your creative expressions such as photos (below 5MB), short poems, art work, short prose and short videos (up to 2 minutes). Please mention your location.<br><br></p><p>Send to:<br> creativeresilience@khyentsefoundation.org</p>',
+        desc: '<p>In this space we invite you to share how you relate to the fire element. You can send your creative expressions of fire such as photos (below 5MB), short poems, artwork and short videos (up to 2 minutes). Please mention your location.<br><br></p><p>Send to:<br> <a href="mailto:creativeresilience@khyentsefoundation.org">creativeresilience@khyentsefoundation.org</a></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -43,45 +43,6 @@
         thumb:`${base}/assets/fire/sharing-fire/fire_dakin_tara_di_gesu_360_th.webp`,
         thumbFallback:`${base}/assets/fire/sharing-fire/fire_dakin_tara_di_gesu_th.jpg`,
         alt:'Thumbnail of a Fire Dakini painting by Tara di Gesu',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Video by Rohita Singh. Australia',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/519338095?h=f23cd3965f',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/fire/sharing-fire/fire-dance-video_360_th.webp`,
-        thumbFallback:`${base}/assets/fire/sharing-fire/fire-dance-video_th.jpg`,
-        alt:'Still capture from Rohita Singh\'s video ',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Video by Julien Ducret. France.',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/517810096?h=f23cd3965f',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/fire/sharing-fire/fire-sand-painting_360_th.webp`,
-        thumbFallback:`${base}/assets/fire/sharing-fire/fire-sand-painting_th.jpg`,
-        alt:'Still capture from Julien Ducret\'s video ',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Video by Jonathan Matas. India.',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/510537867?h=f23cd3965f',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/fire/sharing-fire/nourishing-fire-video_360_th.webp`,
-        thumbFallback:`${base}/assets/fire/sharing-fire/nourishing-fire-video_th.jpg`,
-        alt:'Still capture from Jonathan Matas\' video ',
         bgSettings: '',
         copyColor: '',
         fontWeight: '',
@@ -178,6 +139,45 @@
         fontWeight: '',
       },
       {
+        type: 'video',
+        title: 'Video by Rohita Singh. Australia',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/519338095?h=f23cd3965f',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/fire/sharing-fire/fire-dance-video_360_th.webp`,
+        thumbFallback:`${base}/assets/fire/sharing-fire/fire-dance-video_th.jpg`,
+        alt:'Still capture from Rohita Singh\'s video ',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
+        type: 'video',
+        title: 'Video by Julien Ducret. France.',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/517810096?h=f23cd3965f',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/fire/sharing-fire/fire-sand-painting_360_th.webp`,
+        thumbFallback:`${base}/assets/fire/sharing-fire/fire-sand-painting_th.jpg`,
+        alt:'Still capture from Julien Ducret\'s video ',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
+        type: 'video',
+        title: 'Video by Jonathan Matas. India.',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/510537867?h=f23cd3965f',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/fire/sharing-fire/nourishing-fire-video_360_th.webp`,
+        thumbFallback:`${base}/assets/fire/sharing-fire/nourishing-fire-video_th.jpg`,
+        alt:'Still capture from Jonathan Matas\' video ',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
         type: 'slide',
         title: '<h3 class="subtitle">Other Fire Pages</h3>',
         desc: '<p><a href="../">Return to Fire</a><br><a href="../voice-of-fire">The Voice of Fire</a><br><a href="../dissolving-anger">Dissolving Anger</a><br><a href="../fire-meditation">Fire Meditation</a></p>',
@@ -194,11 +194,42 @@
   };
   let count = slideData.slides.length;
   let zoomed = false;
+  let playing = false;
+  let manualOff = false;
 
   onMount(() => {
     window.location.assign('#slide-1');
   });
+ 
+  function controlMusic(event) {
+    let music = document.getElementById('ambient');
+    let speaker = document.getElementById('audioCtl');
+    let manual = speaker === event.target;
+    if (manual) {
+      event.preventDefault();
+      if(!playing && manualOff) {
+        manualOff = !manualOff;
+      }
+    }
 
+    if (manualOff) return;
+    if (playing) {
+      music.pause();
+      playing = !playing;
+      speaker.classList.add('stopped');
+      if (manual) {
+        manualOff = !manualOff;
+      }
+    }
+    else {
+      music.play()
+      playing = !playing;
+      speaker.classList.remove('stopped');
+      if (!manual) {
+        manual = !manualOff;
+      }
+    }
+  }
   function updateSlides(event) {
     let target = event.target;
     let link = target.closest('a');
@@ -216,6 +247,7 @@
       // determine if an image is zoomed (only one at a time should be possible)
       let zoomedImg = document.querySelector('.media-image[style]');
 
+
       // reset the image zoom if a zoomed image is found
       if (zoomedImg) {
         zoomedImg.removeAttribute('style');
@@ -229,6 +261,17 @@
       // prev should be the slide before the current or set to the last slide if 
       // the first slide is showing
       prev.href = (slideIndex < 2)? `#slide-${count}` : `#slide-${slideIndex - 1}`;
+            
+      if (link.classList.contains('slide-nav') || link.classList.contains('slide')) {
+        let slide = document.getElementById(link.href.split('#')[1]);
+        let slideType = slide?.classList.contains('image');
+        if (slideType && !playing) {
+          controlMusic(event);
+        }
+        if(!slideType && playing) {
+          controlMusic(event);
+        }
+      }
     }
   }
 </script>
@@ -238,4 +281,9 @@
 <main on:click={updateSlides} class="content-page bleed no-pad"  style="--grad-color: 25, 100%, 50%; --element-bg: linear-gradient(hsla(var(--grad-color), .5), hsla(60, 51%, 50%, .7)), url({base}/assets/fire/sharing-fire-bg.webp) 0% 0%/100% auto no-repeat fixed; --element-mob-bg: linear-gradient(hsla(var(--grad-color), .5), hsla(60, 51%, 50%, .7)), url({base}/assets/fire/sharing-fire-bg.webp) 0 0/auto 100vh repeat scroll; --element-color: 211, 85%, 26%; background-blend-mode: hard-light, normal;">
   <Slides {...slideData}/>
   <Gallery {...slideData} />
+  <a href="#ambient" id="audioCtl" class="gallery-audio-ctl sound-ctl stopped" on:click={controlMusic}></a>
+  <audio loop id="ambient">
+    <source src="{base}/assets/fire/sharing-fire/fire_The_Biggest_Treasure.mp3" type="audio/mpeg">
+  
+    </audio>
 </main>

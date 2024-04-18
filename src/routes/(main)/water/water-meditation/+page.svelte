@@ -45,7 +45,7 @@
           &nbsp;&nbsp;&nbsp;Clear colors<br> 
           &nbsp;&nbsp;&nbsp;Soothing sounds<br><br>
           
-          Loose yourself for a time<br>
+          Lose yourself for a time<br>
           Then return renewed
         </p>
         <p class="nudge-up">
@@ -53,7 +53,7 @@
 Falling on clear pools <br><br>
 
 See each drop circle out and out <br>
-Let your self be like the rain drop <br>
+Let yourself be like the rain drop <br>
 Circling out in the clear pool of your mind <br>
         </p>
       </blockquote>
@@ -61,6 +61,8 @@ Circling out in the clear pool of your mind <br>
         &mdash;
       </figcaption> -->
     </figure>
+    <hr>
+    <p class="continue-links light">Meet the <a href="{base}/water/voice-of-water">Voice of Water</a>, enjoy the <a href="{base}/water/sharing-water">Visions of Water</a>, listen to the <a href="{base}/water/podcast-flow">Flow Podcast</a> or explore more of the <a href="{base}/water">Water Element</a>.</p>
   </section>
 
 </main>

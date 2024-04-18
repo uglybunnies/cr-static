@@ -230,7 +230,7 @@
       questions: [
         'What does being grounded mean to you?',
         'What hidden emotions came to light and dissipated as you did this healing meditation?',
-        'If, in the midst of a busy and stressful day, you pause for a moment, relax your body and breathe deeply, how does that affect your immediate experience?'
+        'If, in the midst of a busy and stressful day, if you pause for a moment, relax your body and breathe deeply, how does that affect your immediate experience?'
       ],
       title: 'Grounding Meditation',
       url: 'earth/grounding-meditation'
@@ -294,20 +294,23 @@
 <svelte:head>
 <title>Creative Resilience: Explore Your Experience</title>
 </svelte:head>
-<main class="content-page center" style="--element-bg: hsl(var(--dark-color)); --element-mob-bg: hsl(var(--dark-color)); --copy-color: var(--light-color);">
-  <section>
-    <h2>Explore Your Experience</h2>
-    <p>If any of these questions speak to you… ponder them, write in your journal or share with a friend, as you like.</p>
+<main class="content-page center journals" style="--element-bg: hsl(var(--dark-color)); --element-mob-bg: hsl(var(--dark-color)); --copy-color: var(--light-color); --element-color: var(--copy-color);">
+  <section class="introduction">
+    <h2 style="--h2-font-size: var(--h4-font-size);">Explore Your Experience</h2>
+    <p>Our team created an open model of journaling to deepen the experience  of the exercises and also create new connections to the inner and outer 5 elements. Each exercise has three journal questions to help discover unique potentials within and retrieve aspects of ourselves we may have neglected or simply forgotten along the way. This gathering of self awareness rekindles life energy and leads us along the road towards mastering our own mind and emotions.</p> 
+
+    <p>There are no rules for how to use these questions.You may want to try quick jots, engage in thorough journaling or dare to create memes or hashtags on social media. Many have found it fun to exchange answers with a friend, partner or their children. However you play here, be free, spontaneous and enjoy.</p>
+    
   </section>
-  {#each journalSections as section}
-    <section class="all-journal-questions">
-      <h3><a href="{base}/{section.url}">{section.title}</a></h3>
-      <ul class="journal-questions" style="--journal-bullets: var(--link-color);">
+  <section class="all-journal-questions">
+    {#each journalSections as section}
+      <p><a href="{base}/{section.url}">{section.title}</a></p>
+      <!-- <ul class="journal-questions" style="--journal-bullets: var(--link-color);">
       {#each  section.questions as question}
         <li>{question}</li>
       {/each}
-    </ul>
-    </section>
+      </ul> -->
   {/each}
-  <br><br>
+</section>
+<br><br>
 </main>

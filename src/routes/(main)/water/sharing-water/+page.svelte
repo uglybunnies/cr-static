@@ -24,7 +24,7 @@
       {
         type: 'slide',
         title: '<h2>Sharing Visions of Water</h2>',
-        desc: '<p>Here in this space we share our visions of water. Please feel free to send short poems, artwork, brief writings, photos (below 5MB) or short videos (up to 2 minutes)… relating to the essense of water. Please mention your location.<br><br></p><p>Send to:<br> creativeresilience@khyentsefoundation.org</p>',
+        desc: '<p>Here in this space we invite you to share your visions of water. Please feel free to send short poems, artwork, photos (below 5MB), or short videos (up to 2 minutes) relating to the essence of water. Please mention your location.<br><br></p><p>Send to:<br> <a href="mailto:creativeresilience@khyentsefoundation.org">creativeresilience@khyentsefoundation.org</a></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -43,32 +43,6 @@
         thumb:`${base}/assets/water/sharing-water/water_dakini_closeup_320_th.webp`,
         thumbFallback:`${base}/assets/water/sharing-water/water_dakini_closeup_th.jpg`,
         alt:'Thumbnail of a Water Dakini painting by Tara di Gesu',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Video by Marisa Pearson. France',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/517806361?h=5da8ddceff',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/water/sharing-water/water_marisa_pearson_france_320_th.webp`,
-        thumbFallback:`${base}/assets/water/sharing-water/water_marisa_pearson_france_th.jpg`,
-        alt:'Still capture from Marisa Pearson\'s Video',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Video by Noa Jones. Iceland',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/548311525?h=7642d44b14',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/water/sharing-water/water_noa_jones_iceland_320_th.webp`,
-        thumbFallback:`${base}/assets/water/sharing-water/water_noa_jones_iceland_th.jpg`,
-        alt:'Still capture from Noa Jones\' Video',
         bgSettings: '',
         copyColor: '',
         fontWeight: '',
@@ -131,8 +105,8 @@
         desc: 'A painting of a koi pond with several varieties of koi fish',
         slideMedia:`${base}/assets/water/sharing-water/water_minton_fish_in_water.webp`,
         slideMediaFallback: '',
-        thumb:`${base}/assets/water/sharing-water/water_marisa_pearson_france_320_th.webp`,
-        thumbFallback:`${base}/assets/water/sharing-water/water_marisa_pearson_france_th.jpg`,
+        thumb:`${base}/assets/water/sharing-water/water_minton_fish_in_water_320_th.webp`,
+        thumbFallback:`${base}/assets/water/sharing-water/water_minton_fish_in_water_th.jpg`,
         alt:'Thumbnail of Terrell Minton\'s painting',
         bgSettings: '',
         copyColor: '',
@@ -230,6 +204,32 @@
         fontWeight: '',
       },
       {
+        type: 'video',
+        title: 'Video by Marisa Pearson. France',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/517806361?h=5da8ddceff',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/water/sharing-water/water_marisa_pearson_france_320_th.webp`,
+        thumbFallback:`${base}/assets/water/sharing-water/water_marisa_pearson_france_th.jpg`,
+        alt:'Still capture from Marisa Pearson\'s Video',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
+        type: 'video',
+        title: 'Video by Noa Jones. Iceland',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/548311525?h=7642d44b14',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/water/sharing-water/water_noa_jones_iceland_320_th.webp`,
+        thumbFallback:`${base}/assets/water/sharing-water/water_noa_jones_iceland_th.jpg`,
+        alt:'Still capture from Noa Jones\' Video',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
         type: 'slide',
         title: '<h3 class="subtitle">Other Water Pages</h3>',
         desc: '<p><a href="../">Return to Water</a><br><a href="../voice-of-water">Voice of Water</a><br><a href="../art-of-listening">The Art of Listening</a><br><a href="../finding-flexibility">Finding Flexibility</a><br><a href="../water-meditation">Water Meditation</a></p>',
@@ -246,11 +246,42 @@
   };
   let count = slideData.slides.length;
   let zoomed = false;
+  let playing = false;
+  let manualOff = false;
 
   onMount(() => {
     window.location.assign('#slide-1');
   });
+ 
+  function controlMusic(event) {
+    let music = document.getElementById('ambient');
+    let speaker = document.getElementById('audioCtl');
+    let manual = speaker === event.target;
+    if (manual) {
+      event.preventDefault();
+      if(!playing && manualOff) {
+        manualOff = !manualOff;
+      }
+    }
 
+    if (manualOff) return;
+    if (playing) {
+      music.pause();
+      playing = !playing;
+      speaker.classList.add('stopped');
+      if (manual) {
+        manualOff = !manualOff;
+      }
+    }
+    else {
+      music.play()
+      playing = !playing;
+      speaker.classList.remove('stopped');
+      if (!manual) {
+        manual = !manualOff;
+      }
+    }
+  }
   function updateSlides(event) {
     let target = event.target;
     let link = target.closest('a');
@@ -268,6 +299,7 @@
       // determine if an image is zoomed (only one at a time should be possible)
       let zoomedImg = document.querySelector('.media-image[style]');
 
+
       // reset the image zoom if a zoomed image is found
       if (zoomedImg) {
         zoomedImg.removeAttribute('style');
@@ -281,6 +313,17 @@
       // prev should be the slide before the current or set to the last slide if 
       // the first slide is showing
       prev.href = (slideIndex < 2)? `#slide-${count}` : `#slide-${slideIndex - 1}`;
+            
+      if (link.classList.contains('slide-nav') || link.classList.contains('slide')) {
+        let slide = document.getElementById(link.href.split('#')[1]);
+        let slideType = slide?.classList.contains('image');
+        if (slideType && !playing) {
+          controlMusic(event);
+        }
+        if(!slideType && playing) {
+          controlMusic(event);
+        }
+      }
     }
   }
 </script>
@@ -290,4 +333,11 @@
 <main on:click={updateSlides} class="content-page bleed no-pad"  style="--element-bg: linear-gradient(hsla(200, 100%, 25%, .6), hsla(185, 51%, 50%, .8)), url({base}/assets/water/water-element-lg-bg-lighten.webp) 100% 100%/150% auto no-repeat fixed;  --element-mob-bg: linear-gradient(hsla(185, 51%, 50%, .5), hsla(185, 51%, 50%, .8)), url({base}/assets/water/water-element-lg-bg-lighten.webp) 0 0/auto 100vh repeat; --element-color: 211, 85%, 26%;">
   <Slides {...slideData}/>
   <Gallery {...slideData} />
+
+
+  <a href="#ambient" id="audioCtl" class="gallery-audio-ctl sound-ctl stopped" on:click={controlMusic}></a>
+  <audio loop id="ambient">
+    <source src="{base}/assets/water/sharing-water/water_ bach-prelude-c-major-156935.mp3" type="audio/mpeg">
+  
+    </audio>
 </main>

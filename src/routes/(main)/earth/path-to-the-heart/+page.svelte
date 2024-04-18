@@ -57,9 +57,9 @@
       <div class="transcript-item goto-links">
         <h3 class="side-title subtitle">Explore Earth</h3>
         <ul class="goto-content-links">
-          <li><a href="../the-inner-critic">The Inner Critic</a></li>
           <li><a href="../kindness-to-self">Kindness to Self</a></li>
-          <li><a href="../quieting-inner-critic">Quieting the Inner Critic</a></li>
+          <li><a href="../quieting-inner-critic">Quieting Inner Critics</a></li>
+          <li><a href="../the-inner-critic">The Inner Critic</a></li>
           <li><a href="../self-hypnosis">Self Hypnosis</a></li>
           <li><a href="../">&#8230;and more</a></li>
         </ul>

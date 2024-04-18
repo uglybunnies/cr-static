@@ -57,11 +57,11 @@
             and I don't even notice
           </blockquote>
           <figcaption>
-            &mdash;Sarah Vaugn
+            &mdash;Sarah Vaughan
           </figcaption>
         </figure>
 
-        <p>We invite you to share here.</p>
+        <p>We invite you to share <a href="mailto:creativeresilience@khyentsefoundation.org">here</a>.</p>
 
         <p>Due to copyright laws all submissions must either be an original composition, or be at least 100 years old. All submissions must include the lyrics subtitled at the bottom so we can sing along. It's also nice to include a short introduction to make it personal for the viewers.</p>
 

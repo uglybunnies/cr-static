@@ -24,7 +24,7 @@
       {
         type: 'slide',
         title: '<h2>Sharing the Freedom of Wind</h2>',
-        desc: '<p>In this space we invite you to share any of your creative expressions that resonate with the freedom of the wind element. You are welcome to send photos (below 5MB), artwork, short poems, paintings, or short videos (up to 2 minutes). Please mention your location.<br><br></p><p>Send to:<br> creativeresilience@khyentsefoundation.org</p>',
+        desc: '<p>In this space we invite you to share any of your creative expressions that resonate with the freedom of the wind element. You are welcome to send photos (below 5MB), artwork, short poems, paintings or short videos (up to 2 minutes). Please mention your location.<br><br></p><p>Send to:<br> <a href="mailto:creativeresilience@khyentsefoundation.org">creativeresilience@khyentsefoundation.org</a></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -43,32 +43,6 @@
         thumb:`${base}/assets/wind/sharing-wind/wind_dakini_2-360-th.webp`,
         thumbFallback:`${base}/assets/wind/sharing-wind/wind_dakini_2-th.jpg`,
         alt:'Thumbnail of a Fire Dakini painting by Tara di Gesu',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Wind dance by Shania from Mainland China',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/506642009',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/wind/sharing-wind/wind-dance-china-360-th.webp`,
-        thumbFallback:`${base}/assets/wind/sharing-wind/wind-dance-china-th.jpg`,
-        alt:'Still capture from Shania\'s video ',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Wind dance by Fran Schambeck. France.',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/510509703',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/wind/sharing-wind/wind-dance-360-th.webp`,
-        thumbFallback:`${base}/assets/wind/sharing-wind/wind-dance-th.jpg`,
-        alt:'Still capture from Fran Schambeck\'s video ',
         bgSettings: '',
         copyColor: '',
         fontWeight: '',
@@ -165,6 +139,32 @@
         fontWeight: '',
       },
       {
+        type: 'video',
+        title: 'Wind dance by Shania from Mainland China',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/506642009',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/wind/sharing-wind/wind-dance-china-360-th.webp`,
+        thumbFallback:`${base}/assets/wind/sharing-wind/wind-dance-china-th.jpg`,
+        alt:'Still capture from Shania\'s video ',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
+        type: 'video',
+        title: 'Wind dance by Fran Schambeck. France.',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/510509703',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/wind/sharing-wind/wind-dance-360-th.webp`,
+        thumbFallback:`${base}/assets/wind/sharing-wind/wind-dance-th.jpg`,
+        alt:'Still capture from Fran Schambeck\'s video ',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
         type: 'slide',
         title: '<h3 class="subtitle">Other Wind Pages</h3>',
         desc: '<p><a href="../">Return to Wind</a><br><a href="../voice-of-wind">The Voice of Wind</a><br><a href="../changing-your-mood">Changing Your Mood</a><br><a href="../inaction-to-action">Changing Inaction to Action</a></p>',
@@ -182,11 +182,42 @@
   };
   let count = slideData.slides.length;
   let zoomed = false;
+  let playing = false;
+  let manualOff = false;
 
   onMount(() => {
     window.location.assign('#slide-1');
   });
+ 
+  function controlMusic(event) {
+    let music = document.getElementById('ambient');
+    let speaker = document.getElementById('audioCtl');
+    let manual = speaker === event.target;
+    if (manual) {
+      event.preventDefault();
+      if(!playing && manualOff) {
+        manualOff = !manualOff;
+      }
+    }
 
+    if (manualOff) return;
+    if (playing) {
+      music.pause();
+      playing = !playing;
+      speaker.classList.add('stopped');
+      if (manual) {
+        manualOff = !manualOff;
+      }
+    }
+    else {
+      music.play()
+      playing = !playing;
+      speaker.classList.remove('stopped');
+      if (!manual) {
+        manual = !manualOff;
+      }
+    }
+  }
   function updateSlides(event) {
     let target = event.target;
     let link = target.closest('a');
@@ -204,6 +235,7 @@
       // determine if an image is zoomed (only one at a time should be possible)
       let zoomedImg = document.querySelector('.media-image[style]');
 
+
       // reset the image zoom if a zoomed image is found
       if (zoomedImg) {
         zoomedImg.removeAttribute('style');
@@ -217,6 +249,17 @@
       // prev should be the slide before the current or set to the last slide if 
       // the first slide is showing
       prev.href = (slideIndex < 2)? `#slide-${count}` : `#slide-${slideIndex - 1}`;
+            
+      if (link.classList.contains('slide-nav') || link.classList.contains('slide')) {
+        let slide = document.getElementById(link.href.split('#')[1]);
+        let slideType = slide?.classList.contains('image');
+        if (slideType && !playing) {
+          controlMusic(event);
+        }
+        if(!slideType && playing) {
+          controlMusic(event);
+        }
+      }
     }
   }
 </script>
@@ -226,4 +269,9 @@
 <main on:click={updateSlides} class="content-page bleed no-pad"  style="--grad-color: 101, 78%, 41%;--element-bg: linear-gradient(hsla(var(--grad-color), .8), hsla(var(--grad-color), .8)), url({base}/assets/wind/sharing-wind-bg3.webp) 0% 50%/100% auto no-repeat fixed; --element-mob-bg:linear-gradient(hsla(var(--grad-color), .8), hsla(var(--grad-color), .8)), url({base}/assets/wind/sharing-wind-bg3.webp) 0 0/auto 100vh repeat scroll; --element-color: 211, 85%, 26%; background-blend-mode: multiply, normal">
   <Slides {...slideData}/>
   <Gallery {...slideData} />
+  <a href="#ambient" id="audioCtl" class="gallery-audio-ctl sound-ctl stopped" on:click={controlMusic}></a>
+  <audio loop id="ambient">
+    <source src="{base}/assets/wind/sharing-wind/wind_debussy-clair-de-lune-l-75-179688.mp3" type="audio/mpeg">
+  
+    </audio>
 </main>

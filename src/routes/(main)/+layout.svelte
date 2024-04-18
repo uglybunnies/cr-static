@@ -4,10 +4,11 @@
   import { browser } from '$app/environment';
   import NavBar from '$lib/components/NavBar.svelte';
   import { onMount } from 'svelte';
+  let year= new Date().getFullYear();
   let openMenu;
-  let year;
   let activeTab;
   let viewport;
+  let narrow = false;
 
 
   function bodyClick(event) {
@@ -89,9 +90,17 @@
     });
   }
   onMount(() => {
-    year = new Date().getFullYear();  
     if (browser) {
       viewport = window.visualViewport.width < 960;
+      window.addEventListener('resize', () => {
+        let hamburger = document.querySelector('#topNav a.menu-toggle');
+        if(window.visualViewport?.width < 960 && !hamburger) {
+          location.reload();
+        }
+        if (window.visualViewport.width > 960 && hamburger) {
+          location.reload();
+        }
+      });
     };
     if (viewport) {
       setMainNavCtl();
@@ -105,7 +114,7 @@
 <!-- header markup here-->
 <!-- nav markup here -->
 <header class="masthead">
-  <div class="site-name"><p><a href="{base}/">Home</a></p></div>
+  <div class="site-name"><a href="{base}/"><img src="{base}/assets/cr-wordmark.svg" alt="Creative Resilience homepage" class="logo"></a></div>
   <NavBar />
 </header>
   <slot></slot>
@@ -115,27 +124,28 @@
   <section class="group">
 
     <div class="item category">
+      <a href="{base}/"><img src="{base}/assets/cr-wordmark.svg" alt="Creative Resilience homepage" class="footer-logo"></a>
+    </div>
+    <div class="item category">
       <h3 class="subtitle">About Us</h3>
       <ul>
+        <li><a href="{base}/about/#aboutInstructors">The Instructors</a></li>
+        <li><a href="{base}/about/#aboutArtists">About the Artists</a></li>
         <li><a href="{base}/about">The Project</a></li>
-        <li><a href="{base}/journals">Explore Your Experience</a></li>
-        <!-- <li><a href="#">The Instructors</a></li>
-        <li><a href="">About the Artists</a></li> -->
-        <li><a href="{base}/meet-the-guardians">Meet the Guardians</a></li>
       </ul>
 
     </div>
     <div class="item category">
       <h3 class="subtitle">
-        Help
+        About the Site
       </h3>
-  <ul>
-    <li><a href="{base}/faqs">FAQs</a></li>
-    <li><a href="{base}/privacy-policy">Privacy</a></li>
-    <li><a href="{base}/legal-disclaimers">Disclaimers</a></li>
-  </ul>
-
+      <ul>
+        <li><a href="{base}/faqs">How to use this site</a></li>
+        <li><a href="{base}/meet-the-guardians">More about the Guardians</a></li>
+        <li><a href="{base}/journals">Journaling/Explore your Experience</a></li>
+      </ul>
     </div>
+
     <div class="item category">
       <h3 class="subtitle">The Elements</h3>
       <ul>
@@ -148,18 +158,24 @@
     </div>
     <div class="item category">
       <h3 class="subtitle">Connections</h3>
-      <p><a href="">Contact Us</a></p>
+      <p><a href="mailto:creativeresilience@khyentsefoundation.org">Contact Us</a></p>
       <ul class="social-media">
-        <li><a href="" class="social"><span class="icon"><img src="{base}/assets/icons/instagram.svg" alt="Follow on Instagram"></span>Instagram</a></li>
-        <li><a href="" class="social"><span class="icon fb"><img src="{base}/assets/icons/facebook.svg" alt=""></span>Facebook</a></li>
-        <li><a href="" class="social"><span class="icon twx"><img src="{base}/assets/icons/twitter-x.svg" alt=""></span>Twitter</a></li>
+        <li><a target="_blank" href="https://www.instagram.com/creativityandresilience/" class="social"><span class="icon"><img src="{base}/assets/icons/instagram.svg" alt="Follow on Instagram"></span>Instagram</a></li>
+        <!-- <li><a href="" class="social"><span class="icon fb"><img src="{base}/assets/icons/facebook.svg" alt=""></span>Facebook</a></li>
+        <li><a href="" class="social"><span class="icon twx"><img src="{base}/assets/icons/twitter-x.svg" alt=""></span>Twitter</a></li> -->
       </ul>
 
     </div>
   </section>
-  <p class="copyright">
-    &copy; {year} Khyentse Foundaton
-  </p>
+  <div class="group site-notes">
+    <p class="copyright item">
+      &copy; {year} Khyentse Foundation
+    </p>
+    <ul class="item legal-links">
+      <li><a href="{base}/privacy-policy">Privacy</a></li>
+      <li><a href="{base}/legal-disclaimers">Disclaimers</a></li>
+    </ul>
+</div>
 </footer>
 <section id="water-menu" class="menu-panel">
   <div class="menus">
@@ -270,7 +286,6 @@
         <ul>
           <li><a class="menuClose" href="{base}/wind/inaction-to-action">Inaction to Action</a></li>
           <li><a class="menuClose" href="{base}/wind/creating-new-pathways">Creating New Pathways</a></li>
-          <li><a class="menuClose" href="{base}/wind/changing-your-mood">Changing Your Mood</a></li>
           <li><a class="menuClose" href="{base}/wind/generosity-and-the-brain">Generosity and the Brain</a></li>
         </ul>
       </div>
@@ -295,8 +310,9 @@
       <p class="menu-header" data-menu="windShare">Sharing</p>
       <div id="windShare">
         <ul>
-          <li><a class="menuClose" href="{base}/wind/sharing-wind">Sharing the Freedom of Wind</a></li>
           <li><a class="menuClose" href="{base}/wind/music-chamber">Music Chamber</a></li>
+          <li><a class="menuClose" href="{base}/wind/changing-your-mood">Changing Your Mood</a></li>
+          <li><a class="menuClose" href="{base}/wind/sharing-wind">Sharing the Freedom of Wind</a></li>
         </ul>
       </div>
     </div>
@@ -422,7 +438,6 @@
           <li><a class="menuClose" href="{base}/fire/stop-obsessive-thinking">Stop Obsessive Thinking</a></li>
           <li><a class="menuClose" href="{base}/wind/inaction-to-action">Inaction to Action</a></li>
           <li><a class="menuClose" href="{base}/wind/creating-new-pathways">Creating New Pathways</a></li>
-          <li><a class="menuClose" href="{base}/wind/changing-your-mood">Changing Your Mood</a></li>
           <li><a class="menuClose" href="{base}/wind/generosity-and-the-brain">Generosity and the Brain</a></li>
         </ul>
       </div>
@@ -485,6 +500,7 @@
           <li><a class="menuClose" href="{base}/fire/sharing-fire">Sharing the Passion of Fire</a></li>
           <li><a class="menuClose" href="{base}/wind/sharing-wind">Sharing the Freedom of Wind</a></li>
           <li><a class="menuClose" href="{base}/wind/music-chamber">Music Chamber</a></li>
+          <li><a class="menuClose" href="{base}/wind/changing-your-mood">Changing Your Mood</a></li>
         </ul>
       </div>
     </div>

@@ -28,7 +28,7 @@
 <svelte:head>
   <title>Fire: Fire Meditation</title>
 </svelte:head>
-<main class="content-page"  style="--grad-color: 221, 97%, 33%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),.7), hsla(var(--grad-color),0) 15%, hsla(var(--grad-color),0) 85%, hsla(var(--grad-color),.7)), url({base}/assets/fire/fire-meditation-bg.webp) 0 0/100% auto fixed no-repeat; --element-mob-bg: linear-gradient(hsla(var(--grad-color),.7),hsla(var(--grad-color),.7)), url({base}/assets/fire/fire-meditation-bg.webp) 33% 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--light-color); --element-color: 25, 100%, 90%; --subtitle-color: 15, 100%, 85%; --copy-color: 25, 100%, 50%; background-blend-mode: darken, normal; --cs1: 351, 86%, 53%; --cs2: 320, 100%, 66%;">
+<main class="content-page"  style="--grad-color: 221, 97%, 33%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),.7), hsla(var(--grad-color),0) 15%, hsla(var(--grad-color),0) 85%, hsla(var(--grad-color),.7)), url({base}/assets/fire/fire-meditation-bg.webp) 0 0/100% auto fixed repeat; --element-mob-bg: linear-gradient(hsla(var(--grad-color),.7),hsla(var(--grad-color),.7)), url({base}/assets/fire/fire-meditation-bg.webp) 33% 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--light-color); --element-color: 25, 100%, 90%; --subtitle-color: 15, 100%, 85%; --copy-color: var(--light-color); background-blend-mode: darken, normal; --cs1: 351, 86%, 53%; --cs2: 320, 100%, 66%;">
   <section class="banner">
 
     <h2>Fire Meditation</h2>
@@ -52,6 +52,11 @@
       <figcaption>&mdash;Alana Siegel</figcaption>
     </figure>
 <br><br><br>
+
+<hr>
+<p class="continue-links">
+  Listen to the <a href="{base}/fire/podcast-creativity">Creativity Podcast</a>, meet to the <a href="{base}/fire/voice-of-fire">Voice of Fire</a>, enjoy the <a href="{base}/fire/sharing-fire">Passion of Fire</a> or explore more of the <a href="{base}/fire">Fire Element</a>.
+</p>
   </section>
 </main>
 <Journal {...journalData} />

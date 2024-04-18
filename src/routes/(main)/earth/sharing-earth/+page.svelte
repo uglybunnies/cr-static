@@ -24,7 +24,7 @@
       {
         type: 'slide',
         title: '<h2>Sharing the Beauty of Earth</h2>',
-        desc: '<p>In this space we invite you to share your experiences of the earth element. We welcome creative expressions of earth in the form of photos (below 5MB), short videos (up to 2 minutes), short poems, artwork or brief writings. Please mention your location.<br><br></p><p>Send to:<br> creativeresilience@khyentsefoundation.org</p>',
+        desc: '<p>In this space we invite you to share your experiences of the earth element. We welcome creative expressions of earth in the form of photos (below 5MB), short poems, artwork or short videos up to (2 minutes). Please mention your location.<br><br></p><p>Send to:<br> <a href="mailto:creativeresilience@khyentsefoundation.org">creativeresilience@khyentsefoundation.org</a></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -43,32 +43,6 @@
         thumb:`${base}/assets/earth/sharing-earth/earth_dakini_painting_360_th.webp`,
         thumbFallback:`${base}/assets/earth/sharing-earth/earth_dakini_painting_th.jpg`,
         alt:'Thumbnail of an Earth Dakini painting by Tara di Gesu',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Video by Chagdud Gonpa Brasil/Khadro Ling',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/678947688?h=f23cd3965f',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/earth/sharing-earth/earth_green_queen_360_th.webp`,
-        thumbFallback:`${base}/assets/earth/sharing-earth/earth_green_queen_th.jpg`,
-        alt:'Still capture from Chagdud Gonpa Brasil and Khadro Ling\'s video ',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Video by Jonathan Matas. India.',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/505928827',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/earth/sharing-earth/jonathan_statue_video_screenshot_360_th.webp`,
-        thumbFallback:`${base}/assets/earth/sharing-earth/jonathan_statue_video_screenshot_th.jpg`,
-        alt:'Still capture from Jonathan Matas\' video',
         bgSettings: '',
         copyColor: '',
         fontWeight: '',
@@ -308,19 +282,6 @@
         fontWeight: '', 
       },
       {
-        type: 'video',
-        title: 'Video by Julien Ducret. France',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/506641854',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/earth/sharing-earth/1048507632_640x360.jpg`,
-        thumbFallback:`${base}/assets/earth/sharing-earth/1048507632_640x360.jpg`,
-        alt:'Still capture from Julien Ducret\'s video ',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
         type: 'image',
         title: 'Photo by Paul Norden. Chicago, Illinois',
         desc: 'A bowl of fruit inscibed with a poem: \'I am reliable, I am abundant, I am harmonious, I can nurture, I can connect, I can provide, I support, You call me earth -Yvonne Gold\'',
@@ -334,9 +295,48 @@
         fontWeight: '', 
       },
       {
+        type: 'video',
+        title: 'Video by Chagdud Gonpa Brasil/Khadro Ling',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/678947688?h=f23cd3965f',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/earth/sharing-earth/earth_green_queen_360_th.webp`,
+        thumbFallback:`${base}/assets/earth/sharing-earth/earth_green_queen_th.jpg`,
+        alt:'Still capture from Chagdud Gonpa Brasil and Khadro Ling\'s video ',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
+        type: 'video',
+        title: 'Video by Jonathan Matas. India.',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/505928827',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/earth/sharing-earth/jonathan_statue_video_screenshot_360_th.webp`,
+        thumbFallback:`${base}/assets/earth/sharing-earth/jonathan_statue_video_screenshot_th.jpg`,
+        alt:'Still capture from Jonathan Matas\' video',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
+        type: 'video',
+        title: 'Video by Julien Ducret. France',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/506641854',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/earth/sharing-earth/1048507632_640x360.jpg`,
+        thumbFallback:`${base}/assets/earth/sharing-earth/1048507632_640x360.jpg`,
+        alt:'Still capture from Julien Ducret\'s video ',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
         type: 'slide',
         title: '<h3 class="subtitle">Other Earth Pages</h3>',
-        desc: '<p><a href="../">Return to Earth Landing</a><br><a href="../voice-of-earth">The Voice of Earth</a><br><a href="../path-to-the-heart">Path to the Heart</a><br><a href="../quieting-inner-critic">Quieting the Inner Critic</a></p>',
+        desc: '<p><a href="../">Return to Earth</a><br><a href="../voice-of-earth">The Voice of Earth</a><br><a href="../path-to-the-heart">Path to the Heart</a><br><a href="../quieting-inner-critic">Quieting the Inner Critic</a></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -350,11 +350,42 @@
   };
   let count = slideData.slides.length;
   let zoomed = false;
+  let playing = false;
+  let manualOff = false;
 
   onMount(() => {
     window.location.assign('#slide-1');
   });
+ 
+  function controlMusic(event) {
+    let music = document.getElementById('ambient');
+    let speaker = document.getElementById('audioCtl');
+    let manual = speaker === event.target;
+    if (manual) {
+      event.preventDefault();
+      if(!playing && manualOff) {
+        manualOff = !manualOff;
+      }
+    }
 
+    if (manualOff) return;
+    if (playing) {
+      music.pause();
+      playing = !playing;
+      speaker.classList.add('stopped');
+      if (manual) {
+        manualOff = !manualOff;
+      }
+    }
+    else {
+      music.play()
+      playing = !playing;
+      speaker.classList.remove('stopped');
+      if (!manual) {
+        manual = !manualOff;
+      }
+    }
+  }
   function updateSlides(event) {
     let target = event.target;
     let link = target.closest('a');
@@ -372,6 +403,7 @@
       // determine if an image is zoomed (only one at a time should be possible)
       let zoomedImg = document.querySelector('.media-image[style]');
 
+
       // reset the image zoom if a zoomed image is found
       if (zoomedImg) {
         zoomedImg.removeAttribute('style');
@@ -385,6 +417,17 @@
       // prev should be the slide before the current or set to the last slide if 
       // the first slide is showing
       prev.href = (slideIndex < 2)? `#slide-${count}` : `#slide-${slideIndex - 1}`;
+            
+      if (link.classList.contains('slide-nav') || link.classList.contains('slide')) {
+        let slide = document.getElementById(link.href.split('#')[1]);
+        let slideType = slide?.classList.contains('image');
+        if (slideType && !playing) {
+          controlMusic(event);
+        }
+        if(!slideType && playing) {
+          controlMusic(event);
+        }
+      }
     }
   }
 </script>
@@ -394,4 +437,9 @@
 <main on:click={updateSlides} class="content-page bleed no-pad"  style="--grad-color: 45, 100%, 50%; --element-bg: linear-gradient(hsla(var(--grad-color), .6), hsla(60, 51%, 50%, .8)), url({base}/assets/earth/earth_10.jpg) 0% 50%/180% auto no-repeat fixed; --element-mob-bg: linear-gradient(hsla(var(--grad-color), .6), hsla(60, 51%, 50%, .8)), url({base}/assets/earth/earth_10.jpg) 0 0/auto 100vh repeat scroll; --element-color: 211, 85%, 26%; background-blend-mode: hard-light, normal;">
   <Slides {...slideData}/>
   <Gallery {...slideData} />
+  <a href="#ambient" id="audioCtl" class="gallery-audio-ctl sound-ctl stopped" on:click={controlMusic}></a>
+  <audio loop id="ambient">
+    <source src="{base}/assets/earth/sharing-earth/earth_erik-satie-gymnopedie-classical-remix-8583.mp3" type="audio/mpeg">
+  
+    </audio>
 </main>

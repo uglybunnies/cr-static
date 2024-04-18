@@ -2,9 +2,9 @@
   import { base } from '$app/paths';
 </script>
 <svelte:head>
-<title>About this Project</title>
+<title>Legal Disclaimer</title>
 </svelte:head>
-<main class="info-page content-page center legal" style="--copy-color: var(--light-color);">
+<main class="info-page content-page center legal" style="--copy-color: var(--light-color); --element-color: var(--copy-color);">
 <section>
   <h2>Legal Disclaimer</h2>
   
@@ -31,6 +31,6 @@
   
   
   
-  <p><strong>Collected Content:</strong> We do not sell, trade, or otherwise transfer your personal information to third parties. We will not copy write anything you send to us. We and our contributors cannot be responsible for the content people share with us to put on the website, such as if they were to infringe on a copy right and we did not know about it.</p>
+  <p><strong>Collected Content:</strong> We do not sell, trade, or otherwise transfer your personal information to third parties. We will not copyright anything you send to us. We and our contributors cannot be responsible for the content people share with us to put on the website, if, for example, they infringed on a copyright and we did not know about it.</p>
 </section>
 </main>

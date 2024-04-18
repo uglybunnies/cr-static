@@ -3,10 +3,10 @@
 </script>
 <section class="media-carousel">
   <div id="carouselDeck" class="carousel-deck">
-    <a href="#slide-{slides.length}" class="slide-prev"><span>previous slide</span></a>
+    <a href="#slide-{slides.length}" class="slide-nav slide-prev"><span>previous slide</span></a>
     <div class="track">
       {#each slides as slide, i}
-        <div id="slide-{i+1}" class="slide">
+        <div id="slide-{i+1}" class="slide{slide.type === 'image' ? ' image' : ''}">
           {#if slide.type ==='slide'}
             <div class="media-slide text-slide" style="--bg-settings: {slide.bgSettings}; --copy-color: {slide.copyColor};--font-weight: {slide.fontWeight};">
               {@html slide.title}
@@ -23,6 +23,7 @@
         </div>
       {/each}
     </div>
-    <a href="#slide-2" class="slide-next"><span>next slide</span></a>
+    <a href="#slide-2" class="slide-nav slide-next"><span>next slide</span></a>
   </div>
+
 </section>

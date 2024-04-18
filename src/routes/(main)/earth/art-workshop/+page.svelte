@@ -5,7 +5,7 @@
 <svelte:head>
   <title>Tree of Life Art Workshop</title>
 </svelte:head>
-<main class="content-page center"  style="--grad-color: 45,75%,85%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),0),hsla(var(--grad-color),0.7) 20%, hsla(var(--grad-color),0.8) 25%,hsla(var(--grad-color),0.9) 50%, hsla(var(--grad-color),0.8) 75%, hsla(var(--grad-color),0.7) 80%, hsla(var(--grad-color),0) 100%), url({base}/assets/earth/earth-meditation2.webp) 0 0/100% auto fixed no-repeat; --element-mob-bg: linear-gradient(hsla(var(--grad-color), .7), hsla(var(--grad-color), .7)), url({base}/assets/earth/earth-meditation2.webp) 0 0/auto 150vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--dark-neutral); --element-color: 85, 90%, 26%; --subtitle-color: 85, 100%, 33%; --cs1: 33, 100%, 66%; --cs2: 60, 100%, 42%;">
+<main class="content-page center"  style="--grad-color: 45,75%,85%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),0),hsla(var(--grad-color),0.7) 20%, hsla(var(--grad-color),0.8) 25%,hsla(var(--grad-color),0.9) 50%, hsla(var(--grad-color),0.8) 75%, hsla(var(--grad-color),0.7) 80%, hsla(var(--grad-color),0) 100%), url({base}/assets/earth/earth-meditation2.webp) 0 0/100% auto fixed repeat; --element-mob-bg: linear-gradient(hsla(var(--grad-color), .7), hsla(var(--grad-color), .7)), url({base}/assets/earth/earth-meditation2.webp) 0 0/auto 150vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--dark-neutral); --element-color: 85, 90%, 26%; --subtitle-color: 85, 100%, 33%; --cs1: 33, 100%, 66%; --cs2: 60, 100%, 42%;">
 <section class="banner">
   <h2>Tree of Life Art Workshop</h2>
   <p class="subtitle shiftgrad">
@@ -21,9 +21,13 @@
   
   <div class="cta"><a href="https://forms.gle/ngmtjaZNyE8fpm2B9" class="cta-button" target="_blank">Register now</a></div>
 
-  <p>Zoom classes are available now. This class will be offered every 15 days. Each class is two hours in length.</p>
+  <p>The duration of this class is two hours and it will be offered once a month.</p>
+  <hr>
+  <p class="continue-links light">
+    Enjoy the <a href="{base}/earth/sharing-earth">Beauty of Earth</a>, try the <a href="{base}/earth/grounding-meditation">Grounding Meditation</a>, practice some  <a href="{base}/earth/kindness-to-self">Kindness to Self</a> or explore more of the <a href="{base}/earth">Earth Element</a>.
+  </p>
 </section>
-<section class="creater-bio">
+<section class="creator-bio">
   <h3>About the Instructor</h3>
   <div class="flex-group">
     <img src="{base}/assets/akshita_dutta.webp" alt="Podcasting twins, Gary and Lily Pinto">

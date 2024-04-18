@@ -73,7 +73,7 @@
           </div>
           <div class="content">
             <p class="desc">Find the ease of resilience. Look under the blue umbrella</p>
-            <p class="title">Finding flexibility</p>
+            <p class="title">Finding Flexibility</p>
           </div>
         </div>
       </a>

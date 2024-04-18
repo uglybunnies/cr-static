@@ -53,7 +53,10 @@
     <p><small>Audio presentation by Punya Sagara.</small></p>
 
     <p>Often anxiety and discomfort come from concerns about the past and worries about the future. In the above meditation, Punya Sagara guides us into the beauty of the present moment. Punya Sagara is a meditation instructor from one of the great Himalayan wisdom traditions in Nepal.</p>
-
+    <hr>
+    <p class="continue-links light">
+      Meet the <a href="{base}/space/voice-of-space">Voice of Space</a>, try <a href="{base}/space/sky-eating">Sky Eating</a> mediation, enjoy the <a href="{base}/space/sharing-space">Beauty of Space</a> or explore more of the <a href="{base}/space">Space Element</a>.
+    </p>
   </section>
 </main>
 <Journal {...journalData} />

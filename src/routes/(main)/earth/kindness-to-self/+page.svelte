@@ -32,7 +32,7 @@
 <main class="content-page"  style="--element-bg: linear-gradient(90deg, hsla(45,75%,80%,0), hsla(45,75%,80%,0.85) 15%, hsla(45,75%,80%,0.85) 45%, hsla(45,75%,80%,0) 85%) 0 0/48em auto no-repeat, url({base}/assets/earth/earth_dakini_bg6.jpg) 0 33%/cover fixed no-repeat; --element-mob-bg: linear-gradient(hsla(45,75%,80%, .5), hsla(45,75%,80%, .5)), url({base}/assets/earth/earth_dakini_bg6.jpg) 0 0/auto 100vh scroll repeat; --desc-bg-color: hsla(45, 50%, 75%, .9);--desc-copy-color: var(--dark-neutral); --element-color: 85, 90%, 26%; --subtitle-color: 85, 100%, 40%; --cs1: 196, 100%, 50%; --cs2: 300, 100%, 80%;">
   <!-- use the banner for the excercise title and description -->
   <section class="banner">
-    <h2>Kindness to Self</h2>
+    <h2>Kindness to Self <small>3:00</small></h2>
     <p class="subtitle shiftgrad"><span>
       Did You Leave Someone Behind?<br>
         Could It Be You?
@@ -66,73 +66,8 @@
           At night, before you sleep, notice what impact this has had on your day. If you have forgotten yourself most of the day, don’t give up. Remember you are forming a new habit, which takes some practice. Refresh your intentions to remember self-kindness for the following day. And then rest. As you repeat this for some days, the habit will internalize and gather strength. The changes will become obvious.
         </li>
     </ol>
+    <hr>
+    <p class="continue-links light">Find your <a href="{base}/earth/path-to-the-heart">Path to the Heart</a>, try the <a href="{base}/earth/grounding-meditation">Grounding Meditation</a>, learn about <a href="{base}/earth/quieting-inner-critic">Quieting the Inner Critic</a> or explore more of the <a href="{base}/earth">Earth Element</a>.</p>
   </section>
 </main>
 <Journal {...journalData} />
-<!-- <div class="ani-objects leaf" id="aniObj1" style="--image: url({base}/assets/earth/leaf1.webp);"></div>
-<div class="ani-objects leaf" id="aniObj2" style="--image: url({base}/assets/earth/leaf2.webp);"></div>
-<style>
-  .ani-objects {
-    position: absolute;
-    top: -5%;
-    z-index: 3;
-  }
-  .ani-objects::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  .leaf {
-    height: 1.40625em;
-    width: .8125em; 
-  }
-  #aniObj1 {
-    left: 66%;
-    animation: 10s ease-out 11s infinite ani1X;
-  }
-  #aniObj1::after {
-    background-image: var(--image);
-    animation: 10s cubic-bezier(0.33333, 0, 0.66667, 0.33333) 11s infinite ani1Y;
-  }
-  #aniObj2 {
-    left: 20%;
-    animation: 10s ease-out 16s infinite ani2X;
-  }
-  #aniObj2::after {
-    background-image: var(--image);
-    animation: 10s cubic-bezier(0.33333, 0, 0.66667, 0.33333) 16s infinite ani2Y;
-  }
-  @keyframes ani1X {
-    0% {
-      transform: translateX(0) rotate(0);
-    }
-    50%, 100% {
-      transform: translateX(2000%) rotate(-90deg);
-    }
-  }
-  @keyframes ani1Y {
-    0% {
-      transform: translateY(0);
-    }
-    50%, 100% {
-      transform: translateY(5000%);
-    }
-  }
-  @keyframes ani2X {
-    0% {
-      transform: translateX(0);
-    }
-    50%, 100% {
-      transform: translateX(-3000%);
-    }
-  }
-  @keyframes ani2Y {
-    0% {
-      transform: translateY(0) rotate(0);
-    }
-    50%, 100% {
-      transform: translateY(5000%) rotate(300deg);
-    }
-  }
-</style> -->

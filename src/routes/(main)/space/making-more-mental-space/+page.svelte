@@ -30,7 +30,7 @@
 </svelte:head>
 <main class="content-page center" style="--grad-color: 255, 75%, 90%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),0),hsla(var(--grad-color),0.5) 10%, hsla(var(--grad-color),0.7) 20%,hsla(var(--grad-color),0.9) 50%, hsla(var(--grad-color),0.7) 80%, hsla(var(--grad-color),.5) 90%, hsla(var(--grad-color),0) 100%) 0 0/100% auto no-repeat, url({base}/assets/space/making-mental-space-bg.webp) 0 0/ cover fixed no-repeat; --element-mob-bg: linear-gradient(90deg, hsla(var(--grad-color), .9), hsla(var(--grad-color), .7)), url({base}/assets/space/making-mental-space-bg.webp) 0 0/auto 100vh scroll repeat;  --element-color: var(--dark-color); --subtitle-color: 255, 90%,33%; --cs2: 255, 50%, 75%; --cs1: 180, 100%, 33%;">
   <section class="banner">
-    <h2>Making More Mental Space</h2>
+    <h2>Making More Mental Space <small>3:14</small></h2>
     <p class="subtitle shiftgrad">
       <span>Clearing Space Is Finding Your Power Base</span>
     </p>
@@ -55,9 +55,10 @@
     </ol>
 
     <p>You are learning how to manage your concerns one-by-one without becoming overwhelmed.</p>
-
+<hr>
+    <p class="continue-links light">Continue exploring with <a href="{base}/space/space-meditation">Space Mediation</a> or <a href="{base}/space/present-moment-meditation">Present Moment Meditation</a>, meet the <a href="{base}/space/voice-of-space">Voice of Space</a> or explore more of the <a href="{base}/space">Space Element</a>.</p>
   </section>
-  <section class="creater-bio">
+  <section class="creator-bio">
     <h3>About the Instructor</h3>
       <p>Dr. Scales is an author and photographer. Her works include <em>Sacred Voices of the Nyingma Masters</em> and <em>Sacred Words Spoken</em>. She holds a Ph.D. in East-West Psychology and consults privately.</p>
   </section>

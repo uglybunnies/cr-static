@@ -27,7 +27,7 @@
 <svelte:head>
   <title>Wind: Podcast--Freedom</title>
 </svelte:head>
-<main class="content-page"  style="--grad-color: 170, 0%, 100%; --element-bg: url({base}/assets/wind/freedom-podcast-bg3.webp) 0 75%/100% auto fixed no-repeat; --element-mob-bg: linear-gradient(180deg,hsla(var(--grad-color), .125) 25%, hsla(var(--grad-color), .9)), url({base}/assets/wind/freedom-podcast-bg3.webp) 79% 0/auto 115vh scroll repeat; --element-color: 170, 100%, 25%; --subtitle-color: 170, 100%, 33%; --cs1:330, 100%, 75%; --cs2:10, 100%, 75%;">
+<main class="content-page set-to-aspect4-3"  style="--grad-color: 170, 0%, 100%; --element-bg: url({base}/assets/wind/freedom-podcast-bg3.webp) 0 75%/100% auto fixed repeat; --element-mob-bg: linear-gradient(180deg,hsla(var(--grad-color), .125) 25%, hsla(var(--grad-color), .9)), url({base}/assets/wind/freedom-podcast-bg3.webp) 79% 0/auto 115vh scroll repeat; --element-color: 170, 100%, 25%; --subtitle-color: 170, 100%, 33%; --cs1:330, 100%, 75%; --cs2:10, 100%, 75%; --bg-size-4-3: auto 100%; --bg-pos-4-3: 100% 0;">
   <!-- use the banner for the excercise title and description -->
   <section class="banner">
     <h2>Freedom Podcast</h2>
@@ -46,6 +46,11 @@
     </div>
     <br>
     <p>As children, we experience freedom in our everyday seemingly ordinary actions. Gray and Lily Pinto discuss how we can often forget and limit true freedom in adulthood and how we can learn to view the world with the eyes of a free child once again.<br></p>
+    <hr>
+    <p class="continue-links">
+      Listen to the sounds of the <a class="dark" href="{base}/wind/music-chamber">Music Chamber</a>, enjoy the <a class="dark" href="{base}/wind/sharing-wind">Freedom of Wind</a>, try <a class="dark" href="{base}/wind/creating-new-pathways">Creating New Pathways</a>
+      or explore more of the <a class="dark" href="{base}/wind">Wind Element</a>.
+    </p>
   </section>
   <section class="creator-bio">
     <h3>About the Hosts</h3>

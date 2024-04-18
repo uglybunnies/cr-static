@@ -77,6 +77,8 @@
         <p><i>Valuing</i> the person, not the problem. Problems can sometimes seem insurmountable. A listener can’t take the problem away or offer well-meaning reassurance, but can simply be there with body and mind open and curious.</p>
         <p><i>Encouraging</i> and affirming, the listening space is creative, kind and full of possibilities.</p>
       </div>
+      <hr>
+      <p class="continue-links light">Learn about <a href="{base}/water/finding-flexibility">Finding Flexibility</a>, try <a href="{base}/water/water-meditation">Water Meditation</a>, listen to the <a href="{base}/water/podcast-resilience">Resilience Podcast</a> or explore more of the <a href="{base}/water">Water Element</a>.</p>
     </section>
     <section class="creator-bio">
       

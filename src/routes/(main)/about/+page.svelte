@@ -4,7 +4,7 @@
 <svelte:head>
 <title>About this Project</title>
 </svelte:head>
-<main class="info-page content-page center about-page legal" style="--copy-color: var(--light-color);">
+<main class="info-page content-page center legal"  style="--copy-color: var(--light-color); --element-color: var(--copy-color);">
   <section>
     <h2>About Creative Resilience</h2>
     <p>Learn more about <a href="#aboutProject">this project</a>. Meet <a href="#aboutInstructors">the instructors</a> and <a href="#aboutArtists">the artists</a> whose contributions have made this site possible.</p>
@@ -12,6 +12,8 @@
   
   <section id="aboutProject" class="project">
     <h3 class="about-title">About the Project</h3>
+    <p>Creativity and Resilience.org came about due to the unusual challenges recent years have brought for people across the planet. With the idea that difficult times demand fresh and evolving resources, teacher, solution-builder and filmmaker Dzongsar Khyentse Rinpoche, aka Khyentse Norbu tasked a team with the development of this site. An international group of psychologists, writers, teachers and artists have worked on creating a platform that offers a suite of flexible tools to bolster our own innate creativity and resilience and also to transform difficulties in a truly unique way.</p>
+<p>The project has been made possible with the support and funding from The Khyentse Foundation.</p>
   </section>
   <section id="aboutInstructors" class="intructors">
 
@@ -24,10 +26,10 @@
       </div>
     </div>
     <div class="creator-bio">
-      <h4>Sandra Scales</h4>
+      <h4>Sandra Scales, Ph.D</h4>
       <div class="flex-group">
         <img src="{base}/assets/Sandra.jpg" alt="Sandra Scales">
-        <p>Sandra Scales PhD holds a doctorate in East West Psychology from The Union Graduate School and a BA in Photography from San Francisco Art Institute. She has lectured at Stanford University and other colleges in California and Nepal. Sandra maintains a private counseling practice in Soquel, California and conducts international phone consultations using Eastern and Western Psychology. Sandra commented, "When I work, it is quite like painting. Together, we create new designs and new colors. Then, the beauty and the magic of change just happens." Scales is author and photographer of <em>Sacred Voices of the Nyingma Masters</em> and <em>Sacred Words Spoken</em>.</p>
+        <p>Sandra Scales holds a doctorate in East West Psychology from The Union Graduate School and a BA in Photography from San Francisco Art Institute. She has lectured at Stanford University and other colleges in California and Nepal. Sandra maintains a private counseling practice in Soquel, California and conducts international phone consultations using Eastern and Western Psychology. Sandra commented, "When I work, it is quite like painting. Together, we create new designs and new colors. Then, the beauty and the magic of change just happens." Scales is author and photographer of <em>Sacred Voices of the Nyingma Masters</em> and <em>Sacred Words Spoken</em>.</p>
       </div>
     </div>
     <div class="creator-bio">
@@ -88,6 +90,13 @@
     <div class="flex-group">
       <img src="{base}/assets/Jonathan.jpg" alt="Jonathan Matas">
       <p>Jonathan Matas is a painter often traveling internationally to make art, most recently in London, Singapore, Tokyo and Taiwan. He has a degree in Visual Arts from Emily Carr University in Vancouver. From 2011-2015 in San Francisco, he made many murals, including several as one of Facebook’s first Artists-in-Residence. Matas has spent the majority of the past five years in India where he has been painting and studying Buddhist teachings. In 2018, he spent several months in Nepal working as a production designer and painter on Khyentse Norbu’s feature film “Looking For a Lady With Fangs and a Moustache.” In addition, he had a solo show at Heron Arts in San Francisco, showcasing his ongoing interest in painting portraits from life.</p>
+    </div>
+  </div>
+  <div class="creator-bio">
+    <h4>Michael Wong</h4>
+    <div class="flex-group">
+      <img src="{base}/assets/mwong-pic.webp" alt="Michael Wong">
+      <p><a href="https://uglybunnies.com">Michael Wong</a> is an artist and web professional based in the San Francisco Bay Area. Besides the Creative Resilience website, Michael has designed and built a wide variety of web projects across a broad range of industries including sports, software, financial technology, non-profit, and government. Since earning his Art degree in Conceptual Information Arts at San Francisco State Univeristy, Michael has leveraged digital media to create art that seeks to raise the general awareness of social and  political forces that seek to marginalize the most vulnerable members of society.</p>
     </div>
   </div>
 </section>

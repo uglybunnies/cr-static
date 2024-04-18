@@ -24,7 +24,7 @@
       {
         type: 'slide',
         title: '<h2>Sharing the Beauty of Space</h2>',
-        desc: '<p>This is a place where we share our inner and outer experiences of becoming spacious like the sky. You are most welcome to send your experiences in the form of photos (below 5MB), short poems, artwork, short videos (up to 2 minutes) and brief writings. Please mention your location.<br><br>Send to:<br> creativeresilience@khyentsefoundation.org</p>',
+        desc: '<p>This is a place where we share our inner and outer experience of becoming spacious like the sky. You are most welcome to send your experiences relating to the space element in the form of photos (below 5MB), short poems, artwork or short videos (up to 2 minutes). Please mention your location.<br><br>Send to:<br> <a href="mailto:creativeresilience@khyentsefoundation.org">creativeresilience@khyentsefoundation.org</a></p>',
         slideMedia: '',
         slideMediaFallback: '',
         thumb: '',
@@ -43,32 +43,6 @@
         thumb:`${base}/assets/space/sharing-space/space_dakini_closeup4_320_th.webp`,
         thumbFallback:`${base}/assets/space/sharing-space/space_dakini_closeup4_th.jpg`,
         alt:'Thumbnail of a Space Dakini painting by Tara di Gesu',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Video by Chime Lhamo. Auckland, New Zealand.',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/505919447',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/space/sharing-space/space-element-dance2_360_th.webp`,
-        thumbFallback:`${base}/assets/space/sharing-space/space-element-dance2_th.jpg`,
-        alt:'Still capture from Chime Lhamo\'s video ',
-        bgSettings: '',
-        copyColor: '',
-        fontWeight: '',
-      },
-      {
-        type: 'video',
-        title: 'Video by Marisa Pearson. France.',
-        desc: '',
-        slideMedia: 'https://player.vimeo.com/video/518505303',
-        slideMediaFallback: '',
-        thumb:`${base}/assets/space/sharing-space/space-marisa-perason_320_th.webp`,
-        thumbFallback:`${base}/assets/space/sharing-space/space-marisa-perason_th.jpg`,
-        alt:'Still capture from Marisa Pearson\' video',
         bgSettings: '',
         copyColor: '',
         fontWeight: '',
@@ -205,6 +179,19 @@
       },
       {
         type: 'image',
+        title: 'Poem by Thinley Norbu Rinpoche, Photo by Jason Papenfuss.',
+        desc: 'Blue sky horizon overlaid with the following poem: The earthquake cannot harm the mysterious sky no matter how much its powerful shaking overturns and destroys. -- The ocean cannot harm the mysterious sky no matter how much its turbulent waves flood and destroy. -- The fire cannot harm the mysterious sky no matter how much its angry flame burns and destroys. -- The hurricane cannot harm the mysterious sky no matter how much its violent winds blow and destroy.',
+        slideMedia:`${base}/assets/space/sharing-space/earthquake_poem.webp`,
+        slideMediaFallback: '',
+        thumb:`${base}/assets/space/sharing-space/earthquake_poem_320_th.webp`,
+        thumbFallback:`${base}/assets/space/sharing-space/earthquake_poem_th.jpg`,
+        alt:'Thumbnail of Jason Papenfuss\' photo',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
+        type: 'image',
         title: 'Photo by Alana Siegel. California.',
         desc: 'Bright sunshine reflecting off the costal waters inscribed with: \'I am serene -- I am inclusive -- I am intangible -- I can accommodate -- I can create -- I can integrate -- I liberate -- you call me space —Yvonne Gold\'',
         slideMedia:`${base}/assets/space/sharing-space/space_alana_siegel_space_1.jpg`,
@@ -212,6 +199,32 @@
         thumb:`${base}/assets/space/sharing-space/space_alana_siegel_space_1_320_th.webp`,
         thumbFallback:`${base}/assets/space/sharing-space/space_alana_siegel_space_1_th.jpg`,
         alt:'Thumbnail of Alana Siegel\'s photo',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
+        type: 'video',
+        title: 'Video by Chime Lhamo. Auckland, New Zealand.',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/505919447',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/space/sharing-space/space-element-dance2_360_th.webp`,
+        thumbFallback:`${base}/assets/space/sharing-space/space-element-dance2_th.jpg`,
+        alt:'Still capture from Chime Lhamo\'s video ',
+        bgSettings: '',
+        copyColor: '',
+        fontWeight: '',
+      },
+      {
+        type: 'video',
+        title: 'Video by Marisa Pearson. France.',
+        desc: '',
+        slideMedia: 'https://player.vimeo.com/video/518505303',
+        slideMediaFallback: '',
+        thumb:`${base}/assets/space/sharing-space/space-marisa-perason_320_th.webp`,
+        thumbFallback:`${base}/assets/space/sharing-space/space-marisa-perason_th.jpg`,
+        alt:'Still capture from Marisa Pearson\' video',
         bgSettings: '',
         copyColor: '',
         fontWeight: '',
@@ -233,11 +246,42 @@
   };
   let count = slideData.slides.length;
   let zoomed = false;
+  let playing = false;
+  let manualOff = false;
 
   onMount(() => {
     window.location.assign('#slide-1');
   });
+ 
+  function controlMusic(event) {
+    let music = document.getElementById('ambient');
+    let speaker = document.getElementById('audioCtl');
+    let manual = speaker === event.target;
+    if (manual) {
+      event.preventDefault();
+      if(!playing && manualOff) {
+        manualOff = !manualOff;
+      }
+    }
 
+    if (manualOff) return;
+    if (playing) {
+      music.pause();
+      playing = !playing;
+      speaker.classList.add('stopped');
+      if (manual) {
+        manualOff = !manualOff;
+      }
+    }
+    else {
+      music.play()
+      playing = !playing;
+      speaker.classList.remove('stopped');
+      if (!manual) {
+        manual = !manualOff;
+      }
+    }
+  }
   function updateSlides(event) {
     let target = event.target;
     let link = target.closest('a');
@@ -255,6 +299,7 @@
       // determine if an image is zoomed (only one at a time should be possible)
       let zoomedImg = document.querySelector('.media-image[style]');
 
+
       // reset the image zoom if a zoomed image is found
       if (zoomedImg) {
         zoomedImg.removeAttribute('style');
@@ -268,6 +313,17 @@
       // prev should be the slide before the current or set to the last slide if 
       // the first slide is showing
       prev.href = (slideIndex < 2)? `#slide-${count}` : `#slide-${slideIndex - 1}`;
+            
+      if (link.classList.contains('slide-nav') || link.classList.contains('slide')) {
+        let slide = document.getElementById(link.href.split('#')[1]);
+        let slideType = slide?.classList.contains('image');
+        if (slideType && !playing) {
+          controlMusic(event);
+        }
+        if(!slideType && playing) {
+          controlMusic(event);
+        }
+      }
     }
   }
 </script>
@@ -277,4 +333,9 @@
 <main on:click={updateSlides} class="content-page bleed no-pad"  style="--grad-color: 255, 100%, 50%; --element-bg: linear-gradient(hsla(var(--grad-color), .3), hsla(255, 50%, 50%, .5)), url({base}/assets/space/space-dakini-dark-rich-bg.webp) 0% 100%/180% auto no-repeat fixed; --element-mob-bg: url({base}/assets/space/space-dakini-dark-rich-bg.webp) 25% 0/auto 180vh repeat scroll; --element-color: 211, 85%, 26%; background-blend-mode: hard-light, normal;">
   <Slides {...slideData}/>
   <Gallery {...slideData} />
+  <a href="#ambient" id="audioCtl" class="gallery-audio-ctl sound-ctl stopped" on:click={controlMusic}></a>
+  <audio loop id="ambient">
+    <source src="{base}/assets/space/sharing-space/space_beethoven-moonlight-sonata-1-movement-op-27-nr-2-180627.mp3" type="audio/mpeg">
+  
+    </audio>
 </main>

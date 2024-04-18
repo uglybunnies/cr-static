@@ -29,7 +29,7 @@
 </svelte:head>
 <main class="content-page" style="--grad-color: 255, 75%, 90%; --element-bg: linear-gradient(90deg, hsla(var(--grad-color),0), hsla(var(--grad-color),0.85) 15%, hsla(var(--grad-color),0.85) 75%, hsla(var(--grad-color),0)) 0 0/41em auto no-repeat, url({base}/assets/space/space-elephant-bg.webp) 0 66% /cover fixed no-repeat; --element-mob-bg: linear-gradient(90deg, hsla(var(--grad-color),0), hsla(var(--grad-color),0.85) 15%, hsla(var(--grad-color),0.85) 75%, hsla(var(--grad-color),0)), url({base}/assets/space/space-elephant-bg.webp) 57% 0/auto 100vh scroll repeat; --element-color: var(--dark-color); --subtitle-color: 255, 90%,33%;">
   <section class="banner">
-    <h2>Sky Eating</h2>
+    <h2>Sky Eating <small>3:00</small></h2>
     <br>
     <JournalButton {...jourButtonPos} />
   </section>
@@ -54,7 +54,10 @@
   
   <li>Now just relax. Don’t divide between the outer sky and the inner sky. Just purely remain and smoothly go about your day.</li>
 </ol>
-
+<hr>
+<p class="continue-links light">
+  Continue on with <a href="{base}/space/making-more-mental-space">Making More Mental Space</a>, enjoy the <a href="{base}/space/sharing-space">Beauty of Space</a>, try <a href="{base}/space/space-meditation">Space Meditation</a> or explore more of the <a href="{base}/space">Space Element</a>.
+</p>
   </section>
 </main>
 <Journal {...journalData} />

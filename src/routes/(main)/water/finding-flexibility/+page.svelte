@@ -69,6 +69,9 @@
         </ul>
       </div>
     </div>
+    <hr>
+    <p class="continue-links light">Listen to the <a href="{base}/water/podcast-resilience">Resilience Podcast</a>,
+      try <a href="{base}/water/water-meditation">Water Meditation</a>, practice the <a href="{base}/water/art-of-listening">Art of Listening</a> or explore more of the <a href="{base}/water">Water Element</a>.</p>
   </section>
 </main>
 <Journal {...journalData} />
