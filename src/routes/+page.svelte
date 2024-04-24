@@ -40,10 +40,10 @@ const initFluid = () => {
         DENSITY_DISSIPATION: 2,
         VELOCITY_DISSIPATION: 2,
         PRESSURE: 0.1,
-        PRESSURE_ITERATIONS: 5,
-        CURL: 5,
-        SPLAT_RADIUS: 0.09,
-        SPLAT_FORCE: 6000,
+        PRESSURE_ITERATIONS: 25,
+        CURL: 1,
+        SPLAT_RADIUS: 0.25,
+        SPLAT_FORCE: 2500,
         SHADING: true,
         COLOR_UPDATE_SPEED: 5,
         PAUSED: false,
@@ -952,10 +952,10 @@ const initFluid = () => {
         let touch = touches[0]
         let pointer = pointers[0];
         for (let i = 0; i < touches.length; i++) {
-        let posX = scaleByPixelRatio(touches[i].clientX);
-        let posY = scaleByPixelRatio(touches[i].clientY);  
-        update();
-        updatePointerDownData(pointer, touches[i].identifier, posX, posY);
+          let posX = scaleByPixelRatio(touches[i].clientX);
+          let posY = scaleByPixelRatio(touches[i].clientY);  
+          update();
+          updatePointerDownData(pointer, touches[i].identifier, posX, posY);
         }
     }, {once:true});  
     
