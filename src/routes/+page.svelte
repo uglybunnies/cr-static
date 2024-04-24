@@ -37,13 +37,13 @@ const initFluid = () => {
         SIM_RESOLUTION: 128,
         DYE_RESOLUTION: 1440,
         CAPTURE_RESOLUTION: 512,
-        DENSITY_DISSIPATION: 2,
-        VELOCITY_DISSIPATION: 2,
-        PRESSURE: 0.1,
+        DENSITY_DISSIPATION: .98,
+        VELOCITY_DISSIPATION: .99,
+        PRESSURE: 0.8,
         PRESSURE_ITERATIONS: 25,
         CURL: 1,
-        SPLAT_RADIUS: 0.25,
-        SPLAT_FORCE: 2500,
+        SPLAT_RADIUS: 0.3,
+        SPLAT_FORCE: 1000,
         SHADING: true,
         COLOR_UPDATE_SPEED: 5,
         PAUSED: false,
@@ -1031,9 +1031,9 @@ const initFluid = () => {
     
     function generateColor () {
         let c = HSVtoRGB(Math.random(), 1.0, 1.0);
-        c.r *= 0.5;
-        c.g *= 0.5;
-        c.b *= 0.5;
+        c.r *= 0.15;
+        c.g *= 0.15;
+        c.b *= 0.15;
         return c;
     }
     
