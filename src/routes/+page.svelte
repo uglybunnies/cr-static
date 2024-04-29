@@ -743,8 +743,11 @@ const initFluid = () => {
     updateKeywords();
     initFramebuffers();
     
+    multipleSplats(parseInt(Math.random() * 20) + 5);
+    
     let lastUpdateTime = Date.now();
     let colorUpdateTimer = 0.0;
+    update();
     
     function update () {
         const dt = calcDeltaTime();
@@ -896,6 +899,19 @@ const initFluid = () => {
         let dx = 10 * (Math.random() - 0.5);
         let dy = 30 * (Math.random() - 0.5);
         splat(pointer.texcoordX, pointer.texcoordY, dx, dy, color);
+    }
+    function multipleSplats (amount) {
+        for (let i = 0; i < amount; i++) {
+            const color = generateColor();
+            color.r *= 10.0;
+            color.g *= 10.0;
+            color.b *= 10.0;
+            const x = Math.random();
+            const y = Math.random();
+            const dx = 1000 * (Math.random() - 0.5);
+            const dy = 1000 * (Math.random() - 0.5);
+            splat(x, y, dx, dy, color);
+        }
     }
     
     function splat (x, y, dx, dy, color) {
