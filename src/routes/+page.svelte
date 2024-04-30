@@ -743,6 +743,7 @@ const initFluid = () => {
     updateKeywords();
     initFramebuffers();
     
+    // @ts-ignore
     multipleSplats(parseInt(Math.random() * 20) + 5);
     
     let lastUpdateTime = Date.now();
@@ -900,6 +901,7 @@ const initFluid = () => {
         let dy = 30 * (Math.random() - 0.5);
         splat(pointer.texcoordX, pointer.texcoordY, dx, dy, color);
     }
+    // @ts-ignore
     function multipleSplats (amount) {
         for (let i = 0; i < amount; i++) {
             const color = generateColor();
